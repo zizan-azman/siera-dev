@@ -4,7 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import {
   NavbarDefaultComponent,
   NavbarDefaultConfig,
-} from '@siera-dev/maine-ui';
+} from '@siera-dev/maine-shared';
 
 @Component({
   selector: 'maine-siera-my-shell',

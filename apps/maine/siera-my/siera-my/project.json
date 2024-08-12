@@ -23,11 +23,15 @@
           },
           {
             "glob": "**/*",
-            "input": "libs/maine/shared/assets",
+            "input": "libs/maine/shared/src/lib/assets",
             "output": "maine-assets"
           }
         ],
         "styles": ["apps/maine/siera-my/siera-my/src/styles.scss"],
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/maine/shared/src/lib/styles"]
+        },
+
         "scripts": []
       },
       "configurations": {

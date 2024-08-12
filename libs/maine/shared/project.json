@@ -1,16 +1,16 @@
 {
-  "name": "maine-ui",
-  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/maine/shared/ui/src",
+  "name": "maine-shared",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/maine/shared/src",
   "prefix": "lib",
   "projectType": "library",
-  "tags": ["scope:maine", "type:ui"],
+  "tags": ["scope:maine", "type:shared"],
   "targets": {
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "libs/maine/shared/ui/jest.config.ts"
+        "jestConfig": "libs/maine/shared/jest.config.ts"
       }
     },
     "lint": {
