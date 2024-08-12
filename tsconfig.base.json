@@ -17,6 +17,7 @@
     "paths": {
       "@siera-dev/dina-shell": ["libs/maine/dina/src/index.ts"],
       "@siera-dev/joey-shell": ["libs/maine/joey/src/index.ts"],
+      "@siera-dev/maine-ui": ["libs/maine/shared/ui/src/index.ts"],
       "@siera-dev/siera-com-shell": ["libs/maine/siera-com/src/index.ts"],
       "@siera-dev/siera-my-shell": ["libs/maine/siera-my/src/index.ts"]
     }
