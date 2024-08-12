@@ -1,0 +1,20 @@
+{
+  "name": "siera-com-shell",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/maine/siera-com/src",
+  "prefix": "lib",
+  "projectType": "library",
+  "tags": ["scope:maine", "sub-scope:siera-com", "type:shell"],
+  "targets": {
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/maine/siera-com/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}
