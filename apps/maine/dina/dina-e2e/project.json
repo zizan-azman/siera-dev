@@ -1,0 +1,10 @@
+{
+  "name": "dina-e2e",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/maine/dina/dina-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["dina"],
+  "// targets": "to see all targets run: nx show project dina-e2e --web",
+  "targets": {}
+}
