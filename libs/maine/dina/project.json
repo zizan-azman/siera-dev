@@ -1,0 +1,20 @@
+{
+  "name": "dina-shell",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/maine/dina/src",
+  "prefix": "lib",
+  "projectType": "library",
+  "tags": ["scope:maine", "sub-scope:dina", "type:shell"],
+  "targets": {
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/maine/dina/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}
