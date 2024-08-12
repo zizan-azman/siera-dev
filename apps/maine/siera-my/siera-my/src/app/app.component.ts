@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { SieraMyShellComponent } from '@siera-dev/siera-my-shell';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [SieraMyShellComponent],
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  template: `<maine-siera-my-shell />`,
 })
 export class AppComponent {
   title = 'siera-my';
