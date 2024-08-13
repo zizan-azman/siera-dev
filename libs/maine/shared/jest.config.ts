@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'maine-ui',
-  preset: '../../../../jest.preset.js',
+  displayName: 'maine-shared',
+  preset: '../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../../../coverage/libs/maine/shared/ui',
+  coverageDirectory: '../../../coverage/libs/maine/shared',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
