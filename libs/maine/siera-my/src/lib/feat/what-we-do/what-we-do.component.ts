@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'lib-what-we-do',
+  selector: 'siera-my-what-we-do',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './what-we-do.component.html',

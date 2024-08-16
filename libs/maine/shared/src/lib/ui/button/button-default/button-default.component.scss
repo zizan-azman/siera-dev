@@ -1,0 +1,27 @@
+.maine-button {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 12px;
+  font-weight: bold;
+
+  &--fill {
+    &-primary {
+      background-color: var(--primary-color);
+      color: white;
+    }
+  }
+
+  &--outline {
+    &-primary {
+      border: 2px solid var(--primary-color);
+    }
+  }
+
+  &--ghost {
+    &-primary:hover {
+      color: var(--primary-color);
+    }
+  }
+}

@@ -5,7 +5,7 @@ import { SieraMyShellComponent } from '@siera-dev/siera-my-shell';
   standalone: true,
   imports: [SieraMyShellComponent],
   selector: 'app-root',
-  template: `<maine-siera-my-shell />`,
+  template: `<siera-my-shell />`,
 })
 export class AppComponent {
   title = 'siera-my';

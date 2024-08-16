@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'lib-who-we-are',
+  selector: 'siera-my-who-we-are',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './who-we-are.component.html',
