@@ -9,11 +9,18 @@ import {
 import { CommonModule } from '@angular/common';
 import { NavbarDefaultConfig } from './navbar-default.model';
 import { RouterLink } from '@angular/router';
+import { ButtonNavbarToggleModeComponent } from '../../button/button-navbar-toggle-mode/button-navbar-toggle-mode.component';
+import { ButtonNavbarSearchComponent } from '../../button/button-navbar-search/button-navbar-search.component';
 
 @Component({
   selector: 'maine-navbar-default',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [
+    CommonModule,
+    RouterLink,
+    ButtonNavbarToggleModeComponent,
+    ButtonNavbarSearchComponent,
+  ],
   templateUrl: './navbar-default.component.html',
   styleUrl: './navbar-default.component.scss',
 })

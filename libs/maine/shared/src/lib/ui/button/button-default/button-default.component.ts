@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ButtonDefaultConfig } from './button-default.model';
 
@@ -11,4 +11,9 @@ import { ButtonDefaultConfig } from './button-default.model';
 })
 export class ButtonDefaultComponent {
   @Input() buttonDefaultConfig!: ButtonDefaultConfig;
+  @Output() clicked = new EventEmitter<void>();
+
+  onClick() {
+    this.clicked.emit();
+  }
 }

@@ -1,6 +1,7 @@
 export interface ButtonDefaultText {
   show: boolean;
   text: string;
+  textSize: 'default' | 'small';
 }
 export interface ButtonDefaultPrefixIcon {
   show: boolean;
@@ -9,6 +10,7 @@ export interface ButtonDefaultPrefixIcon {
 
 export interface ButtonDefaultSuffixIcon {
   show: boolean;
+  arrow: boolean;
   iconPath: string;
 }
 

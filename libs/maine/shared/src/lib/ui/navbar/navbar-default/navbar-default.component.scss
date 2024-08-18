@@ -1,10 +1,11 @@
 @import 'abstracts/index';
 
-.navbarDefault {
+.ma-navbarDefault {
   --navbarDefault-border-color: var(--border-color);
   --navbarDefault-bg-color: var(--background-color);
-  --navbarDefault-mobile-menu-bg-color: var(--background-color);
+  --navbarDefault-mobile-menu-bg-color: var(--color-cool-3xs);
   --navbarDefault-logo-color: var(--primary-color);
+  --navbarDefault-link-color: var(--text-color);
 
   height: px-to-rem(90px, 16px);
   position: relative;
@@ -15,7 +16,6 @@
   &__logo-icon,
   &__logo {
     color: var(--navbarDefault-logo-color);
-    fill: var(--navbarDefault-logo-color);
   }
 
   &__container {
@@ -35,16 +35,30 @@
     }
   }
 
+  &__link {
+    color: var(--navbarDefault-link-color);
+    transition: color var(--transition);
+    &:hover {
+      --navbarDefault-link-color: var(--primary-color);
+    }
+  }
+
   &__content-end {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
   }
 
   &__all-websites {
     display: flex;
     align-items: center;
     gap: 8px;
+    padding: 8px;
+    color: var(--navbarDefault-link-color);
+    transition: color var(--transition);
+    &:hover {
+      --navbarDefault-link-color: var(--primary-color);
+    }
   }
   &__all-websites-text {
     display: none;
@@ -56,30 +70,39 @@
   &__mobile-menu {
     position: absolute;
     left: 0;
-    top: 100%;
-    background-color: red;
+    top: calc(100% + 1px);
+    background-color: var(--navbarDefault-mobile-menu-bg-color);
+    color: var(--navbarDefault-link-color);
     width: 100%;
     height: 0;
-    transition: height 200ms ease-in-out;
+    transition: height var(--transition), color var(--transition);
     @include media-min('md') {
       display: none;
     }
 
-    & .navbarDefault__link {
+    & .ma-navbarDefault__link {
       opacity: 0;
-      transition: opacity 200ms ease-in-out;
+      transition: opacity var(--transition), color var(--transition);
     }
 
-    .hamburger-menu:has(input:checked) + & {
-      height: calc(100vh - 89px);
+    .ma-icon-hamburger:has(input:checked) + & {
+      height: calc(100vh - 90px);
     }
 
-    .hamburger-menu:has(input:checked) + & .navbarDefault__link {
+    .ma-icon-hamburger:has(input:checked) + & .ma-navbarDefault__link {
       opacity: 1;
     }
   }
 
-  & .hamburger-menu {
+  &__mobile-link-container {
+    padding: 24px 0;
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  & .ma-icon-hamburger {
     @include media-min('md') {
       display: none;
     }

@@ -286,7 +286,7 @@ $breakpoints-min-md: 905px;
 $breakpoints-min-lg: 1240px;
 $breakpoints-min-xl: 1497px;
 
-$transition-default: 1;
+$transition-default: 350ms ease-in-out;
 
 // Mapped Tokens
 $siera-color-primary-xl: $color-rgba-orange-700;
@@ -309,3 +309,5 @@ $siera-color-cool-3xs: $color-rgba-slate-100;
 $siera-color-cool-4xs: $color-rgba-slate-50;
 $siera-color-base-default: $color-rgba-base-white;
 $siera-color-base-inverse: $color-rgba-base-black;
+$siera-color-rgb-base-default: $color-rgb-base-white;
+$siera-color-rgb-base-inverse: $color-rgb-base-black;
