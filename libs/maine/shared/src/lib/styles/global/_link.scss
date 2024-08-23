@@ -1,2 +1,11 @@
-.ma-link {
+.ma-link-nav {
+  --ma-link-nav-text-color: var(--text-color);
+  padding: 8px;
+  color: var(--ma-link-nav-text-color);
+  transition: color var(--transition);
+  @include cta-2;
+
+  &:hover {
+    --ma-link-nav-text-color: var(--primary-color);
+  }
 }

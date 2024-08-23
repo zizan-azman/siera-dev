@@ -8,3 +8,45 @@
     @warn "Breakpoint '#{$breakpoint}' not found in $breakpoints map.";
   }
 }
+
+@mixin subtitle {
+  font-size: 1.5rem;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+@mixin subtitle-bold {
+  font-size: 1.5rem;
+  line-height: 30px;
+  font-weight: 700;
+}
+@mixin body-1 {
+  font-size: 1rem;
+  line-height: 22px;
+  font-weight: 400;
+}
+@mixin body-1-bold {
+  font-size: 1rem;
+  line-height: 22px;
+  font-weight: 700;
+}
+@mixin body-2 {
+  font-size: 1.125rem;
+  line-height: 24px;
+  font-weight: 400;
+}
+@mixin body-2-bold {
+  font-size: 1.125rem;
+  line-height: 24px;
+  font-weight: 700;
+}
+@mixin cta-1 {
+  font-size: 1.125rem;
+  line-height: 24px;
+  font-weight: 700;
+}
+@mixin cta-2 {
+  font-size: 1rem;
+  line-height: 22px;
+  font-weight: 700;
+}

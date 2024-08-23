@@ -15,9 +15,11 @@
         @for(item of navbarDefaultConfig.navbarDefaultLinkList; track
         item.linkText ){
         <li class="ma-navbarDefault__link-item">
-          <a class="ma-navbarDefault__link cta-2" [routerLink]="item.linkUrl">{{
-            item.linkText
-          }}</a>
+          <a
+            class="ma-navbarDefault__link ma-link-nav"
+            [routerLink]="item.linkUrl"
+            >{{ item.linkText }}</a
+          >
         </li>
         }
       </ul>
@@ -25,15 +27,16 @@
         @if(navbarDefaultConfig.navbarDefaultContentEnd.showModeSwitcher){
         <maine-button-navbar-toggle-mode />
         } @if(navbarDefaultConfig.navbarDefaultContentEnd.showAllWebsites){
-        <a routerLink="/all-websites" class="ma-navbarDefault__all-websites">
+        <a
+          routerLink="/all-websites"
+          class="ma-navbarDefault__all-websites ma-link-nav"
+        >
           <svg width="24" height="24" class="ma-icon">
             <use
               [attr.xlink:href]="'maine-assets/svgs/icon/sprite.svg#world'"
             ></use>
           </svg>
-          <span class="ma-navbarDefault__all-websites-text cta-2"
-            >All Websites</span
-          >
+          <span class="ma-navbarDefault__all-websites-text">All Websites</span>
         </a>
         }
         <maine-button-navbar-search />
@@ -47,7 +50,7 @@
               item.linkText ){
               <li class="ma-navbarDefault__link-item">
                 <a
-                  class="ma-navbarDefault__link cta-2"
+                  class="ma-navbarDefault__link ma-link-nav"
                   [routerLink]="item.linkUrl"
                   (click)="onClickMobileNavLink()"
                   >{{ item.linkText }}</a
