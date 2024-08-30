@@ -1,10 +1,11 @@
 @import 'abstracts/index';
 
-.navbarDefault {
-  --navbarDefault-border-color: var(--border-color);
+.ma-navbarDefault {
+  --navbarDefault-border-color: var(--stroke-color-subtle);
   --navbarDefault-bg-color: var(--background-color);
-  --navbarDefault-mobile-menu-bg-color: var(--background-color);
+  --navbarDefault-mobile-menu-bg-color: var(--background-color-subtle);
   --navbarDefault-logo-color: var(--primary-color);
+  --navbarDefault-link-color: var(--text-color);
 
   height: px-to-rem(90px, 16px);
   position: relative;
@@ -15,7 +16,6 @@
   &__logo-icon,
   &__logo {
     color: var(--navbarDefault-logo-color);
-    fill: var(--navbarDefault-logo-color);
   }
 
   &__container {
@@ -38,7 +38,7 @@
   &__content-end {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
   }
 
   &__all-websites {
@@ -56,30 +56,49 @@
   &__mobile-menu {
     position: absolute;
     left: 0;
-    top: 100%;
-    background-color: red;
+    top: calc(100% + 1px);
+    background-color: var(--navbarDefault-mobile-menu-bg-color);
     width: 100%;
     height: 0;
-    transition: height 200ms ease-in-out;
+    transition: height var(--transition), color var(--transition);
     @include media-min('md') {
       display: none;
     }
 
-    & .navbarDefault__link {
+    .ma-navbarDefault__link {
       opacity: 0;
-      transition: opacity 200ms ease-in-out;
+      transition: opacity var(--transition), color var(--transition);
     }
 
-    .hamburger-menu:has(input:checked) + & {
-      height: calc(100vh - 89px);
+    .ma-custom-grid-layout,
+    .ma-navbarDefault__mobile-link-container {
+      visibility: hidden;
     }
 
-    .hamburger-menu:has(input:checked) + & .navbarDefault__link {
+    .ma-icon-hamburger:has(input:checked) + & {
+      height: calc(100vh - 90px);
+
+      .ma-custom-grid-layout,
+      .ma-navbarDefault__mobile-link-container {
+        visibility: visible;
+      }
+    }
+
+    .ma-icon-hamburger:has(input:checked) + & .ma-navbarDefault__link {
       opacity: 1;
     }
   }
 
-  & .hamburger-menu {
+  &__mobile-link-container {
+    transition: visibility var(--transition);
+    padding: 24px 0;
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  & .ma-icon-hamburger {
     @include media-min('md') {
       display: none;
     }

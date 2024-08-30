@@ -7,7 +7,7 @@ import {
 } from '@siera-dev/maine-shared';
 
 @Component({
-  selector: 'maine-siera-my-shell',
+  selector: 'siera-my-shell',
   standalone: true,
   imports: [CommonModule, RouterOutlet, NavbarDefaultComponent],
   templateUrl: './siera-my-shell.component.html',

@@ -1,0 +1,10 @@
+.ma-link-nav {
+  padding: 8px;
+  color: inherit;
+  transition: color var(--transition);
+  @include cta-2;
+
+  &:hover {
+    color: var(--primary-color);
+  }
+}

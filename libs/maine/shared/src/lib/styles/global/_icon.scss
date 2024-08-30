@@ -1,11 +1,11 @@
-.hamburger-menu {
+.ma-icon-hamburger {
   --hamburger-bar-width: 24px;
   --hamburger-bar-height: 2px;
   --hamburger-bar-gap: 6px;
   --hamburger-bar-border-radius: 9999px;
-  --hamburger-bar-bg-color: black;
-  --hamburger-bar-hover-bg-color: red;
-  --hamburger-bar-animation-timing: 300ms ease-in-out;
+  --hamburger-bar-bg-color: var(--text-color);
+  --hamburger-bar-hover-bg-color: var(--primary-color);
+  --hamburger-bar-animation-timing: var(--transition);
   --hamburger-height: calc(
     var(--hamburger-bar-height) * 3 + var(--hamburger-bar-gap) * 2
   );
@@ -23,7 +23,7 @@
     &::before,
     &::after,
     & input {
-      content: "";
+      content: '';
       background-color: var(--hamburger-bar-hover-bg-color);
     }
   }
@@ -31,7 +31,7 @@
   &::before,
   &::after,
   & input {
-    content: "";
+    content: '';
     width: var(--hamburger-bar-width);
     height: var(--hamburger-bar-height);
     border-radius: var(--hamburger-bar-border-radius);
@@ -71,6 +71,6 @@
   }
 }
 
-.icon {
+.ma-icon {
   display: block;
 }

@@ -21,6 +21,18 @@ export const sieraMyShellRoutes: Route[] = [
       ),
   },
   {
+    path: 'news',
+    loadComponent: () =>
+      import('./feat/news/news.component').then((c) => c.NewsComponent),
+  },
+  {
+    path: 'all-websites',
+    loadComponent: () =>
+      import('./feat/all-websites/all-websites.component').then(
+        (c) => c.AllWebsitesComponent
+      ),
+  },
+  {
     path: '**',
     redirectTo: '',
     pathMatch: 'full',

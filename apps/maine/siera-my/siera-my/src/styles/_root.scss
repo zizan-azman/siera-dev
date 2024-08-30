@@ -11,6 +11,9 @@
   --shadow-sm: 5px 5px 0 #{$siera-color-shadow};
   --shadow-sm-transparent: 5px 5px 0 transparent;
   --transition: #{$transition-default};
+  --border-radius-scale: 1;
+  --border-radius-sm: calc(8px * var(--border-radius-scale));
+  --border-radius-md: calc(12px * var(--border-radius-scale));
 }
 
 body[data-mode='dark'] {
