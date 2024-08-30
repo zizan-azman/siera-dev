@@ -20,9 +20,17 @@
           {
             "glob": "**/*",
             "input": "apps/maine/siera-com/siera-com/public"
+          },
+          {
+            "glob": "**/*",
+            "input": "libs/maine/shared/src/lib/assets",
+            "output": "maine-assets"
           }
         ],
         "styles": ["apps/maine/siera-com/siera-com/src/styles.scss"],
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/maine/shared/src/lib/styles"]
+        },
         "scripts": []
       },
       "configurations": {

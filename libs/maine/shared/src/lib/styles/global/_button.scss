@@ -1,58 +1,53 @@
 .ma-button {
-  --maine-button-fill-background-color: var(--primary-color);
-  --maine-button-outline-background-color: var(--background-color);
-  --maine-button-ghost-text-color: var(--text-color);
   padding: 16px 32px;
   display: flex;
   align-items: center;
   gap: 4px;
-  border-radius: 8px;
+  border-radius: var(--border-radius-sm);
 
   &--fill {
-    background-color: var(--maine-button-fill-background-color);
+    background-color: var(--primary-color);
     transition: background-color var(--transition);
     &:hover {
-      --maine-button-fill-background-color: var(--primary-color-sm);
+      background-color: var(--primary-color-minimal);
     }
   }
 
   &--outline {
     border: 2px solid var(--text-color);
-    background-color: var(--maine-button-outline-background-color);
+    background-color: transparent;
     transition: background-color var(--transition);
     &:hover {
-      --maine-button-outline-background-color: var(--color-cool-2xs);
+      background-color: var(--background-color-subtle);
     }
   }
 
   &--ghost {
-    color: var(--maine-button-ghost-text-color);
+    color: var(--text-color);
     transition: color var(--transition);
     &:hover {
-      --maine-button-ghost-text-color: var(--primary-color);
+      color: var(--primary-color);
     }
   }
 }
 
-.ma-button-icon {
-  --maine-button-icon-text-color: var(--text-color);
-  --maine-button-icon-border-color: var(--text-color);
+.ma-button-nav {
   padding: 8px;
 
   &--default {
-    color: var(--maine-button-icon-color);
+    color: inherit;
     transition: color var(--transition);
     &:hover {
-      --maine-button-icon-color: var(--primary-color);
+      color: var(--primary-color);
     }
   }
   &--shadow {
-    border-radius: 8px;
+    border-radius: var(--border-radius-sm);
     outline: 1px solid transparent;
-    box-shadow: 4px 4px 0 transparent;
+    box-shadow: var(--shadow-sm-transparent);
     transition: outline var(--transition), box-shadow var(--transition);
     &:hover {
-      outline: 1px solid var(--text-color);
+      outline: 1px solid var(--stroke-color);
       box-shadow: var(--shadow-sm);
     }
   }

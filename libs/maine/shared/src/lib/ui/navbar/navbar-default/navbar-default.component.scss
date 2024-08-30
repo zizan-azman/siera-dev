@@ -1,9 +1,9 @@
 @import 'abstracts/index';
 
 .ma-navbarDefault {
-  --navbarDefault-border-color: var(--border-color);
+  --navbarDefault-border-color: var(--stroke-color-subtle);
   --navbarDefault-bg-color: var(--background-color);
-  --navbarDefault-mobile-menu-bg-color: var(--color-cool-3xs);
+  --navbarDefault-mobile-menu-bg-color: var(--background-color-subtle);
   --navbarDefault-logo-color: var(--primary-color);
   --navbarDefault-link-color: var(--text-color);
 
@@ -65,13 +65,23 @@
       display: none;
     }
 
-    & .ma-navbarDefault__link {
+    .ma-navbarDefault__link {
       opacity: 0;
       transition: opacity var(--transition), color var(--transition);
     }
 
+    .ma-custom-grid-layout,
+    .ma-navbarDefault__mobile-link-container {
+      visibility: hidden;
+    }
+
     .ma-icon-hamburger:has(input:checked) + & {
       height: calc(100vh - 90px);
+
+      .ma-custom-grid-layout,
+      .ma-navbarDefault__mobile-link-container {
+        visibility: visible;
+      }
     }
 
     .ma-icon-hamburger:has(input:checked) + & .ma-navbarDefault__link {
@@ -80,6 +90,7 @@
   }
 
   &__mobile-link-container {
+    transition: visibility var(--transition);
     padding: 24px 0;
     grid-column: 1 / -1;
     display: flex;
