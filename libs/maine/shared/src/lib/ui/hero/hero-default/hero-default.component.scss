@@ -1,6 +1,7 @@
 @import 'abstracts/index';
 
 .ma-heroDefault {
+  row-gap: 120px;
   &__heading {
     @include display;
     grid-column: 1 / -1;
@@ -9,9 +10,11 @@
     color: var(--primary-color);
   }
 
-  &__heading2 {
+  &__content-middle-image {
     @include display;
     grid-column: 1 / -1;
+    width: 100%;
+    height: auto;
     @include media-min('md') {
       grid-column: 1 / 9;
     }
