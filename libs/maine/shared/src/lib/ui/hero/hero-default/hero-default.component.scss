@@ -1,0 +1,19 @@
+@import 'abstracts/index';
+
+.ma-heroDefault {
+  &__heading {
+    @include display;
+    grid-column: 1 / -1;
+  }
+  &__heading-highlight {
+    color: var(--primary-color);
+  }
+
+  &__heading2 {
+    @include display;
+    grid-column: 1 / -1;
+    @include media-min('md') {
+      grid-column: 1 / 9;
+    }
+  }
+}
