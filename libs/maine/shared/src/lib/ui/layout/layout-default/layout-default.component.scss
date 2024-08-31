@@ -1,0 +1,10 @@
+.ma-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  &--subtle {
+    background-color: var(--background-color-subtle);
+  }
+  &--default {
+    background-color: var(--background-color);
+  }
+}

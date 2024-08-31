@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ButtonDefaultComponent } from '@siera-dev/maine-shared';
+import {
+  ButtonDefaultComponent,
+  LayoutDefaultComponent,
+} from '@siera-dev/maine-shared';
 
 @Component({
   selector: 'siera-my-home',
   standalone: true,
-  imports: [CommonModule, ButtonDefaultComponent],
+  imports: [CommonModule, ButtonDefaultComponent, LayoutDefaultComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })

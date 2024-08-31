@@ -7,3 +7,6 @@ export * from './lib/ui/button/button-default/button-default.model';
 export * from './lib/ui/button/button-navbar-toggle-mode/button-navbar-toggle-mode.component';
 
 export * from './lib/ui/button/button-navbar-search/button-navbar-search.component';
+
+export * from './lib/ui/layout/layout-default/layout-default.component';
+export * from './lib/ui/layout/layout-default/layout-default.model';
