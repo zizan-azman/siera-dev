@@ -1,0 +1,43 @@
+:root {
+  --color-base-default: #{$siera-color-base-default};
+  --color-base-inverse: #{$siera-color-base-inverse};
+  --color-rgb-base-default: #{$siera-color-rgb-base-default};
+  --color-rgb-base-inverse: #{$siera-color-rgb-base-inverse};
+
+  --color-cool-4xl: #{$siera-color-cool-4xl};
+  --color-cool-3xl: #{$siera-color-cool-3xl};
+  --color-cool-2xl: #{$siera-color-cool-2xl};
+  --color-cool-xl: #{$siera-color-cool-xl};
+  --color-cool-lg: #{$siera-color-cool-lg};
+  --color-cool-md: #{$siera-color-cool-md};
+  --color-cool-sm: #{$siera-color-cool-sm};
+  --color-cool-xs: #{$siera-color-cool-xs};
+  --color-cool-2xs: #{$siera-color-cool-2xs};
+  --color-cool-3xs: #{$siera-color-cool-3xs};
+  --color-cool-4xs: #{$siera-color-cool-4xs};
+
+  --color-primary-xl: #{$siera-color-primary-xl};
+  --color-primary-lg: #{$siera-color-primary-lg};
+  --color-primary-md: #{$siera-color-primary-md};
+  --color-primary-sm: #{$siera-color-primary-sm};
+  --color-primary-xs: #{$siera-color-primary-xs};
+  --color-primary-2xs: #{$siera-color-primary-2xs};
+  --color-primary-3xs: #{$siera-color-primary-3xs};
+
+  --transition: #{$transition-default};
+
+  --primary-color: var(--color-primary-md);
+  --primary-color-sm: var(--color-primary-sm);
+  --background-color: var(--color-base-default);
+  --text-color: var(--color-base-inverse);
+  --border-color: var(--color-cool-xs);
+  --shadow-sm: 5px 5px 0 rgba(var(--color-rgb-base-inverse), 0.2);
+}
+
+body[data-mode='dark'] {
+  --background-color: var(--color-cool-3xl);
+  --text-color: var(--color-base-default);
+  --border-color: var(--color-cool-xl);
+  --primary-color: var(--color-primary-sm);
+  --shadow-sm: 5px 5px 0 rgba(var(--color-rgb-base-default), 0.2);
+}

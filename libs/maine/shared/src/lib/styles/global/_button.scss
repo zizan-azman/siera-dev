@@ -1,0 +1,54 @@
+.ma-button {
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: var(--border-radius-sm);
+
+  &--fill {
+    background-color: var(--primary-color);
+    transition: background-color var(--transition);
+    &:hover {
+      background-color: var(--primary-color-minimal);
+    }
+  }
+
+  &--outline {
+    border: 2px solid var(--text-color);
+    background-color: transparent;
+    transition: background-color var(--transition);
+    &:hover {
+      background-color: var(--background-color-subtle);
+    }
+  }
+
+  &--ghost {
+    color: var(--text-color);
+    transition: color var(--transition);
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+}
+
+.ma-button-nav {
+  padding: 8px;
+
+  &--default {
+    color: inherit;
+    transition: color var(--transition);
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+  &--shadow {
+    border-radius: var(--border-radius-sm);
+    outline: 1px solid transparent;
+    box-shadow: var(--shadow-sm-transparent);
+    transition: outline var(--transition), box-shadow var(--transition);
+    &:hover {
+      outline: 1px solid var(--stroke-color);
+      box-shadow: var(--shadow-sm);
+    }
+  }
+}

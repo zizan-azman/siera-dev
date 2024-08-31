@@ -27,7 +27,7 @@
             "output": "maine-assets"
           }
         ],
-        "styles": ["apps/maine/siera-my/siera-my/src/styles.scss"],
+        "styles": ["apps/maine/siera-my/siera-my/src/styles/styles.scss"],
         "stylePreprocessorOptions": {
           "includePaths": ["libs/maine/shared/src/lib/styles"]
         },

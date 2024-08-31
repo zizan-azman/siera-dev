@@ -1,0 +1,11 @@
+<button class="ma-button-nav ma-button-nav--shadow" (click)="onToggleMode()">
+  <svg width="24" height="24" class="ma-icon">
+    <use
+      [attr.xlink:href]="
+        isDarkMode
+          ? 'maine-assets/svgs/icon/sprite.svg#sun'
+          : 'maine-assets/svgs/icon/sprite.svg#moon'
+      "
+    ></use>
+  </svg>
+</button>
