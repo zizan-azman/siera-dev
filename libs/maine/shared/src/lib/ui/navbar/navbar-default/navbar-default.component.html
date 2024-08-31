@@ -18,6 +18,8 @@
           <a
             class="ma-navbarDefault__link ma-link-nav"
             [routerLink]="item.linkUrl"
+            routerLinkActive="active-link"
+            [routerLinkActiveOptions]="{ exact: true }"
             >{{ item.linkText }}</a
           >
         </li>
@@ -29,6 +31,8 @@
         } @if(navbarDefaultConfig.navbarDefaultContentEnd.showAllWebsites){
         <a
           routerLink="/all-websites"
+          routerLinkActive="active-link"
+          [routerLinkActiveOptions]="{ exact: true }"
           class="ma-navbarDefault__all-websites ma-link-nav"
         >
           <svg width="24" height="24" class="ma-icon">
@@ -52,6 +56,8 @@
                 <a
                   class="ma-navbarDefault__link ma-link-nav"
                   [routerLink]="item.linkUrl"
+                  routerLinkActive="active-link"
+                  [routerLinkActiveOptions]="{ exact: true }"
                   (click)="onClickMobileNavLink()"
                   >{{ item.linkText }}</a
                 >

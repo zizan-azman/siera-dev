@@ -8,7 +8,7 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarDefaultConfig } from './navbar-default.model';
-import { RouterLink } from '@angular/router';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 import { ButtonNavbarToggleModeComponent } from '../../button/button-navbar-toggle-mode/button-navbar-toggle-mode.component';
 import { ButtonNavbarSearchComponent } from '../../button/button-navbar-search/button-navbar-search.component';
 
@@ -18,6 +18,7 @@ import { ButtonNavbarSearchComponent } from '../../button/button-navbar-search/b
   imports: [
     CommonModule,
     RouterLink,
+    RouterLinkActive,
     ButtonNavbarToggleModeComponent,
     ButtonNavbarSearchComponent,
   ],
