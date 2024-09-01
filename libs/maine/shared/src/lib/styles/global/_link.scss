@@ -1,10 +1,62 @@
+.ma-link {
+  --ma-link-padding: var(--spacing-xs) var(--spacing-md);
+  --ma-link-border-radius: var(--border-radius-sm);
+  --ma-link-gap: var(--spacing-2xs);
+  --ma-link-text-color: var(--text-color);
+  --ma-link-background-color-subtle: var(--background-color-subtle);
+  --ma-link-primary-color: var(--primary-color);
+  --ma-link-primary-color-minimal: var(--primary-color-minimal);
+  --ma-link-stroke: 2px solid var(--stroke-color);
+  --ma-link-transition: var(--transition);
+
+  width: max-content;
+  padding: var(--ma-link-padding);
+  display: flex;
+  align-items: center;
+  gap: var(--ma-link-gap);
+  border-radius: var(--ma-link-border-radius);
+
+  &--fill {
+    background-color: var(--ma-link-primary-color);
+    transition: background-color var(--ma-link-transition);
+    &:hover {
+      background-color: var(--ma-link-primary-color-minimal);
+    }
+  }
+
+  &--outline {
+    border: var(--ma-link-stroke);
+    background-color: transparent;
+    transition: background-color var(--ma-link-transition);
+    &:hover {
+      background-color: var(--ma-link-background-color-subtle);
+    }
+  }
+
+  &--ghost {
+    color: var(--ma-link-text-color);
+    transition: color var(--ma-link-transition);
+    &:hover {
+      color: var(--ma-link-primary-color);
+    }
+  }
+}
+
 .ma-link-nav {
-  padding: 8px;
-  color: inherit;
-  transition: color var(--transition);
+  --ma-link-nav-padding: var(--spacing-2xs);
+  --ma-link-nav-transition: var(--transition);
+  --ma-link-nav-text-color: var(--text-color);
+  --ma-link-nav-primary-color: var(--primary-color);
+  --ma-link-nav-gap: var(--spacing-2xs);
+  display: flex;
+  align-items: center;
+  gap: var(--ma-link-nav-gap);
+  padding: var(--ma-link-nav-padding);
+  color: var(--ma-link-nav-text-color);
+  transition: color var(--ma-link-nav-transition);
   @include cta-2;
 
   &:hover {
-    color: var(--primary-color);
+    color: var(--ma-link-nav-primary-color);
   }
 }

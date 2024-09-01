@@ -14,6 +14,15 @@
   --border-radius-scale: 1;
   --border-radius-sm: calc(8px * var(--border-radius-scale));
   --border-radius-md: calc(12px * var(--border-radius-scale));
+  --spacing-none: 0;
+  --spacing-3xs: 4px;
+  --spacing-2xs: 8px;
+  --spacing-xs: 16px;
+  --spacing-sm: 24px;
+  --spacing-md: 32px;
+  --spacing-lg: 56px;
+  --spacing-xl: 80px;
+  --spacing-2xl: 120px;
 }
 
 body[data-mode='dark'] {

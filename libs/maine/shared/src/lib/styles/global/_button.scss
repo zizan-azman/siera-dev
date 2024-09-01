@@ -2,8 +2,9 @@
   padding: 16px 32px;
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 8px;
   border-radius: var(--border-radius-sm);
+  width: max-content;
 
   &--fill {
     background-color: var(--primary-color);

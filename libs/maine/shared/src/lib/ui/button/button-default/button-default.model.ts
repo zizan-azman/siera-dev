@@ -16,7 +16,7 @@ export interface ButtonDefaultSuffixIcon {
 
 export interface ButtonDefaultConfig {
   type: 'outline' | 'ghost' | 'fill';
-  color: 'primary' | 'secondary' | 'cool';
+  color: 'primary' | 'secondary' | 'subtle';
   buttonDefaultText: ButtonDefaultText;
   buttonDefaultPrefixIcon: ButtonDefaultPrefixIcon;
   buttonDefaultSuffixIcon: ButtonDefaultSuffixIcon;

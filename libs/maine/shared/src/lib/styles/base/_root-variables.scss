@@ -11,6 +11,14 @@
   --shadow-sm: 5px 5px 0 #{$siera-color-shadow};
   --shadow-sm-transparent: 5px 5px 0 transparent;
   --transition: #{$transition-default};
+  --spacing-none: 0;
+  --spacing-3xs: 4px;
+  --spacing-2xs: 8px;
+  --spacing-xs: 16px;
+  --spacing-sm: 24px;
+  --spacing-md: 32px;
+  --spacing-lg: 80px;
+  --spacing-xl: 120px;
 }
 
 body[data-mode='dark'] {

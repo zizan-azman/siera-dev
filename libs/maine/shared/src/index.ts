@@ -13,3 +13,6 @@ export * from './lib/ui/layout/layout-default/layout-default.model';
 
 export * from './lib/ui/hero/hero-default/hero-default.component';
 export * from './lib/ui/hero/hero-default/hero-default.model';
+
+export * from './lib/ui/link/link-default/link-default.component';
+export * from './lib/ui/link/link-default/link-default.model';
