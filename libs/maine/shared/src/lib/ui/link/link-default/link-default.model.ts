@@ -5,19 +5,20 @@ export interface LinkDefaultText {
 }
 export interface LinkDefaultPrefixIcon {
   show: boolean;
-  iconPath: string;
+  iconPath?: string;
 }
 
 export interface LinkDefaultSuffixIcon {
   show: boolean;
-  arrow: boolean;
-  iconPath: string;
+  arrow?: boolean;
+  iconPath?: string;
 }
 
 export interface LinkDefaultConfig {
+  // color: 'primary' | 'secondary' | 'cool';
   type: 'outline' | 'ghost' | 'fill';
-  color: 'primary' | 'secondary' | 'cool';
-  linkDefaultText: LinkDefaultText;
-  linkDefaultPrefixIcon: LinkDefaultPrefixIcon;
-  linkDefaultSuffixIcon: LinkDefaultSuffixIcon;
+  url: string;
+  linkDefaultText?: LinkDefaultText;
+  linkDefaultPrefixIcon?: LinkDefaultPrefixIcon;
+  linkDefaultSuffixIcon?: LinkDefaultSuffixIcon;
 }

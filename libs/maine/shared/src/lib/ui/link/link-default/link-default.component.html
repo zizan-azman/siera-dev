@@ -1,9 +1,32 @@
-<a href="javascript:;" class="ma-link ma-link--fill">
+<a
+  href="javascript:;"
+  [routerLink]="linkDefaultConfig.url"
+  class="ma-link ma-link--{{ linkDefaultConfig.type }}"
+>
+  @if(linkDefaultConfig.linkDefaultPrefixIcon?.show){
   <svg width="24" height="24" class="ma-icon">
-    <use xlink:href="maine-assets/svgs/icon/sprite.svg#sun"></use>
+    <use
+      [attr.xlink:href]="
+        'maine-assets/svgs/icon/sprite.svg' +
+        linkDefaultConfig.linkDefaultPrefixIcon?.iconPath
+      "
+    ></use>
   </svg>
-  <span class="cta-1">Hello World</span>
+  } @if(linkDefaultConfig.linkDefaultText?.show){
+  <span
+    class="{{
+      linkDefaultConfig.linkDefaultText?.textSize === 'default'
+        ? 'cta-1'
+        : 'cta-2'
+    }}"
+    >{{ linkDefaultConfig.linkDefaultText?.text }}</span
+  >} @if(linkDefaultConfig.linkDefaultSuffixIcon?.show){
   <svg width="24" height="24" class="ma-icon">
-    <use xlink:href="maine-assets/svgs/icon/sprite.svg#sun"></use>
-  </svg>
+    <use
+      [attr.xlink:href]="
+        'maine-assets/svgs/icon/sprite.svg' +
+        linkDefaultConfig.linkDefaultSuffixIcon?.iconPath
+      "
+    ></use></svg
+  >}
 </a>

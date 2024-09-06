@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { LayoutDefaultConfig } from './layout-default.model';
 
 @Component({
   selector: 'maine-layout-default',
@@ -8,4 +9,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './layout-default.component.html',
   styleUrl: './layout-default.component.scss',
 })
-export class LayoutDefaultComponent {}
+export class LayoutDefaultComponent {
+  @Input() layoutDefaultConfig!: LayoutDefaultConfig;
+  @Input() bgColor!: 'default' | 'subtle';
+}

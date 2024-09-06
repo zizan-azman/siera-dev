@@ -1,29 +1,25 @@
 <div class="ma-heroDefault ma-custom-grid-layout">
-  <div class="ma-heroDefault__heading">
-    Green <span class="ma-heroDefault__highlight">Energy</span> to power lasting
-    positive impact
-  </div>
+  <div class="ma-heroDefault__heading" [innerHTML]="safeHeadingText()"></div>
   <img
     class="ma-heroDefault__image"
-    ngSrc="maine-assets/images/siera-1.png"
-    alt="Cat Website"
+    [ngSrc]="'maine-assets/' + heroDefaultConfig.heroImage.imagePath"
+    [alt]="heroDefaultConfig.heroImage.imagePath"
     width="720"
     height="720"
-    priority="high"
+    [priority]="heroDefaultConfig.heroImage.imagePriority"
   />
   <div class="ma-heroDefault__content-middle-container">
     <p>
-      Read our sustainability report and discover how our renewable energy
-      solutions are contributing to a planet where nature and people thrive.
+      {{ heroDefaultConfig.heroContentMiddle.contentText }}
     </p>
-    <maine-link-default></maine-link-default>
+    <maine-link-default
+      [linkDefaultConfig]="heroDefaultConfig.heroContentMiddle.cta"
+    ></maine-link-default>
   </div>
   <div class="ma-heroDefault__content-end-container">
-    <h4>
-      We are a
-      <span class="ma-heroDefault__highlight">renewable energy</span> company
-      with a clear vision to create a world that runs entirely on green energy.
-    </h4>
-    <maine-link-default></maine-link-default>
+    <h4 [innerHTML]="safeContentEndText()"></h4>
+    <maine-link-default
+      [linkDefaultConfig]="heroDefaultConfig.heroContentEnd.cta"
+    ></maine-link-default>
   </div>
 </div>

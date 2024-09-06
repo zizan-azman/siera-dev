@@ -1,20 +1,24 @@
-export interface HeroContentMiddle {
+import { LinkDefaultConfig } from '../../link/link-default/link-default.model';
+
+export interface HeroDefaultImage {
   imagePath: string;
-  contentText: string;
-  ctaType: string;
-  ctaText: string;
-  ctaUrl: string;
+  imageAlt: string;
+  imagePriority: 'high' | 'low';
 }
 
-export interface HeroContentEnd {
+export interface HeroDefaultContentMiddle {
   contentText: string;
-  ctaType: string;
-  ctaText: string;
-  ctaUrl: string;
+  cta: LinkDefaultConfig;
 }
 
-export interface HeroConfig {
+export interface HeroDefaultContentEnd {
+  contentText: string;
+  cta: LinkDefaultConfig;
+}
+
+export interface HeroDefaultConfig {
   heroHeadingText: string;
-  heroContentMiddle: HeroContentMiddle;
-  heroContentEnd: HeroContentEnd;
+  heroImage: HeroDefaultImage;
+  heroContentMiddle: HeroDefaultContentMiddle;
+  heroContentEnd: HeroDefaultContentEnd;
 }
