@@ -1,31 +1,30 @@
 <a
-  href="javascript:;"
   [routerLink]="linkDefaultConfig.url"
   class="ma-link ma-link--{{ linkDefaultConfig.type }}"
 >
-  @if(linkDefaultConfig.linkDefaultPrefixIcon?.show){
+  @if(linkDefaultConfig.linkDefaultPrefixIcon){
   <svg width="24" height="24" class="ma-icon">
     <use
       [attr.xlink:href]="
         'maine-assets/svgs/icon/sprite.svg' +
-        linkDefaultConfig.linkDefaultPrefixIcon?.iconPath
+        linkDefaultConfig.linkDefaultPrefixIcon.iconPath
       "
     ></use>
   </svg>
-  } @if(linkDefaultConfig.linkDefaultText?.show){
+  } @if(linkDefaultConfig.linkDefaultText){
   <span
     class="{{
-      linkDefaultConfig.linkDefaultText?.textSize === 'default'
+      linkDefaultConfig.linkDefaultText.textSize === 'default'
         ? 'cta-1'
         : 'cta-2'
     }}"
-    >{{ linkDefaultConfig.linkDefaultText?.text }}</span
-  >} @if(linkDefaultConfig.linkDefaultSuffixIcon?.show){
+    >{{ linkDefaultConfig.linkDefaultText.text }}</span
+  >} @if(linkDefaultConfig.linkDefaultSuffixIcon){
   <svg width="24" height="24" class="ma-icon">
     <use
       [attr.xlink:href]="
         'maine-assets/svgs/icon/sprite.svg' +
-        linkDefaultConfig.linkDefaultSuffixIcon?.iconPath
+        linkDefaultConfig.linkDefaultSuffixIcon.iconPath
       "
     ></use></svg
   >}

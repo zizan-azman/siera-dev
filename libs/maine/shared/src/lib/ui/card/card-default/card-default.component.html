@@ -1,0 +1,35 @@
+<div class="test-container">
+  <div class="ma-card">
+    <img
+      class="ma-card__image"
+      ngSrc="maine-assets/images/siera-2.png"
+      alt="Inside animal shelter"
+      width="720"
+      height="720"
+      priority="low"
+    />
+    <div class="ma-card__body">
+      <div class="ma-card__info">
+        <div class="ma-card__icon">
+          <svg width="24" height="24" class="ma-icon">
+            <use
+              [attr.xlink:href]="'maine-assets/svgs/icon/sprite.svg#sun'"
+            ></use>
+          </svg>
+        </div>
+
+        <div class="ma-card__content">
+          <div class="ma-card__content-title">Test</div>
+          <p class="ma-card__content-body">test</p>
+        </div>
+      </div>
+      <maine-link-arrow
+        [linkArrowConfig]="{
+          url: '',
+          type: 'ghost',
+          linkArrowText: { text: 'Test', textSize: 'default' }
+        }"
+      ></maine-link-arrow>
+    </div>
+  </div>
+</div>

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {
   ButtonDefaultComponent,
+  CardDefaultComponent,
   HeroDefaultComponent,
   HeroDefaultConfig,
   LayoutDefaultComponent,
@@ -16,6 +17,7 @@ import { HeroConfig } from '../../mock/hero-default.mock';
     ButtonDefaultComponent,
     LayoutDefaultComponent,
     HeroDefaultComponent,
+    CardDefaultComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',

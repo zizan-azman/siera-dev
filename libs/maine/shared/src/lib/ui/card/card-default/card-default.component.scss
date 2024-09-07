@@ -1,0 +1,25 @@
+@import 'abstracts/index';
+
+.test-container {
+  width: 500px;
+}
+
+.ma-card {
+  --ma-card-border: 1px solid var(--stroke-color-subtle);
+  --ma-card-body-padding: var(--spacing-sm);
+  border-radius: var(--border-radius-md);
+  border: var(--ma-card-border);
+  width: 100%;
+  overflow: hidden;
+
+  &__image {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  &__body {
+    padding: var(--ma-card-body-padding);
+  }
+}

@@ -42,7 +42,7 @@ export class NavbarDefaultComponent implements OnInit {
     window.addEventListener('resize', this.resizeListener);
   }
 
-  onClickMobileNavLink(): void {
+  onClickNavLink(): void {
     this.menuCheckbox.nativeElement.checked = false;
   }
   onResize(): void {

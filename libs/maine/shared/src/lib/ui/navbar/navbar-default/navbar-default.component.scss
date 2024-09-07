@@ -56,6 +56,7 @@
     position: absolute;
     left: 0;
     top: calc(100% + 1px);
+    z-index: 100;
     background-color: var(--navbarDefault-mobile-menu-bg-color);
     width: 100%;
     height: 0;

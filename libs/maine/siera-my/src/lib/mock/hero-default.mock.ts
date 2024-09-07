@@ -13,9 +13,8 @@ export const HeroConfig: HeroDefaultConfig = {
       'Read our sustainability report and discover how our renewable energy solutions are contributing to a planet where nature and people thrive.',
     cta: {
       url: '',
-      type: 'fill',
+      type: 'ghost',
       linkDefaultText: {
-        show: true,
         text: 'Sustainability report',
         textSize: 'default',
       },
@@ -29,7 +28,6 @@ export const HeroConfig: HeroDefaultConfig = {
       url: '',
       type: 'outline',
       linkDefaultText: {
-        show: true,
         text: 'Read more',
         textSize: 'default',
       },
