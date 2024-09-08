@@ -1,10 +1,9 @@
+import { LinkArrowConfig } from '../../link/link-arrow/link-arrow.model';
 import { LinkDefaultConfig } from '../../link/link-default/link-default.model';
 
 export interface CardDefaultImage {
   path: string;
   alt: string;
-  width: string;
-  height: string;
   priority: 'high' | 'low';
 }
 export interface CardContentTitle {
@@ -22,9 +21,11 @@ export interface CardContentIcon {
 }
 
 export interface CardDefaultConfig {
+  cardStyle?: string;
+  cardType: 'default' | 'ghost';
   cardImage: CardDefaultImage;
   cardContentTitle: CardContentTitle;
   cardContentBody: CardContentBody;
   cardContentIcon?: CardContentIcon;
-  cardContentCTA?: LinkDefaultConfig;
+  cardContentCTA?: LinkDefaultConfig | LinkArrowConfig;
 }

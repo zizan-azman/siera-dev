@@ -74,3 +74,20 @@
 .ma-icon {
   display: block;
 }
+
+.ma-icon-chip {
+  --ma-icon-chip-border-radius: var(--border-radius-md);
+  --ma-icon-chip-primary-color: var(--primary-color);
+  --ma-icon-chip-primary-color-subtle: var(--primary-color-subtle);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--ma-icon-chip-border-radius);
+
+  &--primary {
+    background-color: var(--ma-icon-chip-primary-color-subtle);
+    color: var(--ma-icon-chip-primary-color);
+  }
+}

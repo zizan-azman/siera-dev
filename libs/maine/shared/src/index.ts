@@ -21,3 +21,7 @@ export * from './lib/ui/card/card-default/card-default.component';
 export * from './lib/ui/card/card-default/card-default.model';
 
 export * from './lib/ui/link/link-arrow/link-arrow.component';
+
+export * from './lib/ui/icon/icon-default/icon-default.component';
+
+export * from './lib/ui/icon/icon-chip/icon-chip.component';
