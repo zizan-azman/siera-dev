@@ -1,10 +1,7 @@
 @import 'abstracts/index';
 
-.test-container {
-  width: 500px;
-}
-
 .ma-card {
+  --ma-card-bg-color: var(--background-color);
   --ma-card-border: 1px solid var(--stroke-color-subtle);
   --ma-card-border-radius-md: var(--border-radius-md);
   --ma-card-spacing-2xs: var(--spacing-2xs);
@@ -12,8 +9,10 @@
   --ma-card-spacing-sm: var(--spacing-sm);
 
   width: 100%;
+  height: 100%;
 
   &--default {
+    background-color: var(--ma-card-bg-color);
     border-radius: var(--ma-card-border-radius-md);
     border: var(--ma-card-border);
     overflow: hidden;

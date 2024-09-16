@@ -21,7 +21,6 @@ export interface CardContentIcon {
 }
 
 export interface CardDefaultConfig {
-  cardStyle?: string;
   cardType: 'default' | 'ghost';
   cardImage: CardDefaultImage;
   cardContentTitle: CardContentTitle;

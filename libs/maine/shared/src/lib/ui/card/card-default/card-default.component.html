@@ -1,39 +1,34 @@
-<div class="test-container">
-  <div
-    class="ma-card ma-card--{{ cardDefaultConfig.cardType }}"
-    [style]="cardDefaultConfig.cardStyle"
-  >
-    <img
-      class="ma-card__image"
-      [ngSrc]="cardDefaultConfig.cardImage.path"
-      [alt]="cardDefaultConfig.cardImage.alt"
-      width="720"
-      height="720"
-      [priority]="cardDefaultConfig.cardImage.priority"
-    />
-    <div class="ma-card__body">
-      <div class="ma-card__info">
-        @if(cardDefaultConfig.cardContentIcon){
-        <maine-icon-chip></maine-icon-chip>
-        }
-        <div class="ma-card__content">
-          <div class="ma-card__content-title">
-            {{ cardDefaultConfig.cardContentTitle.text }}
-          </div>
-          <p class="ma-card__content-paragraph">
-            {{ cardDefaultConfig.cardContentBody.text }}
-          </p>
-        </div>
-      </div>
-      @if(cardDefaultConfig.cardContentCTA){
-      <maine-link-arrow
-        [linkArrowConfig]="{
-          url: '',
-          type: 'ghost',
-          linkArrowText: { text: 'Test', textSize: 'default' }
-        }"
-      ></maine-link-arrow>
+<div class="ma-card ma-card--{{ cardDefaultConfig.cardType }}">
+  <img
+    class="ma-card__image"
+    [ngSrc]="cardDefaultConfig.cardImage.path"
+    [alt]="cardDefaultConfig.cardImage.alt"
+    width="720"
+    height="720"
+    [priority]="cardDefaultConfig.cardImage.priority"
+  />
+  <div class="ma-card__body">
+    <div class="ma-card__info">
+      @if(cardDefaultConfig.cardContentIcon){
+      <maine-icon-chip></maine-icon-chip>
       }
+      <div class="ma-card__content">
+        <div class="ma-card__content-title">
+          {{ cardDefaultConfig.cardContentTitle.text }}
+        </div>
+        <p class="ma-card__content-paragraph">
+          {{ cardDefaultConfig.cardContentBody.text }}
+        </p>
+      </div>
     </div>
+    @if(cardDefaultConfig.cardContentCTA){
+    <maine-link-arrow
+      [linkArrowConfig]="{
+        url: '',
+        type: 'ghost',
+        linkArrowText: { text: 'Test', textSize: 'default' }
+      }"
+    ></maine-link-arrow>
+    }
   </div>
 </div>

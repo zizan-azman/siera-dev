@@ -1,0 +1,58 @@
+@import 'abstracts/index';
+:host {
+  --host-card-teaser-spacing: var(--spacing-md);
+  display: block;
+  &:not(:last-of-type) {
+    margin-bottom: var(--host-card-teaser-spacing);
+  }
+}
+
+.ma-card-teaser {
+  --ma-card-teaser-spacing: var(--spacing-md);
+  &:has(+ .ma-card-teaser) {
+    margin-bottom: var(--ma-card-teaser-spacing);
+  }
+  &--narrow {
+    .ma-card-teaser__container {
+      grid-column: 1/-1;
+
+      @include media-min('lg') {
+        grid-column: 3/11;
+      }
+    }
+    .ma-card-teaser__cards-container {
+      display: flex;
+      flex-direction: column;
+      gap: var(--ma-card-teaser-spacing);
+      @include media-min('md') {
+        flex-direction: row;
+        align-items: stretch;
+      }
+
+      & > * {
+        flex: 1;
+      }
+    }
+  }
+  &--wide {
+    .ma-card-teaser__container {
+      grid-column: 1/-1;
+    }
+    .ma-card-teaser__cards-container {
+      display: grid;
+      gap: var(--ma-card-teaser-spacing);
+      grid-template-columns: 1fr;
+
+      @include media-min('sm') {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @include media-min('lg') {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+  }
+
+  &__heading {
+    margin-bottom: var(--ma-card-teaser-spacing);
+  }
+}
