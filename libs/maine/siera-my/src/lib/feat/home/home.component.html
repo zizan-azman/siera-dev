@@ -1,10 +1,10 @@
-<maine-layout-default [bgColor]="'subtle'">
-  @for(item of cardTeasersConfig; track item ){
-  <maine-card-teaser [cardTeaserConfig]="item"></maine-card-teaser>
-  }
-</maine-layout-default>
 <maine-layout-default [bgColor]="'default'">
   <maine-hero-default
     [heroDefaultConfig]="heroDefaultConfig"
   ></maine-hero-default>
+</maine-layout-default>
+<maine-layout-default [bgColor]="'subtle'">
+  @for(item of cardTeasersConfig; track item ){
+  <maine-card-teaser [cardTeaserConfig]="item"></maine-card-teaser>
+  }
 </maine-layout-default>

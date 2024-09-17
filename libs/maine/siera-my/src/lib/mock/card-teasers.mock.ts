@@ -6,6 +6,7 @@ export const CardTeasersMock: CardTeaserConfig[] = [
     cards: [
       {
         cardType: 'default',
+        cardURL: '/',
         cardImage: {
           path: 'maine-assets/images/siera-2.png',
           alt: 'Test',
@@ -18,6 +19,7 @@ export const CardTeasersMock: CardTeaserConfig[] = [
       },
       {
         cardType: 'default',
+        cardURL: '/',
         cardImage: {
           path: 'maine-assets/images/siera-1.png',
           alt: 'Test',
@@ -35,6 +37,7 @@ export const CardTeasersMock: CardTeaserConfig[] = [
     cards: [
       {
         cardType: 'default',
+        cardURL: '/',
         cardImage: {
           path: 'maine-assets/images/siera-2.png',
           alt: 'Test',
@@ -47,6 +50,7 @@ export const CardTeasersMock: CardTeaserConfig[] = [
       },
       {
         cardType: 'default',
+        cardURL: '/',
         cardImage: {
           path: 'maine-assets/images/siera-1.png',
           alt: 'Test',
@@ -59,6 +63,7 @@ export const CardTeasersMock: CardTeaserConfig[] = [
       },
       {
         cardType: 'default',
+        cardURL: '/',
         cardImage: {
           path: 'maine-assets/images/siera-1.png',
           alt: 'Test',
@@ -76,6 +81,7 @@ export const CardTeasersMock: CardTeaserConfig[] = [
     cards: [
       {
         cardType: 'default',
+        cardURL: '/',
         cardImage: {
           path: 'maine-assets/images/siera-2.png',
           alt: 'Test',
@@ -88,6 +94,7 @@ export const CardTeasersMock: CardTeaserConfig[] = [
       },
       {
         cardType: 'default',
+        cardURL: '/',
         cardImage: {
           path: 'maine-assets/images/siera-1.png',
           alt: 'Test',

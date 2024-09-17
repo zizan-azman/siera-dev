@@ -4,6 +4,7 @@ import { LinkDefaultComponent } from '../../link/link-default/link-default.compo
 import { CardDefaultConfig } from './card-default.model';
 import { LinkArrowComponent } from '../../link/link-arrow/link-arrow.component';
 import { IconChipComponent } from '../../icon/icon-chip/icon-chip.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'maine-card-default',
@@ -11,6 +12,7 @@ import { IconChipComponent } from '../../icon/icon-chip/icon-chip.component';
   imports: [
     CommonModule,
     NgOptimizedImage,
+    RouterLink,
     LinkDefaultComponent,
     LinkArrowComponent,
     IconChipComponent,

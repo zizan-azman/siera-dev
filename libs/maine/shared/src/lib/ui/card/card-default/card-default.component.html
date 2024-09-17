@@ -1,4 +1,7 @@
-<div class="ma-card ma-card--{{ cardDefaultConfig.cardType }}">
+<a
+  [routerLink]="cardDefaultConfig.cardURL"
+  class="ma-card ma-card--{{ cardDefaultConfig.cardType }}"
+>
   <img
     class="ma-card__image"
     [ngSrc]="cardDefaultConfig.cardImage.path"
@@ -31,4 +34,4 @@
     ></maine-link-arrow>
     }
   </div>
-</div>
+</a>
