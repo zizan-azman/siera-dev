@@ -13,7 +13,9 @@
   <div class="ma-card__body">
     <div class="ma-card__info">
       @if(cardDefaultConfig.cardContentIcon){
-      <maine-icon-chip></maine-icon-chip>
+      <maine-icon-chip
+        [iconChipConfig]="cardDefaultConfig.cardContentIcon"
+      ></maine-icon-chip>
       }
       <div class="ma-card__content">
         <div class="ma-card__content-title">

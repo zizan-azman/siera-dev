@@ -28,3 +28,6 @@ export * from './lib/ui/icon/icon-chip/icon-chip.component';
 
 export * from './lib/ui/card/card-teaser/card-teaser.component';
 export * from './lib/ui/card/card-teaser/card-teaser.model';
+
+export * from './lib/ui/card/card-teaser-sticky/card-teaser-sticky.component';
+export * from './lib/ui/card/card-teaser-sticky/card-teaser-sticky.model';

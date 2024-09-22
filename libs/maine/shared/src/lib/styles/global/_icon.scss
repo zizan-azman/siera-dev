@@ -79,6 +79,8 @@
   --ma-icon-chip-border-radius: var(--border-radius-md);
   --ma-icon-chip-primary-color: var(--primary-color);
   --ma-icon-chip-primary-color-subtle: var(--primary-color-subtle);
+  --ma-icon-chip-secondary-color: var(--secondary-color);
+  --ma-icon-chip-secondary-color-subtle: var(--secondary-color-subtle);
   width: 60px;
   height: 60px;
   display: flex;
@@ -89,5 +91,9 @@
   &--primary {
     background-color: var(--ma-icon-chip-primary-color-subtle);
     color: var(--ma-icon-chip-primary-color);
+  }
+  &--secondary {
+    background-color: var(--ma-icon-chip-secondary-color-subtle);
+    color: var(--ma-icon-chip-secondary-color);
   }
 }

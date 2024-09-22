@@ -1,0 +1,16 @@
+<div class="ma-card-teaser-sticky ma-custom-grid-layout">
+  <div class="ma-card-teaser-sticky__content">
+    <h6
+      class="ma-card-teaser-sticky__heading"
+      [innerHTML]="safeContentEndText()"
+    ></h6>
+    <maine-link-default
+      [linkDefaultConfig]="cardTeaserStickyConfig.cta"
+    ></maine-link-default>
+  </div>
+  <div class="ma-card-teaser-sticky__cards-container">
+    @for(item of cardTeaserStickyConfig.cards; track item.cardImage ){
+    <maine-card-default [cardDefaultConfig]="item"></maine-card-default>
+    }
+  </div>
+</div>

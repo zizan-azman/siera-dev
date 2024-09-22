@@ -1,0 +1,35 @@
+@import 'abstracts/index';
+
+.ma-card-teaser-sticky {
+  --ma-card-teaser-sticky-spacing-md: var(--spacing-md);
+  position: relative;
+
+  &__content {
+    height: max-content;
+    grid-column: 1/-1;
+    margin-bottom: var(--ma-card-teaser-sticky-spacing-md);
+
+    @include media-min('md') {
+      /* Navbar height 90px + 20px offset = 110px*/
+      top: px-to-rem(110px, 16px);
+      left: 0;
+      position: sticky;
+      grid-column: 1 / 7;
+      margin-bottom: 0;
+    }
+  }
+
+  &__heading {
+    margin-bottom: var(--ma-card-teaser-sticky-spacing-md);
+  }
+
+  &__cards-container {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--ma-card-teaser-sticky-spacing-md);
+    @include media-min('md') {
+      grid-column: 7 / -1;
+    }
+  }
+}

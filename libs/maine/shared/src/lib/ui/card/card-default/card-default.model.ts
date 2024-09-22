@@ -1,3 +1,4 @@
+import { IconChipConfig } from '../../icon/icon-chip/icon-chip.model';
 import { LinkArrowConfig } from '../../link/link-arrow/link-arrow.model';
 import { LinkDefaultConfig } from '../../link/link-default/link-default.model';
 
@@ -14,18 +15,12 @@ export interface CardContentBody {
   text: string;
 }
 
-export interface CardContentIcon {
-  path: string;
-  bgColor: string;
-  color: string;
-}
-
 export interface CardDefaultConfig {
   cardType: 'default' | 'ghost';
   cardURL?: string;
   cardImage: CardDefaultImage;
   cardContentTitle: CardContentTitle;
   cardContentBody: CardContentBody;
-  cardContentIcon?: CardContentIcon;
+  cardContentIcon?: IconChipConfig;
   cardContentCTA?: LinkDefaultConfig | LinkArrowConfig;
 }
