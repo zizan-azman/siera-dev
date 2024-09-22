@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {
-  ButtonDefaultComponent,
-  CardDefaultComponent,
+  CardDateComponent,
   CardTeaserComponent,
   CardTeaserConfig,
   CardTeaserStickyComponent,
   HeroDefaultComponent,
   HeroDefaultConfig,
   LayoutDefaultComponent,
+  LayoutImageComponent,
 } from '@siera-dev/maine-shared';
 import { HeroConfig } from '../../mock/hero-default.mock';
 import { CardTeasersMock } from '../../mock/card-teasers.mock';
@@ -18,12 +18,12 @@ import { CardTeasersMock } from '../../mock/card-teasers.mock';
   standalone: true,
   imports: [
     CommonModule,
-    ButtonDefaultComponent,
-    LayoutDefaultComponent,
-    HeroDefaultComponent,
-    CardDefaultComponent,
+    CardDateComponent,
     CardTeaserComponent,
     CardTeaserStickyComponent,
+    HeroDefaultComponent,
+    LayoutDefaultComponent,
+    LayoutImageComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',

@@ -1,0 +1,11 @@
+@import 'abstracts/index';
+
+.ma-section-image {
+  width: 100%;
+  &__image {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}

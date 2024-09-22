@@ -1,3 +1,9 @@
+@import 'abstracts/index';
+
 :host {
-  display: flex;
+  display: none;
+
+  @include media-min('sm') {
+    display: flex;
+  }
 }

@@ -148,12 +148,17 @@ label {
   font-size: 0.875rem;
   line-height: 1.28571;
 }
-small.caption {
+.caption {
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.28571;
 }
-small.caption-small {
+.caption-bold {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.28571;
+}
+.caption-small {
   font-weight: 400;
   font-size: 0.75rem;
   line-height: 1.33333;

@@ -1,0 +1,60 @@
+@import 'abstracts/index';
+
+.ma-card-date {
+  --ma-card-date-bg-color: var(--background-color);
+  --ma-card-date-border: 1px solid var(--stroke-color-subtle);
+  --ma-card-date-border-radius-md: var(--border-radius-md);
+  --ma-card-date-spacing-2xs: var(--spacing-2xs);
+  --ma-card-date-spacing-xs: var(--spacing-xs);
+  --ma-card-date-spacing-sm: var(--spacing-sm);
+  --ma-card-date-shadow: var(--shadow-sm);
+  --ma-card-date-shadow-transparent: var(--shadow-sm-transparent);
+  --ma-card-date-transition: var(--transition);
+  --ma-card-date-date-container-bg-color: var(--primary-color-subtle);
+  --ma-card-date-date-container-color: var(--primary-color);
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--ma-card-date-spacing-xs);
+  box-shadow: var(--ma-card-date-shadow-transparent);
+  transition: box-shadow var(--ma-card-date-transition);
+  background-color: var(--ma-card-date-bg-color);
+  border-radius: var(--ma-card-date-border-radius-md);
+  border: var(--ma-card-date-border);
+  padding: var(--ma-card-date-spacing-sm);
+
+  @include media-min('lg') {
+    flex-direction: row;
+  }
+
+  &:hover {
+    box-shadow: var(--ma-card-date-shadow);
+  }
+
+  &__date-container {
+    flex-shrink: 0;
+    color: var(--ma-card-date-date-container-color);
+    background-color: var(--ma-card-date-date-container-bg-color);
+    border-radius: var(--ma-card-date-border-radius-md);
+    text-align: center;
+    align-content: center;
+    width: px-to-rem(60px, 16px);
+    height: px-to-rem(60px, 16px);
+  }
+  &__day {
+    @include date;
+  }
+  &__month {
+    @include caption-bold;
+  }
+  &__title {
+    @include label;
+    margin-bottom: var(--ma-card-date-spacing-2xs);
+  }
+
+  &__paragraph {
+    @include body-1;
+  }
+}

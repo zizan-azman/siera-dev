@@ -50,6 +50,11 @@
     line-height: 1.25;
   }
 }
+@mixin date {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
 @mixin body-1 {
   font-weight: 400;
   font-size: 1rem;
@@ -98,8 +103,18 @@
   font-size: 1rem;
   line-height: 1.375;
 }
+@mixin label {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.28571;
+}
 @mixin caption {
   font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.28571;
+}
+@mixin caption-bold {
+  font-weight: 700;
   font-size: 0.875rem;
   line-height: 1.28571;
 }
