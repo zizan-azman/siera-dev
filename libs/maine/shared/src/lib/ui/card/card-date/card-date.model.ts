@@ -7,7 +7,7 @@ export interface CardContentBody {
 }
 
 export interface CardDateConfig {
-  cardURL?: string;
+  cardUrl?: string;
   cardDate: string;
   cardContentTitle: CardContentTitle;
   cardContentBody: CardContentBody;

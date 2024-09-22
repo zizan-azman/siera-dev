@@ -1,0 +1,27 @@
+@import 'abstracts/index';
+
+.ma-news-teaser {
+  --ma-news-teaser-spacing: var(--spacing-md);
+
+  &__container {
+    grid-column: 1/-1;
+  }
+
+  &__heading {
+    margin-bottom: var(--ma-news-teaser-spacing);
+  }
+
+  &__news-container {
+    display: grid;
+    gap: var(--ma-news-teaser-spacing);
+    grid-template-columns: 1fr;
+    margin-bottom: var(--ma-news-teaser-spacing);
+
+    @include media-min('sm') {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include media-min('md') {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

@@ -11,5 +11,10 @@ import { LinkArrowConfig } from './link-arrow.model';
   styleUrl: './link-arrow.component.scss',
 })
 export class LinkArrowComponent {
-  @Input() linkArrowConfig!: LinkArrowConfig;
+  linkArrowPlaceholder: LinkArrowConfig = {
+    type: 'ghost',
+    url: '/',
+    linkArrowText: { text: 'Read more', textSize: 'default' },
+  };
+  @Input() linkArrowConfig: LinkArrowConfig = this.linkArrowPlaceholder;
 }

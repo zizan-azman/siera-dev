@@ -9,9 +9,7 @@
 
 .ma-card-teaser {
   --ma-card-teaser-spacing: var(--spacing-md);
-  &:has(+ .ma-card-teaser) {
-    margin-bottom: var(--ma-card-teaser-spacing);
-  }
+
   &--narrow {
     .ma-card-teaser__container {
       grid-column: 1/-1;

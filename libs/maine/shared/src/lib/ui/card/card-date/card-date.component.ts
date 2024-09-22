@@ -12,7 +12,7 @@ import { CardDateConfig } from './card-date.model';
 })
 export class CardDateComponent {
   cardDatePlaceholder: CardDateConfig = {
-    cardURL: '',
+    cardUrl: '',
     cardDate: '',
     cardContentTitle: { text: 'News' },
     cardContentBody: {

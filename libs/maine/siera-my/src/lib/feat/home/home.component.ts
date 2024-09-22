@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {
-  CardDateComponent,
   CardTeaserComponent,
   CardTeaserConfig,
   CardTeaserStickyComponent,
@@ -9,21 +8,23 @@ import {
   HeroDefaultConfig,
   LayoutDefaultComponent,
   LayoutImageComponent,
+  NewsTeaserDefaultComponent,
 } from '@siera-dev/maine-shared';
 import { HeroConfig } from '../../mock/hero-default.mock';
 import { CardTeasersMock } from '../../mock/card-teasers.mock';
+import { CardGhostTeaserMock } from '../../mock/card-ghost-teaser.mock';
 
 @Component({
   selector: 'siera-my-home',
   standalone: true,
   imports: [
     CommonModule,
-    CardDateComponent,
     CardTeaserComponent,
     CardTeaserStickyComponent,
     HeroDefaultComponent,
     LayoutDefaultComponent,
     LayoutImageComponent,
+    NewsTeaserDefaultComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
@@ -31,4 +32,5 @@ import { CardTeasersMock } from '../../mock/card-teasers.mock';
 export class HomeComponent {
   heroDefaultConfig: HeroDefaultConfig = HeroConfig;
   cardTeasersConfig: CardTeaserConfig[] = CardTeasersMock;
+  cardGhostTeaserConfig: CardTeaserConfig = CardGhostTeaserMock;
 }
