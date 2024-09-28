@@ -10,6 +10,20 @@ import { LayoutDefaultConfig } from './layout-default.model';
   styleUrl: './layout-default.component.scss',
 })
 export class LayoutDefaultComponent {
-  @Input() layoutDefaultConfig!: LayoutDefaultConfig;
-  @Input() bgColor!: 'default' | 'subtle';
+  layoutDefaultBgColorPlaceholder: LayoutDefaultConfig['bgColor'] = 'default';
+  layoutDefaultSpacingPlaceholder: LayoutDefaultConfig['spacing'] = 'small';
+
+  @Input() bgColor: LayoutDefaultConfig['bgColor'] =
+    this.layoutDefaultBgColorPlaceholder;
+
+  @Input() spacing: LayoutDefaultConfig['spacing'] =
+    this.layoutDefaultSpacingPlaceholder;
+
+  getSpacing() {
+    if (this.spacing === 'small') {
+      return 'spacing-sm';
+    } else {
+      return 'spacing-md';
+    }
+  }
 }
