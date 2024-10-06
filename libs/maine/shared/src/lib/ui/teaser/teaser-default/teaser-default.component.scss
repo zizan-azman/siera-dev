@@ -1,0 +1,16 @@
+@import 'abstracts/index';
+
+.ma-teaser-default {
+  --ma-teaser-default-spacing-md: var(--spacing-md);
+
+  &__content {
+    grid-column: 1/-1;
+    @include media-min('lg') {
+      grid-column: 1 / 9;
+    }
+  }
+
+  &__heading {
+    margin-bottom: var(--ma-teaser-default-spacing-md);
+  }
+}

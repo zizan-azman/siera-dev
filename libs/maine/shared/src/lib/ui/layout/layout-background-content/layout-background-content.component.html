@@ -3,9 +3,16 @@
     bgColor
   }} ma-section-background-content--{{ getSpacing() }}"
 >
-  <ng-content></ng-content>
+  <div class="ma-section-background-content__content">
+    <ng-content></ng-content>
+  </div>
+
   <div class="ma-section-background-content__icon-container">
-    <svg class="ma-icon ma-section-background-content__icon">
+    <svg
+      width="766"
+      height="216"
+      class="ma-icon ma-section-background-content__icon"
+    >
       <use xlink:href="maine-assets/svgs/icon/sprite.svg#lifestream"></use>
     </svg>
   </div>

@@ -10,6 +10,7 @@ import {
   LayoutDefaultComponent,
   LayoutImageComponent,
   NewsTeaserDefaultComponent,
+  TeaserDefaultComponent,
 } from '@siera-dev/maine-shared';
 import { HeroConfig } from '../../mock/hero-default.mock';
 import { CardTeasersMock } from '../../mock/card-teasers.mock';
@@ -27,6 +28,7 @@ import { CardGhostTeaserMock } from '../../mock/card-ghost-teaser.mock';
     LayoutImageComponent,
     LayoutBackgroundContentComponent,
     NewsTeaserDefaultComponent,
+    TeaserDefaultComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',

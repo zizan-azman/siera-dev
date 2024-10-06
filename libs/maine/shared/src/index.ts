@@ -39,3 +39,6 @@ export * from './lib/ui/news/news-teaser-default/news-teaser-default.component';
 export * from './lib/ui/card/card-date/card-date.component';
 
 export * from './lib/ui/layout/layout-background-content/layout-background-content.component';
+
+export * from './lib/ui/teaser/teaser-default/teaser-default.component';
+export * from './lib/ui/teaser/teaser-default/teaser-default.model';
