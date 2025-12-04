@@ -13,6 +13,7 @@ import { LinkArrowConfig } from './link-arrow.model';
 export class LinkArrowComponent {
   linkArrowPlaceholder: LinkArrowConfig = {
     type: 'ghost',
+    color: 'default',
     url: '/',
     linkArrowText: { text: 'Read more', textSize: 'default' },
   };

@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
-import { LinkDefaultComponent } from '../../link/link-default/link-default.component';
 import { CardDefaultConfig } from './card-default.model';
 import { LinkArrowComponent } from '../../link/link-arrow/link-arrow.component';
 import { IconChipComponent } from '../../icon/icon-chip/icon-chip.component';
@@ -13,7 +12,6 @@ import { RouterLink } from '@angular/router';
     CommonModule,
     NgOptimizedImage,
     RouterLink,
-    LinkDefaultComponent,
     LinkArrowComponent,
     IconChipComponent,
   ],

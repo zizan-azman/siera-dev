@@ -1,0 +1,27 @@
+@import 'abstracts/index';
+
+.ma-website-teaser {
+  --website-teaser-headline-margin-bottom: var(--spacing-sm);
+  --website-teaser-websites-container-gap: var(--spacing-md);
+
+  &__container {
+    grid-column: 1/-1;
+  }
+
+  &__headline {
+    margin-bottom: var(--website-teaser-headline-margin-bottom);
+  }
+
+  &__websites-container {
+    display: grid;
+    gap: var(--website-teaser-websites-container-gap);
+    grid-template-columns: 1fr;
+
+    @include media-min('sm') {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include media-min('md') {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}

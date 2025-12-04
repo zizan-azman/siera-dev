@@ -106,4 +106,12 @@
       transform: translate(8px, 0);
     }
   }
+
+  &--color-default {
+    color: var(--ma-link-arrow-text-color);
+  }
+
+  &--color-primary {
+    color: var(--ma-link-arrow-primary-color);
+  }
 }

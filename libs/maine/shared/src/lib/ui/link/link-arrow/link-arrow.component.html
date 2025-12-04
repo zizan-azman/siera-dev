@@ -1,6 +1,8 @@
 <a
   [routerLink]="linkArrowConfig.url"
-  class="ma-link-arrow ma-link-arrow--{{ linkArrowConfig.type }}"
+  class="ma-link-arrow ma-link-arrow--{{
+    linkArrowConfig.type
+  }} ma-link-arrow--color-{{ linkArrowConfig.color }}"
 >
   <span
     class="{{

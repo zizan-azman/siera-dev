@@ -54,6 +54,7 @@ export class NewsTeaserDefaultComponent {
     ],
     cta: {
       url: '/',
+      color: 'default',
       type: 'ghost',
       linkArrowText: { text: 'Read more', textSize: 'default' },
     },

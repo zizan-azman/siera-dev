@@ -1,0 +1,21 @@
+@import 'abstracts/index';
+
+.ma-card-website {
+  --ma-card-website-bg-color: var(--background-color);
+  --ma-card-website-border: 1px solid var(--stroke-color);
+  --ma-card-website-border-radius: var(--border-radius-md);
+  --ma-card-website-padding: var(--spacing-xs) var(--spacing-sm);
+  --ma-card-website-title-color: var(--text-color);
+
+  padding: var(--ma-card-website-padding);
+  border: var(--ma-card-website-border);
+  border-radius: var(--ma-card-website-border-radius);
+  background-color: var(--ma-card-website-bg-color);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &__title {
+    color: var(--ma-card-website-title-color);
+  }
+}
