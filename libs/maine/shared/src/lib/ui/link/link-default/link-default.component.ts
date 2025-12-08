@@ -12,5 +12,5 @@ import { RouterLink } from '@angular/router';
   encapsulation: ViewEncapsulation.None,
 })
 export class LinkDefaultComponent {
-  @Input() linkDefaultConfig!: LinkDefaultConfig;
+  @Input() linkDefaultData!: LinkDefaultConfig;
 }

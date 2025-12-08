@@ -1,14 +1,14 @@
 <a
-  [routerLink]="linkArrowConfig.url"
+  [routerLink]="linkArrowData.url"
   class="ma-link-arrow ma-link-arrow--{{
-    linkArrowConfig.type
-  }} ma-link-arrow--color-{{ linkArrowConfig.color }}"
+    linkArrowData.type
+  }} ma-link-arrow--color-{{ linkArrowData.color }}"
 >
   <span
     class="{{
-      linkArrowConfig.linkArrowText.textSize === 'default' ? 'cta-1' : 'cta-2'
+      linkArrowData.linkArrowText.textSize === 'default' ? 'cta-1' : 'cta-2'
     }}"
-    >{{ linkArrowConfig.linkArrowText.text }}</span
+    >{{ linkArrowData.linkArrowText.text }}</span
   >
   <svg width="24" height="24" class="ma-icon">
     <use

@@ -1,11 +1,11 @@
 <div class="ma-website-teaser ma-custom-grid-layout">
   <div class="ma-website-teaser__container">
     <h2 class="h3 ma-website-teaser__headline">
-      {{ websiteTeaserConfig.headline }}
+      {{ websiteTeaserData.headline }}
     </h2>
     <div class="ma-website-teaser__websites-container">
-      @for(item of websiteTeaserConfig.cards; track item.title ){
-      <maine-card-website [cardWebsiteConfig]="item"></maine-card-website>
+      @for(item of websiteTeaserData.cards; track item.title ){
+      <maine-card-website [cardWebsiteData]="item"></maine-card-website>
       }
     </div>
   </div>

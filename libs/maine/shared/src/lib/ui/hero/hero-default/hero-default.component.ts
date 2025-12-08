@@ -13,17 +13,17 @@ import { DomSanitizer } from '@angular/platform-browser';
   encapsulation: ViewEncapsulation.None,
 })
 export class HeroDefaultComponent {
-  @Input() heroDefaultConfig!: HeroDefaultConfig;
+  @Input() heroDefaultData!: HeroDefaultConfig;
   constructor(private _sanitizer: DomSanitizer) {}
 
   safeHeadingText() {
     return this._sanitizer.bypassSecurityTrustHtml(
-      this.heroDefaultConfig.heroHeadingText
+      this.heroDefaultData.heroHeadingText
     );
   }
   safeContentEndText() {
     return this._sanitizer.bypassSecurityTrustHtml(
-      this.heroDefaultConfig.heroContentEnd.contentText
+      this.heroDefaultData.heroContentEnd.contentText
     );
   }
 }

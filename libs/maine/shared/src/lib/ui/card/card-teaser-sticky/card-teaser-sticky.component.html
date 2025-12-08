@@ -5,12 +5,12 @@
       [innerHTML]="safeContentEndText()"
     ></h6>
     <maine-link-default
-      [linkDefaultConfig]="cardTeaserStickyConfig.cta"
+      [linkDefaultData]="cardTeaserStickyData.cta"
     ></maine-link-default>
   </div>
   <div class="ma-card-teaser-sticky__cards-container">
-    @for(item of cardTeaserStickyConfig.cards; track item.cardImage ){
-    <maine-card-default [cardDefaultConfig]="item"></maine-card-default>
+    @for(item of cardTeaserStickyData.cards; track item.cardImage ){
+    <maine-card-default [cardDefaultData]="item"></maine-card-default>
     }
   </div>
 </div>

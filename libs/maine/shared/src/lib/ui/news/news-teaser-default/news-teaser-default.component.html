@@ -1,19 +1,19 @@
-@if(newsTeaserDefaultConfig.news.length === 0){
+@if(newsTeaserDefaultData.news.length === 0){
 <h1>There are zero data.</h1>
 } @else {
 <div class="ma-news-teaser ma-custom-grid-layout">
   <div class="ma-news-teaser__container">
     <h6 class="ma-news-teaser__heading">
-      {{ newsTeaserDefaultConfig.heading }}
+      {{ newsTeaserDefaultData.heading }}
     </h6>
 
     <div class="ma-news-teaser__news-container">
-      @for(item of newsTeaserDefaultConfig.news; track item.cardContentBody ){
+      @for(item of newsTeaserDefaultData.news; track item.cardContentBody ){
       <maine-card-date></maine-card-date>
       }
     </div>
     <maine-link-arrow
-      [linkArrowConfig]="newsTeaserDefaultConfig.cta"
+      [linkArrowData]="newsTeaserDefaultData.cta"
     ></maine-link-arrow>
   </div>
 </div>

@@ -3,17 +3,17 @@
     <div class="ma-navbarDefault__container">
       <a
         class="ma-navbarDefault__logo"
-        [routerLink]="navbarDefaultConfig.navbarDefaultLogo.logoUrl"
+        [routerLink]="navbarDefaultData.navbarDefaultLogo.logoUrl"
         (click)="onClickNavLink()"
       >
         <svg width="92" height="24" class="ma-icon">
           <use
-            [attr.xlink:href]="navbarDefaultConfig.navbarDefaultLogo.logoPath"
+            [attr.xlink:href]="navbarDefaultData.navbarDefaultLogo.logoPath"
           ></use>
         </svg>
       </a>
       <ul role="list" class="ma-navbarDefault__link-container">
-        @for(item of navbarDefaultConfig.navbarDefaultLinkList; track
+        @for(item of navbarDefaultData.navbarDefaultLinkList; track
         item.linkText ){
         <li class="ma-navbarDefault__link-item">
           <a
@@ -27,9 +27,9 @@
         }
       </ul>
       <div class="ma-navbarDefault__content-end">
-        @if(navbarDefaultConfig.navbarDefaultContentEnd.showModeSwitcher){
+        @if(navbarDefaultData.navbarDefaultContentEnd.showModeSwitcher){
         <maine-button-navbar-toggle-mode />
-        } @if(navbarDefaultConfig.navbarDefaultContentEnd.showAllWebsites){
+        } @if(navbarDefaultData.navbarDefaultContentEnd.showAllWebsites){
         <a
           routerLink="/all-websites"
           routerLinkActive="active-link"
@@ -52,7 +52,7 @@
         <aside class="ma-navbarDefault__mobile-menu">
           <nav class="ma-custom-grid-layout">
             <ul role="list" class="ma-navbarDefault__mobile-link-container">
-              @for(item of navbarDefaultConfig.navbarDefaultLinkList; track
+              @for(item of navbarDefaultData.navbarDefaultLinkList; track
               item.linkText ){
               <li class="ma-navbarDefault__link-item">
                 <a

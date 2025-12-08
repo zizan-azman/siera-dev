@@ -60,6 +60,6 @@ export class NewsTeaserDefaultComponent {
     },
   };
 
-  @Input() newsTeaserDefaultConfig: NewsTeaserDefaultConfig =
+  @Input() newsTeaserDefaultData: NewsTeaserDefaultConfig =
     this.newsTeaserDefaultPlaceholder;
 }

@@ -11,5 +11,5 @@ import { IconChipConfig } from './icon-chip.model';
 })
 export class IconChipComponent {
   iconChipPlaceholder: IconChipConfig = { color: 'primary', path: 'cat' };
-  @Input() iconChipConfig: IconChipConfig = this.iconChipPlaceholder;
+  @Input() iconChipData: IconChipConfig = this.iconChipPlaceholder;
 }

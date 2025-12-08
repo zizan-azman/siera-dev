@@ -110,12 +110,12 @@ export class CardTeaserStickyComponent {
       },
     ],
   };
-  @Input() cardTeaserStickyConfig: CardTeaserStickyConfig =
+  @Input() cardTeaserStickyData: CardTeaserStickyConfig =
     this.cardTeaserStickyPlaceholder;
   constructor(private _sanitizer: DomSanitizer) {}
   safeContentEndText() {
     return this._sanitizer.bypassSecurityTrustHtml(
-      this.cardTeaserStickyConfig.heading
+      this.cardTeaserStickyData.heading
     );
   }
 }

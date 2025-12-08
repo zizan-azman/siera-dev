@@ -10,7 +10,7 @@ import { ButtonDefaultConfig } from './button-default.model';
   styleUrl: './button-default.component.scss',
 })
 export class ButtonDefaultComponent {
-  @Input() buttonDefaultConfig!: ButtonDefaultConfig;
+  @Input() buttonDefaultData!: ButtonDefaultConfig;
   @Output() clicked = new EventEmitter<void>();
 
   onClick() {

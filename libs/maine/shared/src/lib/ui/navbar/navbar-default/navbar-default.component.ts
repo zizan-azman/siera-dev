@@ -29,7 +29,7 @@ export class NavbarDefaultComponent implements OnInit {
   isDarkMode = false;
   resizeListener!: () => void;
   @ViewChild('menuCheckbox') menuCheckbox!: ElementRef;
-  @Input() navbarDefaultConfig!: NavbarDefaultConfig;
+  @Input() navbarDefaultData!: NavbarDefaultConfig;
 
   constructor(private _renderer: Renderer2) {}
 

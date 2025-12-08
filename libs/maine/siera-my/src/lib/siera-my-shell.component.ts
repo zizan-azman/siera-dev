@@ -5,7 +5,7 @@ import {
   NavbarDefaultComponent,
   NavbarDefaultConfig,
 } from '@siera-dev/maine-shared';
-import { NavbarConfig } from './mock/navbar-default.mock';
+import { MockNavbarDefault } from './mock/navbar-default.mock';
 
 @Component({
   selector: 'siera-my-shell',
@@ -15,5 +15,5 @@ import { NavbarConfig } from './mock/navbar-default.mock';
   styleUrl: './siera-my-shell.component.scss',
 })
 export class SieraMyShellComponent {
-  navbarDefaultConfig: NavbarDefaultConfig = NavbarConfig;
+  navbarDefaultMockData: NavbarDefaultConfig = MockNavbarDefault;
 }

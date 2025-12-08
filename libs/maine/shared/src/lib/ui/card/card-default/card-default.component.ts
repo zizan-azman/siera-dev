@@ -32,5 +32,5 @@ export class CardDefaultComponent {
     },
   };
 
-  @Input() cardDefaultConfig: CardDefaultConfig = this.cardDefaultPlaceholder;
+  @Input() cardDefaultData: CardDefaultConfig = this.cardDefaultPlaceholder;
 }

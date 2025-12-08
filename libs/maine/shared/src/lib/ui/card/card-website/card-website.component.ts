@@ -21,5 +21,5 @@ export class CardWebsiteComponent {
     },
   };
 
-  @Input() cardWebsiteConfig: CardWebsiteConfig = this.cardWebsitePlaceholder;
+  @Input() cardWebsiteData: CardWebsiteConfig = this.cardWebsitePlaceholder;
 }

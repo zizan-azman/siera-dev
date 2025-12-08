@@ -25,6 +25,6 @@ export class WebsiteTeaserComponent {
       },
     ],
   };
-  @Input() websiteTeaserConfig: WebsiteTeaserConfig =
+  @Input() websiteTeaserData: WebsiteTeaserConfig =
     this.websiteTeaserPlaceholder;
 }

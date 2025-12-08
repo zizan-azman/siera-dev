@@ -42,18 +42,18 @@ export class CardTeaserComponent implements OnInit {
     ],
   };
 
-  @Input() cardTeaserConfig: CardTeaserConfig = this.cardTeaserPlaceholder;
+  @Input() cardTeaserData: CardTeaserConfig = this.cardTeaserPlaceholder;
 
   ngOnInit() {
     this.setCardType();
   }
 
   setCardTeaserContainer() {
-    if (this.cardTeaserConfig.cards.length === 4) {
+    if (this.cardTeaserData.cards.length === 4) {
       return 'wide';
     } else if (
-      this.cardTeaserConfig.cards.length > 1 &&
-      this.cardTeaserConfig.cards.length <= 3
+      this.cardTeaserData.cards.length > 1 &&
+      this.cardTeaserData.cards.length <= 3
     ) {
       return 'narrow';
     } else {
@@ -62,8 +62,8 @@ export class CardTeaserComponent implements OnInit {
   }
 
   setCardType() {
-    this.cardTeaserConfig.cards.forEach((card) => {
-      card.cardType = this.cardTeaserConfig.cardsType;
+    this.cardTeaserData.cards.forEach((card) => {
+      card.cardType = this.cardTeaserData.cardsType;
     });
   }
 }

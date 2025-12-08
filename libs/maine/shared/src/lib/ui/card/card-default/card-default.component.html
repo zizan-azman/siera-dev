@@ -1,32 +1,32 @@
 <a
-  [routerLink]="cardDefaultConfig.cardURL"
-  class="ma-card ma-card--{{ cardDefaultConfig.cardType }}"
+  [routerLink]="cardDefaultData.cardURL"
+  class="ma-card ma-card--{{ cardDefaultData.cardType }}"
 >
   <img
     class="ma-card__image"
-    [ngSrc]="cardDefaultConfig.cardImage.path"
-    [alt]="cardDefaultConfig.cardImage.alt"
+    [ngSrc]="cardDefaultData.cardImage.path"
+    [alt]="cardDefaultData.cardImage.alt"
     width="720"
     height="720"
-    [priority]="cardDefaultConfig.cardImage.priority"
+    [priority]="cardDefaultData.cardImage.priority"
   />
   <div class="ma-card__body">
     <div class="ma-card__info">
-      @if(cardDefaultConfig.cardContentIcon){
+      @if(cardDefaultData.cardContentIcon){
       <maine-icon-chip
-        [iconChipConfig]="cardDefaultConfig.cardContentIcon"
+        [iconChipData]="cardDefaultData.cardContentIcon"
       ></maine-icon-chip>
       }
       <div class="ma-card__content">
         <div class="ma-card__content-title">
-          {{ cardDefaultConfig.cardContentTitle.text }}
+          {{ cardDefaultData.cardContentTitle.text }}
         </div>
         <p class="ma-card__content-paragraph">
-          {{ cardDefaultConfig.cardContentBody.text }}
+          {{ cardDefaultData.cardContentBody.text }}
         </p>
       </div>
     </div>
-    @if(cardDefaultConfig.cardContentCTA){
+    @if(cardDefaultData.cardContentCTA){
     <maine-link-arrow></maine-link-arrow>
     }
   </div>

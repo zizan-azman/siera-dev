@@ -8,9 +8,15 @@
   --primary-color-subtle: #{$siera-color-primary-xs};
   --primary-color-minimal: #{$siera-color-primary-sm};
   --primary-color: #{$siera-color-primary-md};
+  --secondary-color-subtle: #{$siera-color-secondary-xs};
+  --secondary-color-minimal: #{$siera-color-secondary-sm};
+  --secondary-color: #{$siera-color-secondary-md};
   --shadow-sm: 5px 5px 0 #{$siera-color-shadow};
   --shadow-sm-transparent: 5px 5px 0 transparent;
   --transition: #{$transition-default};
+  --border-radius-scale: 1;
+  --border-radius-sm: calc(8px * var(--border-radius-scale));
+  --border-radius-md: calc(12px * var(--border-radius-scale));
   --spacing-none: 0;
   --spacing-3xs: 4px;
   --spacing-2xs: 8px;
@@ -31,5 +37,8 @@ body[data-mode='dark'] {
   --primary-color-subtle: #{$dark-siera-color-primary-xs};
   --primary-color-minimal: #{$dark-siera-color-primary-sm};
   --primary-color: #{$dark-siera-color-primary-md};
+  --secondary-color-subtle: #{$dark-siera-color-secondary-xs};
+  --secondary-color-minimal: #{$dark-siera-color-secondary-sm};
+  --secondary-color: #{$dark-siera-color-secondary-md};
   --shadow-sm: 5px 5px 0 #{$dark-siera-color-shadow};
 }

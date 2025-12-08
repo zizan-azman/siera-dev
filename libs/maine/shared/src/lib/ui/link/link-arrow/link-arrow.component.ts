@@ -17,5 +17,5 @@ export class LinkArrowComponent {
     url: '/',
     linkArrowText: { text: 'Read more', textSize: 'default' },
   };
-  @Input() linkArrowConfig: LinkArrowConfig = this.linkArrowPlaceholder;
+  @Input() linkArrowData: LinkArrowConfig = this.linkArrowPlaceholder;
 }

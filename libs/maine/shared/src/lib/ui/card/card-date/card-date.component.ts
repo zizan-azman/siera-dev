@@ -20,5 +20,5 @@ export class CardDateComponent {
     },
   };
 
-  @Input() cardDateConfig: CardDateConfig = this.cardDatePlaceholder;
+  @Input() cardDateData: CardDateConfig = this.cardDatePlaceholder;
 }

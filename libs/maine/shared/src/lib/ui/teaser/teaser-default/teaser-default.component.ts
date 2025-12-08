@@ -22,12 +22,12 @@ export class TeaserDefaultComponent {
       linkDefaultText: { text: 'Read more', textSize: 'default' },
     },
   };
-  @Input() teaserDefaultConfig: TeaserDefaultConfig =
+  @Input() teaserDefaultData: TeaserDefaultConfig =
     this.teaserDefaultPlaceholder;
   constructor(private _sanitizer: DomSanitizer) {}
   safeContentEndText() {
     return this._sanitizer.bypassSecurityTrustHtml(
-      this.teaserDefaultConfig.heading
+      this.teaserDefaultData.heading
     );
   }
 }
