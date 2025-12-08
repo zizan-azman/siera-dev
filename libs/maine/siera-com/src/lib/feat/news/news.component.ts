@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {
+  CardComingSoonComponent,
+  LayoutDefaultComponent,
+} from '@siera-dev/maine-shared';
 
 @Component({
-  selector: 'lib-news',
+  selector: 'siera-com-news',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, LayoutDefaultComponent, CardComingSoonComponent],
   templateUrl: './news.component.html',
   styleUrl: './news.component.scss',
 })

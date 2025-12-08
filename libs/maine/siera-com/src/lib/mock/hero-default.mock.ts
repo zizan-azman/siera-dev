@@ -1,32 +1,59 @@
 import { HeroDefaultConfig } from '@siera-dev/maine-shared';
 
 export const MockHeroDefault: HeroDefaultConfig = {
-  heroHeadingText: `Green <span class="ma-heroDefault__highlight">Energy</span> to power lasting
-    positive impact`,
+  heroHeadingText: `A serene <span class="ma-heroDefault__highlight">sanctuary</span> where every cat thrives`,
   heroImage: {
     imagePath: 'images/siera-1.png',
-    imageAlt: 'Siera Animal Shelter 2D Illustration',
+    imageAlt: 'Siera Cat Sanctuary 2D Illustration',
     imagePriority: 'high',
   },
   heroContentMiddle: {
     contentText:
-      'Read our sustainability report and discover how our renewable energy solutions are contributing to a planet where nature and people thrive.',
+      'Discover our internationally recognized sanctuary, providing open habitats, medical care, and meaningful adoption opportunities for cats from around the world.',
     ctaArrow: {
       url: '/',
-      linkArrowText: { text: 'Sustainability report', textSize: 'default' },
+      linkArrowText: { text: 'Explore the sanctuary', textSize: 'default' },
       type: 'ghost',
       color: 'primary',
     },
   },
   heroContentEnd: {
-    contentText: `We are a
-      <span class="ma-heroDefault__highlight">renewable energy</span> company
-      with a clear vision to create a world that runs entirely on green energy.`,
+    contentText: `Siera is dedicated to creating a compassionate and sustainable environment where cats receive world-class care — and people connect with nature in a whole new way.`,
     ctaDefault: {
       url: '',
       type: 'outline',
       linkDefaultText: {
-        text: 'Read more',
+        text: 'Learn more',
+        textSize: 'default',
+      },
+    },
+  },
+};
+
+export const MockHeroDefault2: HeroDefaultConfig = {
+  heroHeadingText: `Protecting vulnerable <span class="ma-heroDefault__highlight">cats</span> — and giving them a second chance at life`,
+  heroImage: {
+    imagePath: 'images/siera-2.png',
+    imageAlt: 'Siera Cat Sanctuary Illustration',
+    imagePriority: 'high',
+  },
+  heroContentMiddle: {
+    contentText:
+      'Every day, our sanctuary rescues, rehabilitates, and supports cats in need. Explore how our dedicated team provides medical care, nurturing habitats, and pathways to loving homes.',
+    ctaArrow: {
+      url: '/sanctuary',
+      linkArrowText: { text: 'Our mission', textSize: 'default' },
+      type: 'ghost',
+      color: 'primary',
+    },
+  },
+  heroContentEnd: {
+    contentText: `At Siera, we believe every cat deserves comfort, safety, and dignity — and we're committed to making that a reality through compassionate, global-first care.`,
+    ctaDefault: {
+      url: '/about',
+      type: 'outline',
+      linkDefaultText: {
+        text: 'Learn more',
         textSize: 'default',
       },
     },

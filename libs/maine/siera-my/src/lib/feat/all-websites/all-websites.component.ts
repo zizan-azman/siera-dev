@@ -5,10 +5,7 @@ import {
   WebsiteTeaserComponent,
   WebsiteTeaserConfig,
 } from '@siera-dev/maine-shared';
-import {
-  WebsiteTeaserMock,
-  WebsiteTeaserMock2,
-} from '../../mock/website-teaser.mock';
+import { WebsiteTeaserMock } from '../../mock/website-teaser.mock';
 
 @Component({
   selector: 'siera-my-all-websites',
@@ -18,6 +15,5 @@ import {
   styleUrl: './all-websites.component.scss',
 })
 export class AllWebsitesComponent {
-  websiteTeaserData: WebsiteTeaserConfig = WebsiteTeaserMock;
-  websiteTeaserData2: WebsiteTeaserConfig = WebsiteTeaserMock2;
+  websiteTeaserMockData: WebsiteTeaserConfig = WebsiteTeaserMock;
 }

@@ -1,11 +1,19 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {
+  LayoutDefaultComponent,
+  WebsiteTeaserComponent,
+  WebsiteTeaserConfig,
+} from '@siera-dev/maine-shared';
+import { WebsiteTeaserMock } from '../../mock/website-teaser.mock';
 
 @Component({
-  selector: 'lib-all-websites',
+  selector: 'siera-com-all-websites',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, WebsiteTeaserComponent, LayoutDefaultComponent],
   templateUrl: './all-websites.component.html',
   styleUrl: './all-websites.component.scss',
 })
-export class AllWebsitesComponent {}
+export class AllWebsitesComponent {
+  websiteTeaserMockData: WebsiteTeaserConfig = WebsiteTeaserMock;
+}

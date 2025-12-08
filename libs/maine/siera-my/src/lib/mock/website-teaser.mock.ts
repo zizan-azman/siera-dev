@@ -41,18 +41,3 @@ export const WebsiteTeaserMock: WebsiteTeaserConfig = {
     },
   ],
 };
-
-export const WebsiteTeaserMock2: WebsiteTeaserConfig = {
-  headline: 'Asia Pacific',
-  cards: [
-    {
-      title: 'Malaysia',
-      cta: {
-        url: '/',
-        type: 'ghost',
-        color: 'primary',
-        linkArrowText: { text: 'siera.my', textSize: 'default' },
-      },
-    },
-  ],
-};
