@@ -1,3 +1,4 @@
+import { LinkArrowConfig } from '../../link/link-arrow/link-arrow.model';
 import { LinkDefaultConfig } from '../../link/link-default/link-default.model';
 
 export interface HeroDefaultImage {
@@ -8,12 +9,14 @@ export interface HeroDefaultImage {
 
 export interface HeroDefaultContentMiddle {
   contentText: string;
-  cta: LinkDefaultConfig;
+  ctaDefault?: LinkDefaultConfig;
+  ctaArrow?: LinkArrowConfig;
 }
 
 export interface HeroDefaultContentEnd {
   contentText: string;
-  cta: LinkDefaultConfig;
+  ctaDefault?: LinkDefaultConfig;
+  ctaArrow?: LinkArrowConfig;
 }
 
 export interface HeroDefaultConfig {

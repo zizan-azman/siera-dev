@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { LayoutImageConfig } from './layout-image.model';
 
 @Component({
   selector: 'maine-layout-image',
@@ -9,12 +10,11 @@ import { CommonModule, NgOptimizedImage } from '@angular/common';
   styleUrl: './layout-image.component.scss',
 })
 export class LayoutImageComponent {
-  layoutImageUrlPlaceholder = 'maine-assets/images/siera-2.png';
-  layoutImageAltPlaceholder = 'This is a sample image';
-  layoutImagePriorityPlaceholder: 'low' | 'high' = 'low';
+  layoutImagePlaceholder: LayoutImageConfig = {
+    imgURL: 'maine-assets/images/siera-2.png',
+    imgAlt: 'This is a sample image',
+    imgPriority: 'low',
+  };
 
-  @Input() layoutImageUrl: string = this.layoutImageUrlPlaceholder;
-  @Input() layoutImageAlt: string = this.layoutImageAltPlaceholder;
-  @Input() layoutImagePriority: 'low' | 'high' =
-    this.layoutImagePriorityPlaceholder;
+  @Input() layoutImageData: LayoutImageConfig = this.layoutImagePlaceholder;
 }

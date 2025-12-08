@@ -11,20 +11,18 @@ export const MockHeroDefault: HeroDefaultConfig = {
   heroContentMiddle: {
     contentText:
       'Read our sustainability report and discover how our renewable energy solutions are contributing to a planet where nature and people thrive.',
-    cta: {
-      url: '',
+    ctaArrow: {
+      url: '/',
+      linkArrowText: { text: 'Sustainability report', textSize: 'default' },
       type: 'ghost',
-      linkDefaultText: {
-        text: 'Sustainability report',
-        textSize: 'default',
-      },
+      color: 'primary',
     },
   },
   heroContentEnd: {
     contentText: `We are a
       <span class="ma-heroDefault__highlight">renewable energy</span> company
       with a clear vision to create a world that runs entirely on green energy.`,
-    cta: {
+    ctaDefault: {
       url: '',
       type: 'outline',
       linkDefaultText: {

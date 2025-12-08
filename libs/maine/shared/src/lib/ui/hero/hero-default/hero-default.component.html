@@ -12,14 +12,26 @@
     <p>
       {{ heroDefaultData.heroContentMiddle.contentText }}
     </p>
+    @if (heroDefaultData.heroContentMiddle.ctaDefault) {
     <maine-link-default
-      [linkDefaultData]="heroDefaultData.heroContentMiddle.cta"
-    ></maine-link-default>
+      [linkDefaultData]="heroDefaultData.heroContentMiddle.ctaDefault"
+    ></maine-link-default
+    >} @else if (heroDefaultData.heroContentMiddle.ctaArrow) {
+    <maine-link-arrow
+      [linkArrowData]="heroDefaultData.heroContentMiddle.ctaArrow"
+    ></maine-link-arrow>
+    }
   </div>
   <div class="ma-heroDefault__content-end-container">
     <h4 [innerHTML]="safeContentEndText()"></h4>
+    @if (heroDefaultData.heroContentEnd.ctaDefault) {
     <maine-link-default
-      [linkDefaultData]="heroDefaultData.heroContentEnd.cta"
+      [linkDefaultData]="heroDefaultData.heroContentEnd.ctaDefault"
     ></maine-link-default>
+    } @else if(heroDefaultData.heroContentEnd.ctaArrow){
+    <maine-link-arrow
+      [linkArrowData]="heroDefaultData.heroContentEnd.ctaArrow"
+    ></maine-link-arrow>
+    }
   </div>
 </div>

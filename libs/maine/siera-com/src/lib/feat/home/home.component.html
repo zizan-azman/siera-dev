@@ -9,11 +9,17 @@
   }
 </maine-layout-default>
 <maine-layout-default [bgColor]="'default'" [spacing]="'small'">
-  <maine-card-teaser-sticky></maine-card-teaser-sticky>
+  <maine-card-teaser-sticky
+    [cardTeaserStickyData]="cardTeaserStickyMockData"
+  ></maine-card-teaser-sticky>
 </maine-layout-default>
-<maine-layout-image></maine-layout-image>
+<maine-layout-image
+  [layoutImageData]="layoutImageMockData"
+></maine-layout-image>
 <maine-layout-default [bgColor]="'default'" [spacing]="'small'">
-  <maine-news-teaser-default></maine-news-teaser-default>
+  <maine-news-teaser-default
+    [newsTeaserDefaultData]="newsTeaserDefaultMockData"
+  ></maine-news-teaser-default>
 </maine-layout-default>
 <maine-layout-default [bgColor]="'subtle'" [spacing]="'small'">
   <maine-card-teaser
@@ -21,5 +27,7 @@
   ></maine-card-teaser>
 </maine-layout-default>
 <maine-layout-background-content [bgColor]="'default'" [spacing]="'small'">
-  <maine-teaser-default></maine-teaser-default>
+  <maine-teaser-default
+    [teaserDefaultData]="teaserDefaultMockData"
+  ></maine-teaser-default>
 </maine-layout-background-content>

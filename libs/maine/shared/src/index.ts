@@ -33,8 +33,10 @@ export * from './lib/ui/card/card-teaser-sticky/card-teaser-sticky.component';
 export * from './lib/ui/card/card-teaser-sticky/card-teaser-sticky.model';
 
 export * from './lib/ui/layout/layout-image/layout-image.component';
+export * from './lib/ui/layout/layout-image/layout-image.model';
 
 export * from './lib/ui/news/news-teaser-default/news-teaser-default.component';
+export * from './lib/ui/news/news-teaser-default/news-teaser-default.model';
 
 export * from './lib/ui/card/card-date/card-date.component';
 
