@@ -1,7 +1,7 @@
 import { HeroDefaultConfig } from '@siera-dev/maine-shared';
 
 export const MockHeroDefault: HeroDefaultConfig = {
-  heroHeadingText: `Every dog deserves a <span class="ma-heroDefault__highlight">second chance</span> to run, play, and belong`,
+  heroHeadingText: `Every dog deserves a <span class="ma-hero-default__highlight">second chance</span> to run, play, and belong`,
   heroImage: {
     imagePath: 'images/joey-1.png',
     imageAlt: 'Joey Dog Shelter Illustration',
@@ -31,7 +31,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
 };
 
 export const MockHeroDefault2: HeroDefaultConfig = {
-  heroHeadingText: `A joyful <span class="ma-heroDefault__highlight">sanctuary</span> where dogs heal, grow, and rediscover happiness`,
+  heroHeadingText: `A joyful <span class="ma-hero-default__highlight">sanctuary</span> where dogs heal, grow, and rediscover happiness`,
   heroImage: {
     imagePath: 'images/joey-2.png',
     imageAlt: 'Joey Dog Sanctuary Landscape Illustration',
