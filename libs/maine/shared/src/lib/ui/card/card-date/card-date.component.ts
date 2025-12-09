@@ -12,12 +12,12 @@ import { CardDateConfig } from './card-date.model';
 })
 export class CardDateComponent {
   cardDatePlaceholder: CardDateConfig = {
-    cardUrl: '',
-    cardDate: '',
-    cardContentTitle: { text: 'News' },
-    cardContentBody: {
-      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In labore inventore iste facere quasi mollitia, iure harum excepturi, aspernatur ipsam, reiciendis error repudiandae iusto maiores.',
-    },
+    cardUrl: '/',
+    cardDateDay: '14',
+    cardDateMonth: 'Jun',
+    cardContentTitle: 'News',
+    cardContentBody:
+      'Offshore wind leaders and the Carbon Trust to develop first industry-backed method for calculating life cycle carbon footprints',
   };
 
   @Input() cardDateData: CardDateConfig = this.cardDatePlaceholder;

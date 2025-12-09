@@ -17,39 +17,35 @@ export class NewsTeaserDefaultComponent {
     news: [
       {
         cardUrl: '/',
-        cardDate: 'test',
-        cardContentTitle: { text: 'News' },
-        cardContentBody: { text: 'This is a body.' },
+        cardDateDay: '14',
+        cardDateMonth: 'Jun',
+        cardContentTitle: 'News',
+        cardContentBody:
+          'Offshore wind leaders and the Carbon Trust to develop first industry-backed method for calculating life cycle carbon footprints',
       },
       {
         cardUrl: '/',
-        cardDate: 'test',
-        cardContentTitle: { text: 'News' },
-        cardContentBody: { text: 'This is a body.' },
+        cardDateDay: '14',
+        cardDateMonth: 'Jun',
+        cardContentTitle: 'News',
+        cardContentBody:
+          'Offshore wind leaders and the Carbon Trust to develop first industry-backed method for calculating life cycle carbon footprints',
       },
       {
         cardUrl: '/',
-        cardDate: 'test',
-        cardContentTitle: { text: 'News' },
-        cardContentBody: { text: 'This is a body.' },
+        cardDateDay: '14',
+        cardDateMonth: 'Jun',
+        cardContentTitle: 'News',
+        cardContentBody:
+          'Offshore wind leaders and the Carbon Trust to develop first industry-backed method for calculating life cycle carbon footprints',
       },
       {
         cardUrl: '/',
-        cardDate: 'test',
-        cardContentTitle: { text: 'News' },
-        cardContentBody: { text: 'This is a body.' },
-      },
-      {
-        cardUrl: '/',
-        cardDate: 'test',
-        cardContentTitle: { text: 'News' },
-        cardContentBody: { text: 'This is a body.' },
-      },
-      {
-        cardUrl: '/',
-        cardDate: 'test',
-        cardContentTitle: { text: 'News' },
-        cardContentBody: { text: 'This is a body.' },
+        cardDateDay: '14',
+        cardDateMonth: 'Jun',
+        cardContentTitle: 'News',
+        cardContentBody:
+          'Offshore wind leaders and the Carbon Trust to develop first industry-backed method for calculating life cycle carbon footprints',
       },
     ],
     cta: {

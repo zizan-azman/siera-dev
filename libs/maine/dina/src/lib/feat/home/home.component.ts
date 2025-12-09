@@ -19,6 +19,8 @@ import {
 import { MockHeroDefault } from '../../mock/hero-default.mock';
 import { MockCardTeasers } from '../../mock/card-teasers.mock';
 import { MockCardTeaserSticky } from '../../mock/card-teaser-sticky.mock';
+import { MockNewsTeaserDefault } from '../../mock/news-teaser-default.mock';
+import { MockLayoutImage } from '../../mock/layout-image.mock';
 
 @Component({
   selector: 'dina-home',
@@ -42,7 +44,7 @@ export class HomeComponent {
   cardTeasersMockData: CardTeaserConfig[] = MockCardTeasers;
   // cardGhostTeaserMockData: CardTeaserConfig = MockCardGhostTeaser;
   cardTeaserStickyMockData: CardTeaserStickyConfig = MockCardTeaserSticky;
-  // layoutImageMockData: LayoutImageConfig = MockLayoutImage;
-  // newsTeaserDefaultMockData: NewsTeaserDefaultConfig = MockNewsTeaserDefault;
+  layoutImageMockData: LayoutImageConfig = MockLayoutImage;
+  newsTeaserDefaultMockData: NewsTeaserDefaultConfig = MockNewsTeaserDefault;
   // teaserDefaultMockData: TeaserDefaultConfig = MockTeaserDefault;
 }

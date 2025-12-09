@@ -1,14 +1,14 @@
 <a [routerLink]="cardDateData.cardUrl" class="ma-card-date">
   <div class="ma-card-date__date-container">
-    <div class="ma-card-date__day">14</div>
-    <div class="ma-card-date__month">Jun</div>
+    <div class="ma-card-date__day">{{ cardDateData.cardDateDay }}</div>
+    <div class="ma-card-date__month">{{ cardDateData.cardDateMonth }}</div>
   </div>
   <div class="ma-card-date__content">
     <div class="ma-card-date__title">
-      {{ cardDateData.cardContentTitle.text }}
+      {{ cardDateData.cardContentTitle }}
     </div>
     <p class="ma-card-date__paragraph">
-      {{ cardDateData.cardContentBody.text }}
+      {{ cardDateData.cardContentBody }}
     </p>
   </div>
 </a>

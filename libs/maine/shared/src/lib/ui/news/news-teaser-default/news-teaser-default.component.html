@@ -9,7 +9,7 @@
 
     <div class="ma-news-teaser__news-container">
       @for(item of newsTeaserDefaultData.news; track item.cardContentBody ){
-      <maine-card-date></maine-card-date>
+      <maine-card-date [cardDateData]="item"></maine-card-date>
       }
     </div>
     <maine-link-arrow
