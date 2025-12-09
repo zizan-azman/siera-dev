@@ -4,6 +4,7 @@ import {
   CardTeaserComponent,
   CardTeaserConfig,
   CardTeaserStickyComponent,
+  CardTeaserStickyConfig,
   HeroDefaultComponent,
   HeroDefaultConfig,
   LayoutBackgroundContentComponent,
@@ -15,6 +16,7 @@ import {
 import { MockCardTeasers } from '../../mock/card-teasers.mock';
 import { MockCardGhostTeaser } from '../../mock/card-ghost-teaser.mock';
 import { MockHeroDefault } from '../../mock/hero-default.mock';
+import { MockCardTeaserSticky } from '../../mock/card-teaser-sticky.mock';
 
 @Component({
   selector: 'siera-my-home',
@@ -37,4 +39,5 @@ export class HomeComponent {
   heroDefaultMockData: HeroDefaultConfig = MockHeroDefault;
   cardTeasersMockData: CardTeaserConfig[] = MockCardTeasers;
   cardGhostTeaserMockData: CardTeaserConfig = MockCardGhostTeaser;
+  cardTeaserStickyMockData: CardTeaserStickyConfig = MockCardTeaserSticky;
 }

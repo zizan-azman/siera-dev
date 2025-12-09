@@ -20,9 +20,22 @@
           {
             "glob": "**/*",
             "input": "apps/maine/dina/dina/public"
+          },
+          {
+            "glob": "**/*",
+            "input": "apps/maine/dina/dina/src/assets",
+            "output": "dina-assets"
+          },
+          {
+            "glob": "**/*",
+            "input": "libs/maine/shared/src/lib/assets",
+            "output": "maine-assets"
           }
         ],
-        "styles": ["apps/maine/dina/dina/src/styles.scss"],
+        "styles": ["apps/maine/dina/dina/src/styles/styles.scss"],
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/maine/shared/src/lib/styles"]
+        },
         "scripts": []
       },
       "configurations": {
