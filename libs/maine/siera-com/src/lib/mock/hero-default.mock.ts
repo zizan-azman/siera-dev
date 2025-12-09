@@ -3,7 +3,7 @@ import { HeroDefaultConfig } from '@siera-dev/maine-shared';
 export const MockHeroDefault: HeroDefaultConfig = {
   heroHeadingText: `A serene <span class="ma-hero-default__highlight">sanctuary</span> where every cat thrives`,
   heroImage: {
-    imagePath: 'images/siera-1.png',
+    imagePath: 'maine-assets/images/siera-1.png',
     imageAlt: 'Siera Cat Sanctuary 2D Illustration',
     imagePriority: 'high',
   },
@@ -33,7 +33,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
 export const MockHeroDefault2: HeroDefaultConfig = {
   heroHeadingText: `Protecting vulnerable <span class="ma-hero-default__highlight">cats</span> — and giving them a second chance at life`,
   heroImage: {
-    imagePath: 'images/siera-2.png',
+    imagePath: 'maine-assets/images/siera-2.png',
     imageAlt: 'Siera Cat Sanctuary Illustration',
     imagePriority: 'high',
   },

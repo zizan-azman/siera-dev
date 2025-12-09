@@ -11,5 +11,5 @@ export const MockNavbarDefault: NavbarDefaultConfig = {
     { linkText: 'What we do', linkUrl: '/what-we-do' },
     { linkText: 'News', linkUrl: '/news' },
   ],
-  navbarDefaultContentEnd: { showAllWebsites: true, showModeSwitcher: true },
+  navbarDefaultContentEnd: { showAllWebsites: false, showModeSwitcher: true },
 };

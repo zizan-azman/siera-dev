@@ -1,6 +1,6 @@
 import { CardTeaserConfig } from '@siera-dev/maine-shared';
 
-export const MockCardTeasersDinaCom: CardTeaserConfig[] = [
+export const MockCardTeasers: CardTeaserConfig[] = [
   // --- Top Row (2 cards) ---
   {
     cardsType: 'default',
