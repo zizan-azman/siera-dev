@@ -14,13 +14,15 @@ import { CardDefaultComponent } from '../card-default/card-default.component';
 })
 export class CardTeaserStickyComponent {
   cardTeaserStickyPlaceholder: CardTeaserStickyConfig = {
-    heading: `We are a
-      <span class="ma-color--primary">renewable energy</span> company
-      with a clear vision to create a world that runs entirely on green energy.`,
+    heading: `We provide countries and companies with green energy. Find out about the different
+      <span class="ma-color--primary">renewable energy technologies</span>, their benefits, projected growth, and locations.`,
     cta: {
       type: 'outline',
       url: '/',
-      linkDefaultText: { text: 'Read more', textSize: 'default' },
+      linkDefaultText: {
+        text: 'Renewable energy solutions',
+        textSize: 'default',
+      },
     },
     cardsType: 'default',
     cards: [
@@ -32,9 +34,9 @@ export class CardTeaserStickyComponent {
           alt: 'Test',
           priority: 'low',
         },
-        cardContentTitle: { text: 'Title' },
+        cardContentTitle: { text: 'Offshore wind energy' },
         cardContentBody: {
-          text: `Siera is equipped with spacious and comfortable indoor shelter.`,
+          text: `Using the wind to create electricity in turbines built on the seabed.`,
         },
         cardContentIcon: { color: 'primary', path: 'paw' },
       },
@@ -46,9 +48,9 @@ export class CardTeaserStickyComponent {
           alt: 'Test',
           priority: 'low',
         },
-        cardContentTitle: { text: 'New' },
+        cardContentTitle: { text: 'Floating offshore wind' },
         cardContentBody: {
-          text: `Beautiful.`,
+          text: `Mooring wind turbines to the seabed in deeper waters.`,
         },
         cardContentIcon: { color: 'primary', path: 'paw' },
       },
@@ -60,9 +62,9 @@ export class CardTeaserStickyComponent {
           alt: 'Test',
           priority: 'low',
         },
-        cardContentTitle: { text: 'Title' },
+        cardContentTitle: { text: 'Power-to-X' },
         cardContentBody: {
-          text: `Siera is equipped with spacious and comfortable indoor shelter.`,
+          text: `Renewable hydrogen and other green fuels.`,
         },
         cardContentIcon: { color: 'primary', path: 'paw' },
       },
@@ -74,9 +76,9 @@ export class CardTeaserStickyComponent {
           alt: 'Test',
           priority: 'low',
         },
-        cardContentTitle: { text: 'New' },
+        cardContentTitle: { text: 'Onshore wind energy' },
         cardContentBody: {
-          text: `Beautiful.`,
+          text: `Generating power from wind turbines on land.`,
         },
         cardContentIcon: { color: 'primary', path: 'paw' },
       },
@@ -88,9 +90,9 @@ export class CardTeaserStickyComponent {
           alt: 'Test',
           priority: 'low',
         },
-        cardContentTitle: { text: 'Title' },
+        cardContentTitle: { text: 'Solar and Storage' },
         cardContentBody: {
-          text: `Siera is equipped with spacious and comfortable indoor shelter.`,
+          text: `Using solar power and batteries to maintain a stable electric grid.`,
         },
         cardContentIcon: { color: 'primary', path: 'paw' },
       },
@@ -102,9 +104,9 @@ export class CardTeaserStickyComponent {
           alt: 'Test',
           priority: 'low',
         },
-        cardContentTitle: { text: 'New' },
+        cardContentTitle: { text: 'Biomass energy' },
         cardContentBody: {
-          text: `Beautiful.`,
+          text: `Burning organic matter for Danish heating and backup power.`,
         },
         cardContentIcon: { color: 'primary', path: 'paw' },
       },

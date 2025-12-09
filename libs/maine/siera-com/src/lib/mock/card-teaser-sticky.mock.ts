@@ -1,13 +1,15 @@
 import { CardTeaserStickyConfig } from '@siera-dev/maine-shared';
 
 export const MockCardTeaserSticky: CardTeaserStickyConfig = {
-  heading: `We are a
-      <span class="ma-color--primary">renewable energy</span> company
-      with a clear vision to create a world that runs entirely on green energy.`,
+  heading: `Discover how Siera provides world-class care for cats through specialised
+      <span class="ma-color--primary">rescue, rehabilitation, and adoption services</span>. Explore our core programmes and how they help create safer futures.`,
   cta: {
     type: 'outline',
     url: '/',
-    linkDefaultText: { text: 'Read more', textSize: 'default' },
+    linkDefaultText: {
+      text: 'Explore our care programmes',
+      textSize: 'default',
+    },
   },
   cardsType: 'default',
   cards: [
@@ -16,12 +18,12 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardURL: '/',
       cardImage: {
         path: 'maine-assets/images/siera-2.png',
-        alt: 'Test',
+        alt: 'Siera rescue programme',
         priority: 'low',
       },
-      cardContentTitle: { text: 'Title' },
+      cardContentTitle: { text: 'Rescue & Recovery' },
       cardContentBody: {
-        text: `Siera is equipped with spacious and comfortable indoor shelter.`,
+        text: `Emergency response for abandoned, injured, or unsafe-condition cats.`,
       },
       cardContentIcon: { color: 'primary', path: 'paw' },
     },
@@ -30,12 +32,12 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardURL: '/',
       cardImage: {
         path: 'maine-assets/images/siera-1.png',
-        alt: 'Test',
+        alt: 'Siera medical care',
         priority: 'low',
       },
-      cardContentTitle: { text: 'New' },
+      cardContentTitle: { text: 'Veterinary Care' },
       cardContentBody: {
-        text: `Beautiful.`,
+        text: `From diagnostics to long-term treatment, our vets ensure holistic wellbeing.`,
       },
       cardContentIcon: { color: 'primary', path: 'paw' },
     },
@@ -44,12 +46,12 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardURL: '/',
       cardImage: {
         path: 'maine-assets/images/siera-2.png',
-        alt: 'Test',
+        alt: 'Siera behavioural programme',
         priority: 'low',
       },
-      cardContentTitle: { text: 'Title' },
+      cardContentTitle: { text: 'Behavioural Rehabilitation' },
       cardContentBody: {
-        text: `Siera is equipped with spacious and comfortable indoor shelter.`,
+        text: `Gentle socialisation and training for traumatised or timid cats.`,
       },
       cardContentIcon: { color: 'primary', path: 'paw' },
     },
@@ -58,12 +60,12 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardURL: '/',
       cardImage: {
         path: 'maine-assets/images/siera-1.png',
-        alt: 'Test',
+        alt: 'Siera adoption system',
         priority: 'low',
       },
-      cardContentTitle: { text: 'New' },
+      cardContentTitle: { text: 'Ethical Adoption' },
       cardContentBody: {
-        text: `Beautiful.`,
+        text: `Guided matching to ensure every cat joins a safe and committed home.`,
       },
       cardContentIcon: { color: 'primary', path: 'paw' },
     },
@@ -72,12 +74,12 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardURL: '/',
       cardImage: {
         path: 'maine-assets/images/siera-2.png',
-        alt: 'Test',
+        alt: 'Siera sanctuary environment',
         priority: 'low',
       },
-      cardContentTitle: { text: 'Title' },
+      cardContentTitle: { text: 'Open-Habitat Sanctuary' },
       cardContentBody: {
-        text: `Siera is equipped with spacious and comfortable indoor shelter.`,
+        text: `Nature-inspired spaces designed for comfort, freedom, and enrichment.`,
       },
       cardContentIcon: { color: 'primary', path: 'paw' },
     },
@@ -86,12 +88,12 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardURL: '/',
       cardImage: {
         path: 'maine-assets/images/siera-1.png',
-        alt: 'Test',
+        alt: 'Siera community initiative',
         priority: 'low',
       },
-      cardContentTitle: { text: 'New' },
+      cardContentTitle: { text: 'Community Education' },
       cardContentBody: {
-        text: `Beautiful.`,
+        text: `Workshops and outreach programmes promoting ethical cat care.`,
       },
       cardContentIcon: { color: 'primary', path: 'paw' },
     },
