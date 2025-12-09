@@ -1,14 +1,14 @@
-<div class="ma-heroDefault ma-custom-grid-layout">
-  <div class="ma-heroDefault__heading" [innerHTML]="safeHeadingText()"></div>
+<div class="ma-hero-default ma-custom-grid-layout">
+  <div class="ma-hero-default__heading" [innerHTML]="safeHeadingText()"></div>
   <img
-    class="ma-heroDefault__image"
+    class="ma-hero-default__image"
     [ngSrc]="'maine-assets/' + heroDefaultData.heroImage.imagePath"
     [alt]="heroDefaultData.heroImage.imagePath"
     width="720"
     height="720"
     [priority]="heroDefaultData.heroImage.imagePriority"
   />
-  <div class="ma-heroDefault__content-middle-container">
+  <div class="ma-hero-default__content-middle-container">
     <p>
       {{ heroDefaultData.heroContentMiddle.contentText }}
     </p>
@@ -22,7 +22,7 @@
     ></maine-link-arrow>
     }
   </div>
-  <div class="ma-heroDefault__content-end-container">
+  <div class="ma-hero-default__content-end-container">
     <h4 [innerHTML]="safeContentEndText()"></h4>
     @if (heroDefaultData.heroContentEnd.ctaDefault) {
     <maine-link-default

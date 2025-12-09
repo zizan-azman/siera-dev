@@ -10,12 +10,12 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardURL: '/',
         cardImage: {
           path: 'maine-assets/images/siera-2.png',
-          alt: 'Siera cat sanctuary',
+          alt: 'Joey dog rescue',
           priority: 'low',
         },
-        cardContentTitle: { text: 'A Second Chance for Every Cat' },
+        cardContentTitle: { text: 'Giving Every Dog a Second Chance' },
         cardContentBody: {
-          text: `Discover how our rescue team rehabilitates vulnerable cats from unsafe environments and prepares them for a healthier, happier future.`,
+          text: `Our rescue team provides safety, medical care, and emotional support to dogs rescued from the streets or surrendered by owners.`,
         },
       },
       {
@@ -23,12 +23,12 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardURL: '/',
         cardImage: {
           path: 'maine-assets/images/siera-1.png',
-          alt: 'Siera sanctuary environment',
+          alt: 'Joey dog sanctuary',
           priority: 'low',
         },
-        cardContentTitle: { text: 'Where Nature Meets Compassion' },
+        cardContentTitle: { text: 'A Sanctuary Filled With Hope' },
         cardContentBody: {
-          text: `Explore our open-habitat sanctuary designed to give cats the freedom, comfort, and care they need — while offering visitors a meaningful experience.`,
+          text: `Each dog in our care enjoys clean spaces, enrichment activities, and loving interaction designed to rebuild trust and confidence.`,
         },
       },
     ],
@@ -43,12 +43,12 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardURL: '/',
         cardImage: {
           path: 'maine-assets/images/siera-2.png',
-          alt: 'Cat adoption program',
+          alt: 'Joey adoption program',
           priority: 'low',
         },
-        cardContentTitle: { text: 'Find Your New Best Friend' },
+        cardContentTitle: { text: 'Find Your Forever Companion' },
         cardContentBody: {
-          text: `Meet cats ready for adoption and learn how our guided process ensures the perfect match between humans and their future companions.`,
+          text: `Our guided adoption process helps families connect with dogs that match their lifestyle, personality, and care capacity.`,
         },
       },
       {
@@ -56,12 +56,12 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardURL: '/',
         cardImage: {
           path: 'maine-assets/images/siera-1.png',
-          alt: 'Veterinary services',
+          alt: 'Joey veterinary care',
           priority: 'low',
         },
-        cardContentTitle: { text: 'Care That Goes Beyond Shelter' },
+        cardContentTitle: { text: 'Health-Centred, Heart-Led Care' },
         cardContentBody: {
-          text: `From medical treatment to long-term support, our veterinary team champions the wellbeing of every cat that enters our sanctuary.`,
+          text: `From vaccinations to rehabilitation, our veterinary team supports every dog's physical and emotional wellbeing.`,
         },
       },
       {
@@ -69,12 +69,12 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardURL: '/',
         cardImage: {
           path: 'maine-assets/images/siera-1.png',
-          alt: 'Community programmes',
+          alt: 'Joey community outreach',
           priority: 'low',
         },
-        cardContentTitle: { text: 'Building a Caring Community' },
+        cardContentTitle: { text: 'Creating a Kinder Community' },
         cardContentBody: {
-          text: `Join our workshops, tours, and outreach programmes designed to educate the public on responsible cat care and ethical animal welfare.`,
+          text: `Join our events and educational programmes to help raise awareness on responsible pet ownership and animal welfare.`,
         },
       },
     ],
@@ -89,12 +89,12 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardURL: '/',
         cardImage: {
           path: 'maine-assets/images/siera-2.png',
-          alt: 'Visitor pass experience',
+          alt: 'Joey shelter visit',
           priority: 'low',
         },
-        cardContentTitle: { text: 'A Place to Relax, Learn, and Connect' },
+        cardContentTitle: { text: 'Visit, Volunteer, Make an Impact' },
         cardContentBody: {
-          text: `Book a visit to Siera and experience a peaceful environment where cats roam safely and visitors can enjoy guided sessions with our caretakers.`,
+          text: `Experience our shelter firsthand and discover how spending time with our dogs contributes to their social development.`,
         },
       },
       {
@@ -102,12 +102,12 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardURL: '/',
         cardImage: {
           path: 'maine-assets/images/siera-1.png',
-          alt: 'Sanctuary impact highlight',
+          alt: 'Joey impact support',
           priority: 'low',
         },
-        cardContentTitle: { text: 'Your Support Makes a Difference' },
+        cardContentTitle: { text: 'Your Support Saves Lives' },
         cardContentBody: {
-          text: `Learn how community contributions help us expand our rescue efforts, enhance our habitats, and provide essential care to cats in need.`,
+          text: `Every donation, adoption, and act of volunteerism helps us rescue more dogs and build a safe environment for them to thrive.`,
         },
       },
     ],
