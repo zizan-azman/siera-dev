@@ -8,6 +8,16 @@
     background-color: var(--background-color);
   }
 
+  &--spacing-xs {
+    padding-top: px-to-rem(20px, 16px);
+    padding-bottom: px-to-rem(20px, 16px);
+
+    @include media-min('md') {
+      padding-top: px-to-rem(40px, 16px);
+      padding-bottom: px-to-rem(40px, 16px);
+    }
+  }
+
   &--spacing-sm {
     padding-top: px-to-rem(40px, 16px);
     padding-bottom: px-to-rem(40px, 16px);

@@ -1,0 +1,20 @@
+<div class="ma-teaser-image ma-custom-grid-layout">
+  <div class="ma-teaser-image__img-container">
+    <img
+      [src]="teaserImageData.imgURL"
+      [alt]="teaserImageData.imgAlt"
+      class="ma-teaser-image__img"
+    />
+  </div>
+  <div class="ma-teaser-image__content">
+    <h6
+      class="ma-teaser-image__heading"
+      [innerHTML]="safeContentEndText()"
+    ></h6>
+    @if(teaserImageData.ctaDefault){
+    <maine-link-default
+      [linkDefaultData]="teaserImageData.ctaDefault"
+    ></maine-link-default>
+    }
+  </div>
+</div>

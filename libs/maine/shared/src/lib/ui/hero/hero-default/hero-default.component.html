@@ -1,5 +1,7 @@
 <div class="ma-hero-default ma-custom-grid-layout">
+  @if(heroDefaultData.heroHeading){
   <div class="ma-hero-default__heading" [innerHTML]="safeHeadingText()"></div>
+  }
   <img
     class="ma-hero-default__image"
     [ngSrc]="heroDefaultData.heroImage.imagePath"

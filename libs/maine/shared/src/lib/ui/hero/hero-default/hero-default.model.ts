@@ -21,6 +21,7 @@ export interface HeroDefaultContentEnd {
 
 export interface HeroDefaultConfig {
   heroHeadingText: string;
+  heroHeading: boolean;
   heroImage: HeroDefaultImage;
   heroContentMiddle: HeroDefaultContentMiddle;
   heroContentEnd: HeroDefaultContentEnd;

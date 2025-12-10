@@ -20,7 +20,9 @@ export class LayoutDefaultComponent {
     this.layoutDefaultSpacingPlaceholder;
 
   getSpacing() {
-    if (this.spacing === 'small') {
+    if (this.spacing === 'extra-small') {
+      return 'spacing-xs';
+    } else if (this.spacing === 'small') {
       return 'spacing-sm';
     } else {
       return 'spacing-md';

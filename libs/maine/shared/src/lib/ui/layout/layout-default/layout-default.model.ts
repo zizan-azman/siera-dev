@@ -1,4 +1,4 @@
 export interface LayoutDefaultConfig {
   bgColor: 'default' | 'subtle';
-  spacing: 'small' | 'medium';
+  spacing: 'extra-small' | 'small' | 'medium';
 }
