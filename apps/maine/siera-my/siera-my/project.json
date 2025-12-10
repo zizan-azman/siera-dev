@@ -23,6 +23,11 @@
           },
           {
             "glob": "**/*",
+            "input": "apps/maine/siera-my/siera-my/src/assets",
+            "output": "siera-my-assets"
+          },
+          {
+            "glob": "**/*",
             "input": "libs/maine/shared/src/lib/assets",
             "output": "maine-assets"
           }

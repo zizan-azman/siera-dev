@@ -3,8 +3,8 @@ import { HeroDefaultConfig } from '@siera-dev/maine-shared';
 export const MockHeroDefault: HeroDefaultConfig = {
   heroHeadingText: `Perlindungan dan <span class="ma-hero-default__highlight">kasih sayang</span> untuk setiap kucing yang memerlukan`,
   heroImage: {
-    imagePath: 'maine-assets/images/siera-1.png',
-    imageAlt: 'Ilustrasi Pusat Perlindungan Kucing Siera',
+    imagePath: 'siera-my-assets/images/hero/siera-shelter-1.jpg',
+    imageAlt: 'Ilustrasi Pusat Perlindungan Kucing Siera di Malaysia',
     imagePriority: 'high',
   },
   heroContentMiddle: {
