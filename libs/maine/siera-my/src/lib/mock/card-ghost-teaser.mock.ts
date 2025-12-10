@@ -1,7 +1,7 @@
 import { CardTeaserConfig } from '@siera-dev/maine-shared';
 
 export const MockCardGhostTeaser: CardTeaserConfig = {
-  heading: 'Learn more about Siera',
+  heading: 'Tentang Kami',
   cardsType: 'ghost',
   cards: [
     {
@@ -9,12 +9,12 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardURL: '/',
       cardImage: {
         path: 'maine-assets/images/siera-2.png',
-        alt: 'Test',
+        alt: 'Siapa kami',
         priority: 'low',
       },
-      cardContentTitle: { text: 'Title' },
+      cardContentTitle: { text: 'Siapa kami' },
       cardContentBody: {
-        text: `Siera is equipped with spacious and comfortable indoor shelter.`,
+        text: `Siera.my ialah pusat perlindungan kucing yang memberi tumpuan kepada penyelamatan, rawatan, dan perlindungan berterusan untuk kucing terbiar di Malaysia.`,
       },
     },
     {
@@ -22,12 +22,12 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardURL: '/',
       cardImage: {
         path: 'maine-assets/images/siera-1.png',
-        alt: 'Test',
+        alt: 'Misi Siera.my',
         priority: 'low',
       },
-      cardContentTitle: { text: 'New' },
+      cardContentTitle: { text: 'Misi kami' },
       cardContentBody: {
-        text: `Beautiful.`,
+        text: `Kami berusaha menyediakan penjagaan veterinar mampu milik, meningkatkan kesedaran masyarakat, dan membantu lebih banyak kucing mendapatkan kehidupan lebih baik.`,
       },
     },
     {
@@ -35,12 +35,12 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardURL: '/',
       cardImage: {
         path: 'maine-assets/images/siera-1.png',
-        alt: 'Test',
+        alt: 'Cara operasi kami',
         priority: 'low',
       },
-      cardContentTitle: { text: 'New' },
+      cardContentTitle: { text: 'Cara kami beroperasi' },
       cardContentBody: {
-        text: `Beautiful.`,
+        text: `Dengan pasukan sukarelawan dan doktor bertauliah, kami memastikan setiap kucing menerima perhatian, keselesaan dan rawatan sewajarnya.`,
       },
     },
     {
@@ -48,12 +48,12 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardURL: '/',
       cardImage: {
         path: 'maine-assets/images/siera-1.png',
-        alt: 'Test',
+        alt: 'Inisiatif komuniti',
         priority: 'low',
       },
-      cardContentTitle: { text: 'New' },
+      cardContentTitle: { text: 'Komuniti & tanggungjawab' },
       cardContentBody: {
-        text: `Beautiful.`,
+        text: `Kami menjalankan program komuniti menjangkau sekolah, perumahan dan komuniti setempat bagi memupuk penjagaan kucing beretika.`,
       },
     },
   ],

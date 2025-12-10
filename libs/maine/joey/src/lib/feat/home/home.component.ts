@@ -14,12 +14,15 @@ import {
   NewsTeaserDefaultComponent,
   NewsTeaserDefaultConfig,
   TeaserDefaultComponent,
+  TeaserDefaultConfig,
 } from '@siera-dev/maine-shared';
 import { MockHeroDefault } from '../../mock/hero-default.mock';
 import { MockCardTeasers } from '../../mock/card-teasers.mock';
 import { MockCardTeaserSticky } from '../../mock/card-teaser-sticky.mock';
 import { MockLayoutImage } from '../../mock/layout-image.mock';
 import { MockNewsTeaserDefault } from '../../mock/news-teaser-default.mock';
+import { MockCardGhostTeaser } from '../../mock/card-ghost-teaser.mock';
+import { MockTeaserDefault } from '../../mock/teaser-default.mock';
 
 @Component({
   selector: 'joey-home',
@@ -41,9 +44,9 @@ import { MockNewsTeaserDefault } from '../../mock/news-teaser-default.mock';
 export class HomeComponent {
   heroDefaultMockData: HeroDefaultConfig = MockHeroDefault;
   cardTeasersMockData: CardTeaserConfig[] = MockCardTeasers;
-  // cardGhostTeaserMockData: CardTeaserConfig = MockCardGhostTeaser;
+  cardGhostTeaserMockData: CardTeaserConfig = MockCardGhostTeaser;
   cardTeaserStickyMockData: CardTeaserStickyConfig = MockCardTeaserSticky;
   layoutImageMockData: LayoutImageConfig = MockLayoutImage;
   newsTeaserDefaultMockData: NewsTeaserDefaultConfig = MockNewsTeaserDefault;
-  // teaserDefaultMockData: TeaserDefaultConfig = MockTeaserDefault;
+  teaserDefaultMockData: TeaserDefaultConfig = MockTeaserDefault;
 }

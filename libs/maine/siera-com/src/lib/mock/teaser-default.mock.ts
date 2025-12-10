@@ -1,12 +1,21 @@
 import { TeaserDefaultConfig } from '@siera-dev/maine-shared';
 
 export const MockTeaserDefault: TeaserDefaultConfig = {
-  heading: `We are a
-      <span class="ma-color--primary">renewable energy</span> company
-      with a clear vision to create a world that runs entirely on green energy.`,
+  heading: `Stay connected with
+      <span class="ma-color--primary">cat welfare stories</span> that matter. Get updates on rescues, sanctuary life, and our latest community initiatives.`,
   cta: {
     type: 'outline',
     url: '/',
-    linkDefaultText: { text: 'Read more', textSize: 'default' },
+    linkDefaultText: { text: 'Subscribe for updates', textSize: 'default' },
+  },
+};
+
+export const MockTeaserDefault2: TeaserDefaultConfig = {
+  heading: `Sign up and get the
+      <span class="ma-color--primary">latest</span> details. You'll hear stories from our experts, and we'll update you regularly about our projects, partnerships, and more.`,
+  cta: {
+    type: 'outline',
+    url: '/',
+    linkDefaultText: { text: 'Subscribe to newsletter', textSize: 'default' },
   },
 };
