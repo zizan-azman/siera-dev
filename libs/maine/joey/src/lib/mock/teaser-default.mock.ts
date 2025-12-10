@@ -4,6 +4,7 @@ export const MockTeaserDefault: TeaserDefaultConfig = {
   heading: `Stay close to the stories of our
       <span class="ma-color--primary">rescued dogs</span>. Get updates on new arrivals, healing journeys, adoption events, and volunteer opportunities.`,
   cta: {
+    color: 'default',
     type: 'outline',
     url: '/',
     linkDefaultText: {

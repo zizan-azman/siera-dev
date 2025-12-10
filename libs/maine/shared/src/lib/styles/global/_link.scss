@@ -41,6 +41,14 @@
       color: var(--ma-link-primary-color);
     }
   }
+
+  &--color-default {
+    color: var(--ma-link-text-color);
+  }
+
+  &--color-primary {
+    color: var(--ma-link-primary-color);
+  }
 }
 
 .ma-link-nav {

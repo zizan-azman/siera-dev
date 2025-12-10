@@ -17,6 +17,7 @@ export class CardTeaserStickyComponent {
     heading: `We provide countries and companies with green energy. Find out about the different
       <span class="ma-color--primary">renewable energy technologies</span>, their benefits, projected growth, and locations.`,
     cta: {
+      color: 'default',
       type: 'outline',
       url: '/',
       linkDefaultText: {

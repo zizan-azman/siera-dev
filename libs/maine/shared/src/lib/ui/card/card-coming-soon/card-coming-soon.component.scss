@@ -4,9 +4,16 @@
   --card-coming-soon-border: 3px solid var(--stroke-color);
   --card-coming-soon-padding: var(--spacing-sm) var(--spacing-md);
   --card-coming-soon-border-radius: var(--border-radius-md);
+  --card-coming-soon-headline-margin-bottom: var(--spacing-sm);
 
   &__container {
     grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: var(--card-coming-soon-border);
+    padding: var(--card-coming-soon-padding);
+    border-radius: var(--card-coming-soon-border-radius);
 
     @include media-min('lg') {
       grid-column: 5/9;
@@ -14,9 +21,6 @@
   }
 
   &__headline {
-    border: var(--card-coming-soon-border);
-    padding: var(--card-coming-soon-padding);
-    border-radius: var(--card-coming-soon-border-radius);
-    text-align: center;
+    margin-bottom: var(--card-coming-soon-headline-margin-bottom);
   }
 }

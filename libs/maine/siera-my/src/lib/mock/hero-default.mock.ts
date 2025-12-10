@@ -21,6 +21,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
   heroContentEnd: {
     contentText: `Misi kami adalah untuk membina komuniti penyayang di mana setiap kucing diberi peluang hidup yang lebih baik — dengan keselamatan, penjagaan dan perhatian yang berkualiti.`,
     ctaDefault: {
+      color: 'default',
       url: '/tentang',
       type: 'outline',
       linkDefaultText: {
@@ -52,6 +53,7 @@ export const MockHeroDefault2: HeroDefaultConfig = {
   heroContentEnd: {
     contentText: `Siera menawarkan pengalaman penuh ketenangan dan kasih sayang — satu tempat di mana anda boleh berhubung dengan alam, haiwan, dan komuniti penyayang.`,
     ctaDefault: {
+      color: 'default',
       url: '/tentang',
       type: 'outline',
       linkDefaultText: {

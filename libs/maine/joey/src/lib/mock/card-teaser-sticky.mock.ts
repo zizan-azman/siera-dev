@@ -4,6 +4,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
   heading: `See how Joey.com champions the wellbeing of dogs through dedicated
       <span class="ma-color--primary">rescue, rehabilitation, and rehoming programmes</span>. Explore our initiatives and how they transform lives.`,
   cta: {
+    color: 'default',
     type: 'outline',
     url: '/',
     linkDefaultText: {

@@ -21,6 +21,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
   heroContentEnd: {
     contentText: `Our mission is simple: create a safe, nurturing environment where every dog receives love, care, and the opportunity to find a forever home.`,
     ctaDefault: {
+      color: 'default',
       url: '/about',
       type: 'outline',
       linkDefaultText: {
@@ -52,6 +53,7 @@ export const MockHeroDefault2: HeroDefaultConfig = {
   heroContentEnd: {
     contentText: `At Joey, we believe every dog deserves a life filled with comfort, connection, and joy — supported by a community that truly cares.`,
     ctaDefault: {
+      color: 'default',
       url: '/our-work',
       type: 'outline',
       linkDefaultText: {

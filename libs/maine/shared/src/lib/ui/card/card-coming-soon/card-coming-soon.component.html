@@ -1,5 +1,16 @@
 <div class="ma-card-coming-soon ma-custom-grid-layout">
   <div class="ma-card-coming-soon__container">
-    <div class="h3 ma-card-coming-soon__headline">Coming Soon</div>
+    <div class="h3 ma-card-coming-soon__headline">
+      {{ cardComingSoonData.headlineText }}
+    </div>
+    @if(cardComingSoonData.ctaArrow){
+    <maine-link-arrow
+      [linkArrowData]="cardComingSoonData.ctaArrow"
+    ></maine-link-arrow>
+    } @if(cardComingSoonData.ctaDefault){
+    <maine-link-default
+      [linkDefaultData]="cardComingSoonData.ctaDefault"
+    ></maine-link-default>
+    }
   </div>
 </div>

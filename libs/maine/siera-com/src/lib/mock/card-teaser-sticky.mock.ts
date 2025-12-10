@@ -4,6 +4,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
   heading: `Discover how Siera provides world-class care for cats through specialised
       <span class="ma-color--primary">rescue, rehabilitation, and adoption services</span>. Explore our core programmes and how they help create safer futures.`,
   cta: {
+    color: 'default',
     type: 'outline',
     url: '/',
     linkDefaultText: {

@@ -4,6 +4,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
   heading: `Learn how Dina.com safeguards exotic wildlife through expert-led
       <span class="ma-color--primary">rescue, rehabilitation, and conservation-focused care</span>. Explore our core missions and the animals we protect.`,
   cta: {
+    color: 'default',
     type: 'outline',
     url: '/',
     linkDefaultText: {

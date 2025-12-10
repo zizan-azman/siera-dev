@@ -52,6 +52,7 @@ export * from './lib/ui/website/website-teaser/website-teaser.component';
 export * from './lib/ui/website/website-teaser/website-teaser.model';
 
 export * from './lib/ui/card/card-coming-soon/card-coming-soon.component';
+export * from './lib/ui/card/card-coming-soon/card-coming-soon.model';
 
 export * from './lib/ui/teaser/teaser-image/teaser-image.component';
 export * from './lib/ui/teaser/teaser-image/teaser-image.model';

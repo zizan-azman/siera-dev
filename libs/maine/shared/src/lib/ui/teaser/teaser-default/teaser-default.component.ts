@@ -17,6 +17,7 @@ export class TeaserDefaultComponent {
       <span class="ma-color--primary">renewable energy</span> company
       with a clear vision to create a world that runs entirely on green energy.`,
     cta: {
+      color: 'default',
       type: 'outline',
       url: '/',
       linkDefaultText: { text: 'Read more', textSize: 'default' },

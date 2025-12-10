@@ -21,6 +21,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
   heroContentEnd: {
     contentText: `Our mission is to offer responsible, ethical care for endangered and vulnerable species — ensuring every rescued animal receives safety, dignity, and a chance to recover.`,
     ctaDefault: {
+      color: 'default',
       url: '/about',
       type: 'outline',
       linkDefaultText: {
@@ -52,6 +53,7 @@ export const MockHeroDefault2: HeroDefaultConfig = {
   heroContentEnd: {
     contentText: `We are committed to preserving wildlife diversity through ethical sanctuary care, education, and conservation efforts that safeguard species for future generations.`,
     ctaDefault: {
+      color: 'default',
       url: '/initiatives',
       type: 'outline',
       linkDefaultText: {

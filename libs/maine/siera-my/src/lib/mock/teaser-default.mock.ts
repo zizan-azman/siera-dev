@@ -4,6 +4,7 @@ export const MockTeaserDefault: TeaserDefaultConfig = {
   heading: `Dapatkan berita terkini tentang
       <span class="ma-color--primary">penyelamatan, penjagaan</span> dan komuniti kucing di Malaysia. Cerita pendek, info berguna dan kemas kini terus ke inbox anda.`,
   cta: {
+    color: 'default',
     type: 'outline',
     url: '/',
     linkDefaultText: { text: 'Langgan berita Siera', textSize: 'default' },

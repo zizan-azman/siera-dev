@@ -1,6 +1,8 @@
 <a
   [routerLink]="linkDefaultData.url"
-  class="ma-link ma-link--{{ linkDefaultData.type }}"
+  class="ma-link ma-link--{{ linkDefaultData.type }} ma-link--color-{{
+    linkDefaultData.color
+  }}"
 >
   @if(linkDefaultData.linkDefaultPrefixIcon){
   <svg width="24" height="24" class="ma-icon">

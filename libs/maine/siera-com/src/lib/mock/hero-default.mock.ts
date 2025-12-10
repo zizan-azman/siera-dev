@@ -21,6 +21,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
   heroContentEnd: {
     contentText: `Siera is dedicated to creating a compassionate and sustainable environment where cats receive world-class care — and people connect with nature in a whole new way.`,
     ctaDefault: {
+      color: 'default',
       url: '',
       type: 'outline',
       linkDefaultText: {
@@ -52,6 +53,7 @@ export const MockHeroDefault2: HeroDefaultConfig = {
   heroContentEnd: {
     contentText: `At Siera, we believe every cat deserves comfort, safety, and dignity — and we're committed to making that a reality through compassionate, global-first care.`,
     ctaDefault: {
+      color: 'default',
       url: '/about',
       type: 'outline',
       linkDefaultText: {

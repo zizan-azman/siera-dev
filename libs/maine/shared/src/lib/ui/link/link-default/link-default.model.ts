@@ -11,7 +11,7 @@ export interface LinkDefaultSuffixIcon {
 }
 
 export interface LinkDefaultConfig {
-  // color: 'primary' | 'secondary' | 'cool';
+  color: 'primary' | 'default';
   url: string;
   type: 'fill' | 'outline' | 'ghost';
   linkDefaultText?: LinkDefaultText;

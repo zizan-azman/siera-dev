@@ -4,6 +4,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
   heading: `Memperkasa penjagaan kucing di Malaysia melalui
       <span class="ma-color--primary">penyelamatan, pemulihan, dan sokongan komuniti</span> yang berkesan.`,
   cta: {
+    color: 'default',
     type: 'outline',
     url: '/',
     linkDefaultText: {
@@ -104,6 +105,7 @@ export const MockCardTeaserSticky2: CardTeaserStickyConfig = {
   heading: `Ketahui bagaimana Siera.my melindungi dan menjaga kucing di Malaysia melalui
       <span class="ma-color--primary">penyelamatan, rawatan veterinar, dan program pengangkatan</span> yang bertanggungjawab.`,
   cta: {
+    color: 'default',
     type: 'outline',
     url: '/',
     linkDefaultText: {
