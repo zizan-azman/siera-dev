@@ -12,7 +12,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
     contentText:
       'Di Siera MY, kami menyediakan tempat perlindungan, rawatan veterinar, serta peluang penjagaan dan pengambilan angkat untuk kucing dari pelbagai latar belakang.',
     ctaArrow: {
-      url: '/perkhidmatan',
+      url: '/',
       linkArrowText: { text: 'Lihat perkhidmatan', textSize: 'default' },
       type: 'ghost',
       color: 'primary',
@@ -22,7 +22,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
     contentText: `Misi kami adalah untuk membina komuniti penyayang di mana setiap kucing diberi peluang hidup yang lebih baik — dengan keselamatan, penjagaan dan perhatian yang berkualiti.`,
     ctaDefault: {
       color: 'default',
-      url: '/tentang',
+      url: '/',
       type: 'outline',
       linkDefaultText: {
         text: 'Ketahui lebih lanjut',
