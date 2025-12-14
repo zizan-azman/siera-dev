@@ -4,7 +4,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
   heroHeading: true,
   heroHeadingText: `A serene <span class="ma-hero-default__highlight">sanctuary</span> where every cat thrives`,
   heroImage: {
-    imagePath: 'maine-assets/images/siera-1.png',
+    imagePath: 'maine-assets/images/hero-default/siera-hero-default-1c.jpg',
     imageAlt: 'Siera Cat Sanctuary 2D Illustration',
     imagePriority: 'high',
   },

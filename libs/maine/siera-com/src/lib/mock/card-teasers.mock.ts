@@ -9,7 +9,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-2.png',
+          path: 'maine-assets/images/card-teaser/siera-card-teaser-1.jpg',
           alt: 'Siera cat sanctuary',
           priority: 'low',
         },
@@ -22,7 +22,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'maine-assets/images/card-teaser/siera-card-teaser-2a.jpg',
           alt: 'Siera sanctuary environment',
           priority: 'low',
         },
@@ -42,7 +42,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-2.png',
+          path: 'maine-assets/images/card-teaser/siera-card-teaser-3a.jpg',
           alt: 'Cat adoption program',
           priority: 'low',
         },
@@ -55,7 +55,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'maine-assets/images/card-teaser/siera-card-teaser-4a.jpg',
           alt: 'Veterinary services',
           priority: 'low',
         },
@@ -68,7 +68,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'maine-assets/images/card-teaser/siera-card-teaser-5a.jpg',
           alt: 'Community programmes',
           priority: 'low',
         },
@@ -88,7 +88,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-2.png',
+          path: 'maine-assets/images/card-teaser/siera-card-teaser-6a.jpg',
           alt: 'Visitor pass experience',
           priority: 'low',
         },
@@ -101,7 +101,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'maine-assets/images/card-teaser/siera-card-teaser-7a.jpg',
           alt: 'Sanctuary impact highlight',
           priority: 'low',
         },

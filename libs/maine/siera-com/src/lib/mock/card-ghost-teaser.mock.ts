@@ -8,7 +8,7 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-2.png',
+        path: 'maine-assets/images/card-ghost-teaser/siera-card-ghost-teaser-1a.jpg',
         alt: 'About Siera',
         priority: 'low',
       },
@@ -21,7 +21,7 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'maine-assets/images/card-ghost-teaser/siera-card-ghost-teaser-2a.jpg',
         alt: 'Our mission',
         priority: 'low',
       },
@@ -34,7 +34,7 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'maine-assets/images/card-ghost-teaser/siera-card-ghost-teaser-3a.jpg',
         alt: 'How we work',
         priority: 'low',
       },
@@ -47,7 +47,7 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'maine-assets/images/card-ghost-teaser/siera-card-ghost-teaser-4a.jpg',
         alt: 'Sustainability initiatives',
         priority: 'low',
       },
