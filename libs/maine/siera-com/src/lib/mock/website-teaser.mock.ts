@@ -22,7 +22,7 @@ export const WebsiteTeaserMock: WebsiteTeaserConfig = {
       },
     },
     {
-      title: 'Joint Venture',
+      title: 'Joey Dog Shelter',
       cta: {
         url: '/',
         type: 'ghost',
@@ -31,7 +31,7 @@ export const WebsiteTeaserMock: WebsiteTeaserConfig = {
       },
     },
     {
-      title: 'Joint Venture',
+      title: 'Dina Exotic Sanctuary',
       cta: {
         url: '/',
         type: 'ghost',
