@@ -18,7 +18,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-2.png',
+        path: 'siera-my-assets/images/card-sticky-teaser/siera-my-card-sticky-teaser-1b.jpg',
         alt: 'Penyelamatan kucing jalanan',
         priority: 'low',
       },
@@ -32,7 +32,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'siera-my-assets/images/card-sticky-teaser/siera-my-card-sticky-teaser-2a.jpg',
         alt: 'Rawatan kesihatan kucing',
         priority: 'low',
       },
@@ -46,7 +46,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-2.png',
+        path: 'siera-my-assets/images/card-sticky-teaser/siera-my-card-sticky-teaser-3a.jpg',
         alt: 'Pemulihan kucing trauma',
         priority: 'low',
       },
@@ -60,7 +60,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'siera-my-assets/images/card-sticky-teaser/siera-my-card-sticky-teaser-4a.jpg',
         alt: 'Proses pengangkatan kucing',
         priority: 'low',
       },
@@ -74,7 +74,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-2.png',
+        path: 'siera-my-assets/images/card-sticky-teaser/siera-my-card-sticky-teaser-5b.jpg',
         alt: 'Fasiliti penjagaan kucing',
         priority: 'low',
       },
@@ -88,7 +88,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'siera-my-assets/images/card-sticky-teaser/siera-my-card-sticky-teaser-6b.jpg',
         alt: 'Kempen komuniti Siera.my',
         priority: 'low',
       },
@@ -119,7 +119,7 @@ export const MockCardTeaserSticky2: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-2.png',
+        path: 'siera-my-assets/images/card-sticky-teaser/siera-my-card-sticky-teaser-1a.jpg',
         alt: 'Program penyelamatan kucing',
         priority: 'low',
       },

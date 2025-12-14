@@ -8,7 +8,7 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-2.png',
+        path: 'siera-my-assets/images/card-ghost-teaser/siera-my-card-ghost-teaser-1b.jpg',
         alt: 'Siapa kami',
         priority: 'low',
       },
@@ -21,7 +21,7 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'siera-my-assets/images/card-ghost-teaser/siera-my-card-ghost-teaser-2b.jpg',
         alt: 'Misi Siera.my',
         priority: 'low',
       },
@@ -34,7 +34,7 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'siera-my-assets/images/card-ghost-teaser/siera-my-card-ghost-teaser-3b.jpg',
         alt: 'Cara operasi kami',
         priority: 'low',
       },
@@ -47,7 +47,7 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'siera-my-assets/images/card-ghost-teaser/siera-my-card-ghost-teaser-4a.jpg',
         alt: 'Inisiatif komuniti',
         priority: 'low',
       },

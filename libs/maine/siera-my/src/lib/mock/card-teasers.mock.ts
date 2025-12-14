@@ -118,7 +118,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-2.png',
+          path: 'siera-my-assets/images/card-teaser/siera-my-card-teaser-1a.jpg',
           alt: 'Siera.my pusat perlindungan kucing',
           priority: 'low',
         },
@@ -131,7 +131,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'siera-my-assets/images/card-teaser/siera-my-card-teaser-2a.jpg',
           alt: 'Siera.my habitat semula jadi kucing',
           priority: 'low',
         },
@@ -151,7 +151,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-2.png',
+          path: 'siera-my-assets/images/card-teaser/siera-my-card-teaser-3a.jpg',
           alt: 'Siera.my program penjagaan kesihatan',
           priority: 'low',
         },
@@ -164,7 +164,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'siera-my-assets/images/card-teaser/siera-my-card-teaser-4a.jpg',
           alt: 'Siera.my program angkat kucing',
           priority: 'low',
         },
@@ -179,7 +179,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'siera-my-assets/images/card-teaser/siera-my-card-teaser-5a.jpg',
           alt: 'Siera.my komuniti penyayang',
           priority: 'low',
         },
@@ -199,7 +199,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-2.png',
+          path: 'siera-my-assets/images/card-teaser/siera-my-card-teaser-6a.jpg',
           alt: 'Pengalaman lawatan Siera.my',
           priority: 'low',
         },
@@ -212,7 +212,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'siera-my-assets/images/card-teaser/siera-my-card-teaser-7a.jpg',
           alt: 'Sumbangan dan impak',
           priority: 'low',
         },
