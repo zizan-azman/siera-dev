@@ -10,7 +10,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
   },
   heroContentMiddle: {
     contentText:
-      'Di Siera, kami menyediakan tempat perlindungan, rawatan veterinar, serta peluang penjagaan dan pengambilan angkat untuk kucing dari pelbagai latar belakang.',
+      'Di Siera MY, kami menyediakan tempat perlindungan, rawatan veterinar, serta peluang penjagaan dan pengambilan angkat untuk kucing dari pelbagai latar belakang.',
     ctaArrow: {
       url: '/perkhidmatan',
       linkArrowText: { text: 'Lihat perkhidmatan', textSize: 'default' },
