@@ -1,10 +1,10 @@
 import { HeroDefaultConfig } from '@siera-dev/maine-shared';
 
 export const MockHeroDefault: HeroDefaultConfig = {
-  heroHeading: true,
+  heroHeading: false,
   heroHeadingText: `Providing urgent <span class="ma-hero-default__highlight">safe haven</span> for rescued exotic animals`,
   heroImage: {
-    imagePath: 'maine-assets/images/siera-1.png',
+    imagePath: 'dina-assets/images/hero-default/dina-hero-1a.jpg',
     imageAlt: 'Dina Exotic Animal Sanctuary Illustration',
     imagePriority: 'high',
   },
@@ -23,7 +23,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
     ctaDefault: {
       color: 'default',
       url: '/about',
-      type: 'outline',
+      type: 'fill',
       linkDefaultText: {
         text: 'Learn more',
         textSize: 'default',

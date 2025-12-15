@@ -9,7 +9,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-2.png',
+          path: 'dina-assets/images/card-teaser/dina-card-teaser-1a.jpg',
           alt: 'Dina exotic animal rescue',
           priority: 'low',
         },
@@ -22,7 +22,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'dina-assets/images/card-teaser/dina-card-teaser-2a.jpg',
           alt: 'Dina exotic habitat',
           priority: 'low',
         },
@@ -42,7 +42,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-2.png',
+          path: 'dina-assets/images/card-teaser/dina-card-teaser-3a.jpg',
           alt: 'Dina emergency rescue',
           priority: 'low',
         },
@@ -55,7 +55,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'dina-assets/images/card-teaser/dina-card-teaser-4a.jpg',
           alt: 'Dina veterinary care',
           priority: 'low',
         },
@@ -68,7 +68,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'dina-assets/images/card-teaser/dina-card-teaser-5a.jpg',
           alt: 'Dina conservation education',
           priority: 'low',
         },
@@ -88,7 +88,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-2.png',
+          path: 'dina-assets/images/card-teaser/dina-card-teaser-6a.jpg',
           alt: 'Dina guided visit',
           priority: 'low',
         },
@@ -101,7 +101,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'dina-assets/images/card-teaser/dina-card-teaser-7b.jpg',
           alt: 'Dina donor impact',
           priority: 'low',
         },

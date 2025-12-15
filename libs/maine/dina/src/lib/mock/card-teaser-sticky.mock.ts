@@ -18,7 +18,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'dina-assets/images/card-sticky-teaser/dina-card-sticky-teaser-1a.jpg',
         alt: 'Exotic animal rescue',
         priority: 'low',
       },
@@ -32,7 +32,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-2.png',
+        path: 'dina-assets/images/card-sticky-teaser/dina-card-sticky-teaser-2a.jpg',
         alt: 'Veterinary care for exotic species',
         priority: 'low',
       },
@@ -46,7 +46,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'dina-assets/images/card-sticky-teaser/dina-card-sticky-teaser-3a.jpg',
         alt: 'Exotic animal enrichment',
         priority: 'low',
       },
@@ -60,7 +60,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-2.png',
+        path: 'dina-assets/images/card-sticky-teaser/dina-card-sticky-teaser-4a.jpg',
         alt: 'Sanctuary placements',
         priority: 'low',
       },
@@ -74,7 +74,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'dina-assets/images/card-sticky-teaser/dina-card-sticky-teaser-5a.jpg',
         alt: 'Habitat design for exotic species',
         priority: 'low',
       },
@@ -88,7 +88,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-2.png',
+        path: 'dina-assets/images/card-sticky-teaser/dina-card-sticky-teaser-6a.jpg',
         alt: 'Wildlife conservation awareness',
         priority: 'low',
       },

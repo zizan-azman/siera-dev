@@ -8,7 +8,7 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-2.png',
+        path: 'dina-assets/images/card-ghost-teaser/dina-card-ghost-teaser-1a.jpg',
         alt: 'Who is Dina',
         priority: 'low',
       },
@@ -21,7 +21,7 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'dina-assets/images/card-ghost-teaser/dina-card-ghost-teaser-2a.jpg',
         alt: 'Dina purpose',
         priority: 'low',
       },
@@ -34,7 +34,7 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'dina-assets/images/card-ghost-teaser/dina-card-ghost-teaser-3a.jpg',
         alt: 'How Dina operates',
         priority: 'low',
       },
@@ -47,7 +47,7 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'dina-assets/images/card-ghost-teaser/dina-card-ghost-teaser-4a.jpg',
         alt: 'Conservation initiatives',
         priority: 'low',
       },
