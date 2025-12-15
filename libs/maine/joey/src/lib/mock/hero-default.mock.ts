@@ -4,7 +4,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
   heroHeading: true,
   heroHeadingText: `Every dog deserves a <span class="ma-hero-default__highlight">second chance</span> to run, play, and belong`,
   heroImage: {
-    imagePath: 'maine-assets/images/siera-1.png',
+    imagePath: 'joey-assets/images/hero-default/joey-hero-default-1d.jpg',
     imageAlt: 'Joey Dog Shelter Illustration',
     imagePriority: 'high',
   },
@@ -12,7 +12,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
     contentText:
       'From abandoned pups to senior dogs needing care, Joey provides shelter, rehabilitation, and compassionate adoption opportunities for dogs of all backgrounds.',
     ctaArrow: {
-      url: '/adoption',
+      url: '/',
       linkArrowText: { text: 'Meet our dogs', textSize: 'default' },
       type: 'ghost',
       color: 'primary',
@@ -22,7 +22,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
     contentText: `Our mission is simple: create a safe, nurturing environment where every dog receives love, care, and the opportunity to find a forever home.`,
     ctaDefault: {
       color: 'default',
-      url: '/about',
+      url: '/',
       type: 'outline',
       linkDefaultText: {
         text: 'Learn more',

@@ -9,7 +9,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-2.png',
+          path: 'joey-assets/images/card-teaser/joey-card-teaser-1a.jpg',
           alt: 'Joey dog rescue',
           priority: 'low',
         },
@@ -22,7 +22,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'joey-assets/images/card-teaser/joey-card-teaser-2a.jpg',
           alt: 'Joey dog sanctuary',
           priority: 'low',
         },
@@ -42,7 +42,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-2.png',
+          path: 'joey-assets/images/card-teaser/joey-card-teaser-3a.jpg',
           alt: 'Joey adoption program',
           priority: 'low',
         },
@@ -55,7 +55,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'joey-assets/images/card-teaser/joey-card-teaser-4a.jpg',
           alt: 'Joey veterinary care',
           priority: 'low',
         },
@@ -68,7 +68,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'joey-assets/images/card-teaser/joey-card-teaser-5a.jpg',
           alt: 'Joey community outreach',
           priority: 'low',
         },
@@ -88,7 +88,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-2.png',
+          path: 'joey-assets/images/card-teaser/joey-card-teaser-6a.jpg',
           alt: 'Joey shelter visit',
           priority: 'low',
         },
@@ -101,7 +101,7 @@ export const MockCardTeasers: CardTeaserConfig[] = [
         cardType: 'default',
         cardURL: '/',
         cardImage: {
-          path: 'maine-assets/images/siera-1.png',
+          path: 'joey-assets/images/card-teaser/joey-card-teaser-7a.jpg',
           alt: 'Joey impact support',
           priority: 'low',
         },

@@ -8,20 +8,20 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-2.png',
+        path: 'joey-assets/images/card-ghost-teaser/joey-card-ghost-teaser-1a.jpg',
         alt: 'Who is Joey',
         priority: 'low',
       },
       cardContentTitle: { text: 'Who we are' },
       cardContentBody: {
-        text: `Joey.com is a dog rescue organisation committed to saving strays, rehabilitating abused dogs, and building safer communities for canines.`,
+        text: `Joey is a dog rescue organisation committed to saving strays, rehabilitating abused dogs, and building safer communities for canines.`,
       },
     },
     {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'joey-assets/images/card-ghost-teaser/joey-card-ghost-teaser-2a.jpg',
         alt: 'Purpose of Joey.com',
         priority: 'low',
       },
@@ -34,7 +34,7 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'joey-assets/images/card-ghost-teaser/joey-card-ghost-teaser-3a.jpg',
         alt: 'How Joey operates',
         priority: 'low',
       },
@@ -47,7 +47,7 @@ export const MockCardGhostTeaser: CardTeaserConfig = {
       cardType: 'ghost',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'joey-assets/images/card-ghost-teaser/joey-card-ghost-teaser-4a.jpg',
         alt: 'Joey initiatives',
         priority: 'low',
       },

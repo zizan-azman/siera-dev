@@ -18,7 +18,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'joey-assets/images/card-sticky-teaser/joey-card-sticky-teaser-1a.jpg',
         alt: 'Joey dog rescue',
         priority: 'low',
       },
@@ -32,7 +32,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-2.png',
+        path: 'joey-assets/images/card-sticky-teaser/joey-card-sticky-teaser-2a.jpg',
         alt: 'Joey veterinary services',
         priority: 'low',
       },
@@ -46,7 +46,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'joey-assets/images/card-sticky-teaser/joey-card-sticky-teaser-3a.jpg',
         alt: 'Dog behavioural therapy',
         priority: 'low',
       },
@@ -60,7 +60,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-2.png',
+        path: 'joey-assets/images/card-sticky-teaser/joey-card-sticky-teaser-4a.jpg',
         alt: 'Dog adoption process',
         priority: 'low',
       },
@@ -74,7 +74,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-1.png',
+        path: 'joey-assets/images/card-sticky-teaser/joey-card-sticky-teaser-5a.jpg',
         alt: 'Dog-friendly spaces',
         priority: 'low',
       },
@@ -88,7 +88,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardType: 'default',
       cardURL: '/',
       cardImage: {
-        path: 'maine-assets/images/siera-2.png',
+        path: 'joey-assets/images/card-sticky-teaser/joey-card-sticky-teaser-6a.jpg',
         alt: 'Community dog education',
         priority: 'low',
       },
