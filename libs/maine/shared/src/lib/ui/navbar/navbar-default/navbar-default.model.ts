@@ -2,6 +2,8 @@ export interface NavbarDefaultLogo {
   logoPath: string;
   logoUrl: string;
   logoAlt: string;
+  logoWidth: number;
+  logoHeight: number;
 }
 
 export interface NavbarDefaultLink {

@@ -2,9 +2,11 @@ import { NavbarDefaultConfig } from '@siera-dev/maine-shared';
 
 export const MockNavbarDefault: NavbarDefaultConfig = {
   navbarDefaultLogo: {
-    logoPath: 'maine-assets/svgs/icon/sprite.svg#siera',
+    logoPath: 'siera-my-assets/svgs/sprite.svg#siera-my',
     logoUrl: '/',
-    logoAlt: 'Siera Logo',
+    logoAlt: 'Siera MY Logo',
+    logoWidth: 133,
+    logoHeight: 24,
   },
   navbarDefaultLinkList: [
     { linkText: 'Who we are', linkUrl: '/who-we-are' },

@@ -6,7 +6,11 @@
         [routerLink]="navbarDefaultData.navbarDefaultLogo.logoUrl"
         (click)="onClickNavLink()"
       >
-        <svg width="92" height="24" class="ma-icon">
+        <svg
+          [attr.width]="navbarDefaultData.navbarDefaultLogo.logoWidth"
+          [attr.height]="navbarDefaultData.navbarDefaultLogo.logoHeight"
+          class="ma-icon"
+        >
           <use
             [attr.xlink:href]="navbarDefaultData.navbarDefaultLogo.logoPath"
           ></use>
