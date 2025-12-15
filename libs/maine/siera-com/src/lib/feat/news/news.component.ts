@@ -2,8 +2,10 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {
   CardComingSoonComponent,
+  CardComingSoonConfig,
   LayoutDefaultComponent,
 } from '@siera-dev/maine-shared';
+import { MockCardComingSoon } from '../../mock/card-coming-soon.mock';
 
 @Component({
   selector: 'siera-com-news',
@@ -12,4 +14,6 @@ import {
   templateUrl: './news.component.html',
   styleUrl: './news.component.scss',
 })
-export class NewsComponent {}
+export class NewsComponent {
+  cardComingSoonMockData: CardComingSoonConfig = MockCardComingSoon;
+}

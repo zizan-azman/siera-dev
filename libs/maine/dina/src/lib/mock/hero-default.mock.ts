@@ -4,7 +4,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
   heroHeading: false,
   heroHeadingText: `Providing urgent <span class="ma-hero-default__highlight">safe haven</span> for rescued exotic animals`,
   heroImage: {
-    imagePath: 'dina-assets/images/hero-default/dina-hero-1a.jpg',
+    imagePath: 'dina-assets/images/hero-default/dina-hero-1d.jpg',
     imageAlt: 'Dina Exotic Animal Sanctuary Illustration',
     imagePriority: 'high',
   },
