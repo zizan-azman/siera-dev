@@ -1,3 +1,40 @@
+@import 'abstracts/index';
+
 :host {
   display: flex;
+}
+
+.ma-button-toggle-mode {
+  --ma-button-toggle-mode-padding: var(--spacing-2xs);
+  --ma-button-toggle-mode-default-transition: color var(--transition);
+  --ma-button-toggle-mode-default-icon-color: inherit;
+  --ma-button-toggle-mode-default-hover-icon-color: var(--primary-color);
+  --ma-button-toggle-mode-shadow-border-radius: var(--border-radius-sm);
+  --ma-button-toggle-mode-shadow-box-shadow: var(--shadow-sm-transparent);
+  --ma-button-toggle-mode-shadow-hover-box-shadow: var(--shadow-sm);
+  --ma-button-toggle-mode-shadow-transition: outline var(--transition),
+    box-shadow var(--transition);
+  --ma-button-toggle-mode-shadow-outline: 1px solid transparent;
+  --ma-button-toggle-mode-shadow-hover-outline: 1px solid var(--stroke-color);
+
+  padding: var(--ma-button-toggle-mode-padding);
+
+  &--default {
+    color: var(--ma-button-toggle-mode-default-icon-color);
+    transition: var(--ma-button-toggle-mode-default-transition);
+    &:hover {
+      color: var(--ma-button-toggle-mode-default-hover-icon-color);
+    }
+  }
+
+  &--shadow {
+    border-radius: var(--ma-button-toggle-mode-shadow-border-radius);
+    outline: var(--ma-button-toggle-mode-shadow-outline);
+    box-shadow: var(--ma-button-toggle-mode-shadow-box-shadow);
+    transition: var(--ma-button-toggle-mode-shadow-transition);
+    &:hover {
+      outline: var(--ma-button-toggle-mode-shadow-hover-outline);
+      box-shadow: var(--ma-button-toggle-mode-shadow-hover-box-shadow);
+    }
+  }
 }
