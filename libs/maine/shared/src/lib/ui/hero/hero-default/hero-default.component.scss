@@ -19,7 +19,7 @@
 
   &__heading {
     @include display;
-    margin-bottom: var(---ma-hero-default-heading-margin-bottom);
+    margin-bottom: var(--ma-hero-default-heading-margin-bottom);
     grid-column: 1 / -1;
     @include media-min('md') {
       margin-bottom: var(--ma-hero-default-heading-margin-bottom-md);

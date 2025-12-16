@@ -21,7 +21,7 @@
         item.linkText ){
         <li class="ma-navbarDefault__link-item">
           <a
-            class="ma-navbarDefault__link ma-link-nav"
+            class="ma-navbarDefault__link"
             [routerLink]="item.linkUrl"
             routerLinkActive="active-link"
             [routerLinkActiveOptions]="{ exact: true }"
@@ -38,7 +38,7 @@
           routerLink="/all-websites"
           routerLinkActive="active-link"
           [routerLinkActiveOptions]="{ exact: true }"
-          class="ma-navbarDefault__all-websites ma-link-nav"
+          class="ma-navbarDefault__all-websites"
           (click)="onClickNavLink()"
         >
           <svg width="24" height="24" class="ma-icon">
@@ -60,7 +60,7 @@
               item.linkText ){
               <li class="ma-navbarDefault__link-item">
                 <a
-                  class="ma-navbarDefault__link ma-link-nav"
+                  class="ma-navbarDefault__link"
                   [routerLink]="item.linkUrl"
                   routerLinkActive="active-link"
                   [routerLinkActiveOptions]="{ exact: true }"
