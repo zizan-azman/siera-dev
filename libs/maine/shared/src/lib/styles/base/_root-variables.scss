@@ -27,6 +27,7 @@
   --spacing-lg: calc(56px * var(--spacing-scale));
   --spacing-xl: calc(80px * var(--spacing-scale));
   --spacing-2xl: calc(120px * var(--spacing-scale));
+  --font-family: 'SulphurPoint';
 }
 
 body[data-mode='dark'] {

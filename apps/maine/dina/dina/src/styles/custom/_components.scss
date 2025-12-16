@@ -1,0 +1,6 @@
+body[data-mode='dark'] {
+  .ma-link {
+    --ma-link-fill-bg-color: var(--primary-color-bold);
+    --ma-link-fill-hover-bg-color: var(--primary-color-subtle);
+  }
+}

@@ -1,0 +1,58 @@
+@import 'abstracts/index';
+
+.ma-link {
+  --ma-link-padding: var(--spacing-xs) var(--spacing-md);
+  --ma-link-border-radius: var(--border-radius-sm);
+  --ma-link-gap: var(--spacing-2xs);
+  --ma-link-transition: var(--transition);
+  --ma-link-fill-bg-color: var(--primary-color);
+  --ma-link-fill-hover-bg-color: var(--primary-color-minimal);
+  --ma-link-outline-border: 2px solid var(--stroke-color);
+  --ma-link-outline-bg-color: transparent;
+  --ma-link-outline-hover-bg-color: var(--background-color-subtle);
+  --ma-link-ghost-text-color: var(--text-color);
+  --ma-link-ghost-hover-text-color: var(--primary-color);
+  --ma-link-default-text-color: var(--text-color);
+  --ma-link-primary-text-color: var(--primary-color);
+
+  display: flex;
+  align-items: center;
+  gap: var(--ma-link-gap);
+  width: max-content;
+  padding: var(--ma-link-padding);
+  border-radius: var(--ma-link-border-radius);
+
+  &--fill {
+    background-color: var(--ma-link-fill-bg-color);
+    transition: background-color var(--ma-link-transition);
+    &:hover {
+      background-color: var(--ma-link-fill-hover-bg-color);
+    }
+  }
+
+  &--outline {
+    border: var(--ma-link-outline-border);
+    background-color: var(--ma-link-outline-bg-color);
+    transition: background-color var(--ma-link-transition);
+    &:hover {
+      background-color: var(--ma-link-outline-hover-bg-color);
+    }
+  }
+
+  &--ghost {
+    padding: 0;
+    color: var(--ma-link-ghost-text-color);
+    transition: color var(--ma-link-transition);
+    &:hover {
+      color: var(--ma-link-ghost-hover-text-color);
+    }
+  }
+
+  &--color-default {
+    color: var(--ma-link-default-text-color);
+  }
+
+  &--color-primary {
+    color: var(--ma-link-primary-text-color);
+  }
+}

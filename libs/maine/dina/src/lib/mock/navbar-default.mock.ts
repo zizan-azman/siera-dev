@@ -2,11 +2,11 @@ import { NavbarDefaultConfig } from '@siera-dev/maine-shared';
 
 export const MockNavbarDefault: NavbarDefaultConfig = {
   navbarDefaultLogo: {
-    logoPath: 'maine-assets/svgs/icon/sprite.svg#siera',
+    logoPath: 'dina-assets/svgs/sprite.svg#dina',
     logoUrl: '/',
     logoAlt: 'Dina Exotic Animal Sanctuary Logo',
-    logoWidth: 92,
-    logoHeight: 24,
+    logoWidth: 87,
+    logoHeight: 38,
   },
   navbarDefaultLinkList: [
     { linkText: 'Who we are', linkUrl: '/who-we-are' },

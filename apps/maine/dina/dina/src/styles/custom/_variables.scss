@@ -1,0 +1,49 @@
+// Light
+$color-light-mode-black: #0b130c;
+$color-light-mode-white: #f8fcf8;
+$color-light-mode-grey-1: #edeef0;
+$color-light-mode-grey-2: #e2e3e4;
+$color-light-mode-grey-3: #cccccc;
+$color-light-mode-grey-4: #898683;
+$color-light-mode-green-1: #eaf9ec;
+$color-light-mode-green-2: #72e97e;
+// $color-light-mode-green-3: #0fd723;
+$color-light-mode-green-3: #0eb21e;
+$color-light-mode-green-4: #1d6725;
+// $color-light-mode-green-3: #1a9126;
+// Dark
+$color-dark-mode-white: #ecf4ed;
+$color-dark-mode-black: #030703;
+$color-dark-mode-grey-1: #878b95;
+$color-dark-mode-grey-2: #3f4555;
+$color-dark-mode-grey-3: #272e3f;
+$color-dark-mode-grey-4: #1b2335;
+$color-dark-mode-green-1: #98e29f;
+$color-dark-mode-green-2: #28f03c;
+$color-dark-mode-green-3: #168d22;
+$color-dark-mode-green-4: #203322;
+
+/** Mapped **/
+$dina-color-text: $color-light-mode-black;
+$dina-color-text-subtle: $color-light-mode-black;
+$dina-color-background: $color-light-mode-white;
+$dina-color-background-subtle: $color-light-mode-grey-1;
+$dina-color-stroke: $color-light-mode-black;
+$dina-color-stroke-subtle: $color-light-mode-grey-2;
+$dina-color-primary-xs: $color-light-mode-green-1;
+$dina-color-primary-sm: $color-light-mode-green-2;
+$dina-color-primary-md: $color-light-mode-green-3;
+$dina-color-primary-lg: $color-light-mode-green-4;
+$dina-color-shadow: $color-light-mode-grey-3;
+
+$dark-dina-color-text: $color-dark-mode-white;
+$dark-dina-color-text-subtle: $color-dark-mode-grey-1;
+$dark-dina-color-background: $color-dark-mode-black;
+$dark-dina-color-background-subtle: $color-dark-mode-green-4;
+$dark-dina-color-stroke: $color-dark-mode-white;
+$dark-dina-color-stroke-subtle: $color-dark-mode-green-4;
+$dark-dina-color-primary-xs: $color-dark-mode-green-4;
+$dark-dina-color-primary-sm: $color-dark-mode-green-1;
+$dark-dina-color-primary-md: $color-dark-mode-green-2;
+$dark-dina-color-primary-lg: $color-dark-mode-green-3;
+$dark-dina-color-shadow: $color-dark-mode-grey-2;

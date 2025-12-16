@@ -37,7 +37,7 @@ ol[role='list'] {
 body {
   min-height: 100vh;
   line-height: 1.625;
-  font-family: 'SulphurPoint', ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-family), ui-sans-serif, system-ui, sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
 }

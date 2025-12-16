@@ -1,0 +1,26 @@
+:root {
+  --text-color: #{$dina-color-text};
+  --text-color-subtle: #{$dina-color-text-subtle};
+  --background-color: #{$dina-color-background};
+  --background-color-subtle: #{$dina-color-background-subtle};
+  --stroke-color: #{$dina-color-stroke};
+  --stroke-color-subtle: #{$dina-color-stroke-subtle};
+  --primary-color-subtle: #{$dina-color-primary-xs};
+  --primary-color-minimal: #{$dina-color-primary-sm};
+  --primary-color: #{$dina-color-primary-md};
+  --primary-color-bold: #{$dina-color-primary-lg};
+  --font-family: 'Merriweather';
+}
+
+body[data-mode='dark'] {
+  --text-color: #{$dark-dina-color-text};
+  --text-color-subtle: #{$dark-dina-color-text-subtle};
+  --background-color: #{$dark-dina-color-background};
+  --background-color-subtle: #{$dark-dina-color-background-subtle};
+  --stroke-color: #{$dark-dina-color-stroke};
+  --stroke-color-subtle: #{$dark-dina-color-stroke-subtle};
+  --primary-color-subtle: #{$dark-dina-color-primary-xs};
+  --primary-color-minimal: #{$dark-dina-color-primary-sm};
+  --primary-color: #{$dark-dina-color-primary-md};
+  --primary-color-bold: #{$dark-dina-color-primary-lg};
+}

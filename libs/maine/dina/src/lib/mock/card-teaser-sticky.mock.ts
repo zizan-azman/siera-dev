@@ -26,7 +26,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `Emergency extraction of exotic animals from unsafe conditions, illegal trade, or improper captivity.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'empathize' },
     },
     {
       cardType: 'default',
@@ -40,7 +40,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `Species-specific diagnostics, treatment, and long-term health management led by exotic animal specialists.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'building-hospital' },
     },
     {
       cardType: 'default',
@@ -54,7 +54,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `Therapeutic enrichment and behavioural rehabilitation for abused, stressed, or trafficked animals.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'home-heart' },
     },
     {
       cardType: 'default',
@@ -68,7 +68,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `Collaboration with global sanctuaries to relocate animals to species-appropriate long-term habitats.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'plant' },
     },
     {
       cardType: 'default',
@@ -82,7 +82,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `Custom-designed enclosures that simulate natural ecosystems for comfort, exploration, and survival instincts.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'home-shield' },
     },
     {
       cardType: 'default',
@@ -96,7 +96,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `Public programmes raising awareness about exotic species protection and responsible wildlife stewardship.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'home-infinity' },
     },
   ],
 };
