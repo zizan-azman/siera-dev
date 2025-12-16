@@ -25,6 +25,7 @@
       background-color: var(--ma-link-arrow-primary-color-minimal);
     }
   }
+
   &--outline {
     border: var(--ma-link-arrow-stroke);
     background-color: transparent;
@@ -33,14 +34,15 @@
       background-color: var(--ma-link-arrow-background-color-subtle);
     }
   }
+
   &--ghost {
     padding: 0;
 
-    .ma-icon {
+    .ma-link-arrow__icon {
       transition: transform var(--ma-link-arrow-transition);
     }
 
-    &:hover .ma-icon {
+    &:hover .ma-link-arrow__icon {
       transform: translate(8px, 0);
     }
   }
@@ -51,5 +53,11 @@
 
   &--color-primary {
     color: var(--ma-link-arrow-primary-color);
+  }
+
+  &__icon {
+    display: flex;
+    width: 24px;
+    height: 24px;
   }
 }
