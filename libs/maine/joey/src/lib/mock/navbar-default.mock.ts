@@ -2,7 +2,7 @@ import { NavbarDefaultConfig } from '@siera-dev/maine-shared';
 
 export const MockNavbarDefault: NavbarDefaultConfig = {
   navbarDefaultLogo: {
-    logoPath: 'maine-assets/svgs/icon/sprite.svg#siera',
+    logoPath: 'joey-assets/svgs/sprite.svg#joey',
     logoUrl: '/',
     logoAlt: 'Joey Dog Shelter Logo',
     logoWidth: 92,

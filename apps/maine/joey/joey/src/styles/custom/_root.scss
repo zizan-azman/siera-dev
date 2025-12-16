@@ -1,0 +1,22 @@
+:root {
+  --text-color: #{$joey-color-text};
+  --background-color: #{$joey-color-background};
+  --background-color-subtle: #{$joey-color-background-subtle};
+  --stroke-color: #{$joey-color-stroke};
+  --stroke-color-subtle: #{$joey-color-stroke-subtle};
+  --primary-color-subtle: #{$joey-color-primary-xs};
+  --primary-color-minimal: #{$joey-color-primary-sm};
+  --primary-color: #{$joey-color-primary-md};
+  --font-family: 'Fredoka';
+}
+
+body[data-mode='dark'] {
+  --text-color: #{$dark-joey-color-text};
+  --background-color: #{$dark-joey-color-background};
+  --background-color-subtle: #{$dark-joey-color-background-subtle};
+  --stroke-color: #{$dark-joey-color-stroke};
+  --stroke-color-subtle: #{$dark-joey-color-stroke-subtle};
+  --primary-color-subtle: #{$dark-joey-color-primary-xs};
+  --primary-color-minimal: #{$dark-joey-color-primary-sm};
+  --primary-color: #{$dark-joey-color-primary-md};
+}

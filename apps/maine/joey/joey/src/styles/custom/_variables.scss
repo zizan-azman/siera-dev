@@ -1,0 +1,41 @@
+// Light
+// $color-light-mode-foreground: #2f3263;
+$color-light-mode-foreground: #0b0c19;
+$color-light-mode-background: #ffffff;
+$color-light-mode-accent-1: #e2af63;
+$color-light-mode-accent-2: #f8b61b;
+$color-light-mode-accent-3: #bdc3a2;
+$color-light-mode-accent-3: #e4eaca;
+$color-light-mode-subtle-1: #e2e3e4;
+$color-light-mode-subtle-2: #f4f4f7;
+// Dark
+$color-dark-mode-foreground: #ffffff;
+$color-dark-mode-background: #0b0c19;
+$color-dark-mode-accent-1: #9b681c;
+$color-dark-mode-accent-2: #e4a107;
+$color-dark-mode-accent-3: #222423;
+$color-dark-mode-accent-4: #202326;
+$color-dark-mode-subtle-1: #131420;
+$color-dark-mode-subtle-2: #171825;
+$color-dark-mode-subtle-3: #272e3f;
+
+/** Mapped **/
+$joey-color-text: $color-light-mode-foreground;
+$joey-color-background: $color-light-mode-background;
+$joey-color-background-subtle: $color-light-mode-subtle-2;
+$joey-color-stroke: $color-light-mode-foreground;
+$joey-color-stroke-subtle: $color-light-mode-subtle-1;
+$joey-color-primary-xs: $color-light-mode-accent-3;
+$joey-color-primary-sm: $color-light-mode-accent-2;
+$joey-color-primary-md: $color-light-mode-accent-1;
+$joey-color-shadow: $color-light-mode-subtle-1;
+
+$dark-joey-color-text: $color-dark-mode-foreground;
+$dark-joey-color-background: $color-dark-mode-background;
+$dark-joey-color-background-subtle: $color-dark-mode-accent-4;
+$dark-joey-color-stroke: $color-dark-mode-foreground;
+$dark-joey-color-stroke-subtle: $color-dark-mode-subtle-3;
+$dark-joey-color-primary-xs: $color-dark-mode-accent-3;
+$dark-joey-color-primary-sm: $color-dark-mode-accent-1;
+$dark-joey-color-primary-md: $color-dark-mode-accent-2;
+$dark-joey-color-shadow: $color-dark-mode-subtle-1;
