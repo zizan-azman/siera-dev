@@ -36,7 +36,7 @@ export const WebsiteTeaserMock: WebsiteTeaserConfig = {
     {
       title: 'Dina Exotic Sanctuary',
       cta: {
-        url: 'https://dina-exotic.netlify.app/',
+        url: 'https://dina-sanctuary.netlify.app/',
         type: 'ghost',
         color: 'primary',
         linkArrowText: { text: 'dina.com', textSize: 'default' },
