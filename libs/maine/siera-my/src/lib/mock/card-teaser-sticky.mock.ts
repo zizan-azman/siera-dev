@@ -26,7 +26,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `Menyelamatkan kucing yang tercedera atau terbiar melalui bantuan segera dan perlindungan selamat.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'empathize' },
     },
     {
       cardType: 'default',
@@ -40,7 +40,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `Pemeriksaan kesihatan, rawatan luka, vaksinasi, dan penjagaan berterusan mengikut keperluan setiap kucing.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'building-hospital' },
     },
     {
       cardType: 'default',
@@ -68,7 +68,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `Setiap kucing dipadankan dengan keluarga yang sesuai berdasarkan personaliti, keperluan dan gaya hidup mereka.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'home-heart' },
     },
     {
       cardType: 'default',
@@ -82,7 +82,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `Ruang perlindungan yang bersih, selesa, dan direka untuk mengurangkan tekanan serta meningkatkan kesejahteraan.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'plant' },
     },
     {
       cardType: 'default',
@@ -96,7 +96,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `Bekerjasama dengan masyarakat untuk mempromosikan penjagaan bertanggungjawab dan mengurangkan jumlah kucing terbiar.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'home-infinity' },
     },
   ],
 };
