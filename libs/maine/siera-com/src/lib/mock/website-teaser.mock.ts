@@ -6,7 +6,7 @@ export const WebsiteTeaserMock: WebsiteTeaserConfig = {
     {
       title: 'Siera Global',
       cta: {
-        url: '/',
+        url: 'https://siera-shelter.netlify.app/',
         type: 'ghost',
         color: 'primary',
         linkArrowText: { text: 'siera.com', textSize: 'default' },
