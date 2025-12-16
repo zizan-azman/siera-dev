@@ -53,6 +53,7 @@ export class NewsTeaserDefaultComponent {
       color: 'default',
       type: 'ghost',
       linkArrowText: { text: 'Read more', textSize: 'default' },
+      isRouteNavigation: true,
     },
   };
 

@@ -21,6 +21,7 @@ export class WebsiteTeaserComponent {
           color: 'primary',
           url: '/',
           linkArrowText: { text: 'siera.com', textSize: 'default' },
+          isRouteNavigation: false,
         },
       },
     ],

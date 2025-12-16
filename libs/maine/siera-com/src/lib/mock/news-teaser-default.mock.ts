@@ -57,6 +57,7 @@ export const MockNewsTeaserDefault: NewsTeaserDefaultConfig = {
     color: 'primary',
     type: 'ghost',
     linkArrowText: { text: 'See all news', textSize: 'default' },
+    isRouteNavigation: true,
   },
 };
 
@@ -116,6 +117,7 @@ export const MockNewsTeaserDefaul3: NewsTeaserDefaultConfig = {
     color: 'primary',
     type: 'ghost',
     linkArrowText: { text: 'See all news', textSize: 'default' },
+    isRouteNavigation: true,
   },
 };
 
@@ -173,5 +175,6 @@ export const MockNewsTeaserDefault2: NewsTeaserDefaultConfig = {
     color: 'primary',
     type: 'ghost',
     linkArrowText: { text: 'See all news', textSize: 'default' },
+    isRouteNavigation: true,
   },
 };

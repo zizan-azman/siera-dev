@@ -16,6 +16,7 @@ export class LinkArrowComponent {
     color: 'default',
     url: '/',
     linkArrowText: { text: 'Read more', textSize: 'default' },
+    isRouteNavigation: true,
   };
   @Input() linkArrowData: LinkArrowConfig = this.linkArrowPlaceholder;
 }

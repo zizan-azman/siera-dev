@@ -56,5 +56,6 @@ export const MockNewsTeaserDefault: NewsTeaserDefaultConfig = {
     color: 'primary',
     type: 'ghost',
     linkArrowText: { text: 'See all updates', textSize: 'default' },
+    isRouteNavigation: true,
   },
 };

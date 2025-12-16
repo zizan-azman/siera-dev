@@ -18,6 +18,7 @@ export class CardWebsiteComponent {
       color: 'primary',
       url: '/',
       linkArrowText: { text: 'siera.com', textSize: 'default' },
+      isRouteNavigation: true,
     },
   };
 

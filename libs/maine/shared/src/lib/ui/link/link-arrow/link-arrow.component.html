@@ -1,3 +1,4 @@
+@if(linkArrowData.isRouteNavigation){
 <a
   [routerLink]="linkArrowData.url"
   class="ma-link-arrow ma-link-arrow--{{
@@ -18,3 +19,27 @@
     ></use>
   </svg>
 </a>
+} @else {
+<a
+  [href]="linkArrowData.url"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="ma-link-arrow ma-link-arrow--{{
+    linkArrowData.type
+  }} ma-link-arrow--color-{{ linkArrowData.color }}"
+>
+  <span
+    class="{{
+      linkArrowData.linkArrowText.textSize === 'default' ? 'cta-1' : 'cta-2'
+    }}"
+    >{{ linkArrowData.linkArrowText.text }}</span
+  >
+  <svg width="24" height="24" class="ma-icon">
+    <use
+      xlink:href="
+        maine-assets/svgs/icon/sprite.svg#arrow-narrow-right
+      "
+    ></use>
+  </svg>
+</a>
+}

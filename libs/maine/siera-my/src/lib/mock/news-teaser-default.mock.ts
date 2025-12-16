@@ -57,5 +57,6 @@ export const MockNewsTeaserDefault: NewsTeaserDefaultConfig = {
     color: 'primary',
     type: 'ghost',
     linkArrowText: { text: 'Lihat semua berita', textSize: 'default' },
+    isRouteNavigation: true,
   },
 };

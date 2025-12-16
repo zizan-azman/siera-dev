@@ -8,4 +8,5 @@ export interface LinkArrowConfig {
   type: 'fill' | 'outline' | 'ghost';
   color: 'default' | 'primary';
   linkArrowText: LinkArrowText;
+  isRouteNavigation: boolean;
 }

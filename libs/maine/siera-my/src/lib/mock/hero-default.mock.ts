@@ -16,6 +16,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
       linkArrowText: { text: 'Lihat perkhidmatan', textSize: 'default' },
       type: 'ghost',
       color: 'primary',
+      isRouteNavigation: true,
     },
   },
   heroContentEnd: {
@@ -48,6 +49,7 @@ export const MockHeroDefault2: HeroDefaultConfig = {
       linkArrowText: { text: 'Tempah lawatan', textSize: 'default' },
       type: 'ghost',
       color: 'primary',
+      isRouteNavigation: true,
     },
   },
   heroContentEnd: {

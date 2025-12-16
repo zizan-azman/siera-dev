@@ -16,6 +16,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
       linkArrowText: { text: 'Meet our dogs', textSize: 'default' },
       type: 'ghost',
       color: 'primary',
+      isRouteNavigation: true,
     },
   },
   heroContentEnd: {
@@ -48,6 +49,7 @@ export const MockHeroDefault2: HeroDefaultConfig = {
       linkArrowText: { text: 'Plan your visit', textSize: 'default' },
       type: 'ghost',
       color: 'primary',
+      isRouteNavigation: true,
     },
   },
   heroContentEnd: {

@@ -16,6 +16,7 @@ export const MockHeroDefault: HeroDefaultConfig = {
       linkArrowText: { text: 'View rescue cases', textSize: 'default' },
       type: 'ghost',
       color: 'primary',
+      isRouteNavigation: true,
     },
   },
   heroContentEnd: {
@@ -48,6 +49,7 @@ export const MockHeroDefault2: HeroDefaultConfig = {
       linkArrowText: { text: 'Explore the sanctuary', textSize: 'default' },
       type: 'ghost',
       color: 'primary',
+      isRouteNavigation: true,
     },
   },
   heroContentEnd: {

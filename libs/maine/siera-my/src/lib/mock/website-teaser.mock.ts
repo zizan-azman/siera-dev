@@ -10,6 +10,7 @@ export const WebsiteTeaserMock: WebsiteTeaserConfig = {
         type: 'ghost',
         color: 'primary',
         linkArrowText: { text: 'siera.com', textSize: 'default' },
+        isRouteNavigation: false,
       },
     },
     {
@@ -19,6 +20,7 @@ export const WebsiteTeaserMock: WebsiteTeaserConfig = {
         type: 'ghost',
         color: 'primary',
         linkArrowText: { text: 'siera.my', textSize: 'default' },
+        isRouteNavigation: false,
       },
     },
     {
@@ -28,6 +30,7 @@ export const WebsiteTeaserMock: WebsiteTeaserConfig = {
         type: 'ghost',
         color: 'primary',
         linkArrowText: { text: 'joey.com', textSize: 'default' },
+        isRouteNavigation: false,
       },
     },
     {
@@ -37,6 +40,7 @@ export const WebsiteTeaserMock: WebsiteTeaserConfig = {
         type: 'ghost',
         color: 'primary',
         linkArrowText: { text: 'dina.com', textSize: 'default' },
+        isRouteNavigation: false,
       },
     },
   ],
