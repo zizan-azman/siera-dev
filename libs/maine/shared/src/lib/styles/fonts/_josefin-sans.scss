@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('/maine-assets/fonts/josefin-sans/josefin-sans-variable.woff2')
+      format('woff2'),
+    url('/maine-assets/fonts/josefin-sans/josefin-sans-variable.woff')
+      format('woff');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('/maine-assets/fonts/josefin-sans/josefin-sans-italic-variable.woff2')
+      format('woff2'),
+    url('/maine-assets/fonts/josefin-sans/josefin-sans-italic-variable.woff')
+      format('woff');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}

@@ -26,7 +26,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `Emergency response for abandoned, injured, or unsafe-condition cats.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'empathize' },
     },
     {
       cardType: 'default',
@@ -40,7 +40,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `From diagnostics to long-term treatment, our vets ensure holistic wellbeing.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'building-hospital' },
     },
     {
       cardType: 'default',
@@ -68,7 +68,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `Guided matching to ensure every cat joins a safe and committed home.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'home-heart' },
     },
     {
       cardType: 'default',
@@ -82,7 +82,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `Nature-inspired spaces designed for comfort, freedom, and enrichment.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'plant' },
     },
     {
       cardType: 'default',
@@ -96,7 +96,7 @@ export const MockCardTeaserSticky: CardTeaserStickyConfig = {
       cardContentBody: {
         text: `Workshops and outreach programmes promoting ethical cat care.`,
       },
-      cardContentIcon: { color: 'primary', path: 'paw' },
+      cardContentIcon: { color: 'primary', path: 'home-infinity' },
     },
   ],
 };
