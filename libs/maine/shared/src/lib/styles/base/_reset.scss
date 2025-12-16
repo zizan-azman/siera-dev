@@ -41,7 +41,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
 }
-body:has(.ma-icon-hamburger input:checked) {
+body:has(.ma-navbarDefault__icon-hamburger input:checked) {
   overflow: hidden;
 }
 /* Balance text wrapping on headings */
