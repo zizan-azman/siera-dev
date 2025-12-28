@@ -32,19 +32,32 @@
   border-radius: var(--link-border-radius);
 
   &--fill {
+    justify-content: center;
+    width: 100%;
     background-color: var(--link-fill-bg-color);
     transition: var(--link-fill-transition);
+
     &:hover {
       background-color: var(--link-fill-hover-bg-color);
+    }
+    @include media-min('md') {
+      width: max-content;
     }
   }
 
   &--outline {
+    justify-content: center;
+    width: 100%;
     border: var(--link-outline-border);
     background-color: var(--link-outline-bg-color);
     transition: var(--link-outline-transition);
+
     &:hover {
       background-color: var(--link-outline-hover-bg-color);
+    }
+
+    @include media-min('md') {
+      width: max-content;
     }
   }
 
