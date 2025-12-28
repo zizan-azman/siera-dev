@@ -1,39 +1,54 @@
 @import 'abstracts/index';
 
 .ma-section {
+  /* Modifier - Subtle */
+  --section-subtle-bg-color: var(--background-color-subtle);
+  /* Modifier - Default */
+  --section-default-bg-color: var(--background-color);
+  /* Modifier - Spacing XS */
+  --section-spacing-xs-padding: #{px-to-rem(20px, 16px)};
+  --section-spacing-xs-padding-desktop: #{px-to-rem(40px, 16px)};
+  /* Modifier - Spacing SM */
+  --section-spacing-sm-padding: #{px-to-rem(40px, 16px)};
+  --section-spacing-sm-padding-desktop: #{px-to-rem(80px, 16px)};
+  /* Modifier - Spacing MD */
+  --section-spacing-md-padding: #{px-to-rem(60px, 16px)};
+  --section-spacing-md-padding-desktop: #{px-to-rem(120px, 16px)};
+
   &--subtle {
-    background-color: var(--background-color-subtle);
+    background-color: var(--section-subtle-bg-color);
   }
+
   &--default {
-    background-color: var(--background-color);
+    background-color: var(--section-default-bg-color);
   }
 
   &--spacing-xs {
-    padding-top: px-to-rem(20px, 16px);
-    padding-bottom: px-to-rem(20px, 16px);
+    padding-top: var(--section-spacing-xs-padding);
+    padding-bottom: var(--section-spacing-xs-padding);
 
     @include media-min('md') {
-      padding-top: px-to-rem(40px, 16px);
-      padding-bottom: px-to-rem(40px, 16px);
+      padding-top: var(--section-spacing-xs-padding-desktop);
+      padding-bottom: var(--section-spacing-xs-padding-desktop);
     }
   }
 
   &--spacing-sm {
-    padding-top: px-to-rem(40px, 16px);
-    padding-bottom: px-to-rem(40px, 16px);
+    padding-top: var(--section-spacing-sm-padding);
+    padding-bottom: var(--section-spacing-sm-padding);
 
     @include media-min('md') {
-      padding-top: px-to-rem(80px, 16px);
-      padding-bottom: px-to-rem(80px, 16px);
+      padding-top: var(--section-spacing-sm-padding-desktop);
+      padding-bottom: var(--section-spacing-sm-padding-desktop);
     }
   }
 
   &--spacing-md {
-    padding-top: px-to-rem(60px, 16px);
-    padding-bottom: px-to-rem(60px, 16px);
+    padding-top: var(--section-spacing-md-padding);
+    padding-bottom: var(--section-spacing-md-padding);
     @include media-min('md') {
-      padding-top: px-to-rem(120px, 16px);
-      padding-bottom: px-to-rem(120px, 16px);
+      padding-top: var(--section-spacing-md-padding-desktop);
+      padding-bottom: var(--section-spacing-md-padding-desktop);
     }
   }
 }
