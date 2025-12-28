@@ -10,34 +10,51 @@
   --ma-card-shadow: var(--shadow-sm);
   --ma-card-shadow-transparent: var(--shadow-sm-transparent);
   --ma-card-transition: var(--transition);
+  /* Modifier - Default */
+  --card-default-border: 1px solid var(--stroke-color-subtle);
+  --card-default-border-radius: var(--border-radius-md);
+  --card-default-bg-color: var(--background-color);
+  --card-default-box-shadow: var(--shadow-sm-transparent);
+  --card-default-hover-box-shadow: var(--shadow-sm);
+  --card-default-transition: box-shadow var(--transition);
+  --card-default-body-padding: var(--spacing-sm);
+  /* Modifier - Ghost */
+  --card-ghost-image-border-radius: var(--border-radius-md);
+  --card-ghost-body-padding: var(--spacing-sm) 0;
+  /* Body */
+  --card-body-gap: var(--spacing-sm);
+  /* Info */
+  --card-info-gap: var(--spacing-xs);
+  /* Content Title */
+  --card-content-title-margin-bottom: var(--spacing-2xs);
 
   width: 100%;
   height: 100%;
   display: block;
 
   &--default {
-    background-color: var(--ma-card-bg-color);
-    border-radius: var(--ma-card-border-radius-md);
-    border: var(--ma-card-border);
-    box-shadow: var(--ma-card-shadow-transparent);
-    transition: box-shadow var(--ma-card-transition);
+    border: var(--card-default-border);
+    border-radius: var(--card-default-border-radius);
+    background-color: var(--card-default-bg-color);
+    box-shadow: var(--card-default-box-shadow);
+    transition: var(--card-default-transition);
     overflow: hidden;
 
     &:hover {
-      box-shadow: var(--ma-card-shadow);
+      box-shadow: var(--card-default-hover-box-shadow);
     }
   }
 
   &--default &__body {
-    padding: var(--ma-card-spacing-sm);
+    padding: var(--card-default-body-padding);
   }
 
   &--ghost &__image {
-    border-radius: var(--ma-card-border-radius-md);
+    border-radius: var(--card-ghost-image-border-radius);
   }
 
   &--ghost &__body {
-    padding: var(--ma-card-spacing-sm) 0;
+    padding: var(--card-ghost-body-padding);
   }
 
   &__image {
@@ -50,17 +67,17 @@
   &__body {
     display: flex;
     flex-direction: column;
-    gap: var(--ma-card-spacing-sm);
+    gap: var(--card-body-gap);
   }
 
   &__info {
     display: flex;
-    gap: var(--ma-card-spacing-xs);
+    gap: var(--card-info-gap);
   }
 
   &__content-title {
+    margin-bottom: var(--card-content-title-margin-bottom);
     @include subtitle-bold;
-    margin-bottom: var(--ma-card-spacing-2xs);
   }
 
   &__content-paragraph {
