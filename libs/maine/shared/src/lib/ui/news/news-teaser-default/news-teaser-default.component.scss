@@ -1,21 +1,25 @@
 @import 'abstracts/index';
 
 .ma-news-teaser {
-  --ma-news-teaser-spacing: var(--spacing-md);
+  /* Heading */
+  --news-teaser-heading-margin-bottom: var(--spacing-md);
+  /* News Container */
+  --news-teaser-news-container-gap: var(--spacing-md);
+  --news-teaser-news-container-margin-bottom: var(--spacing-md);
 
   &__container {
     grid-column: 1/-1;
   }
 
   &__heading {
-    margin-bottom: var(--ma-news-teaser-spacing);
+    margin-bottom: var(--news-teaser-heading-margin-bottom);
   }
 
   &__news-container {
     display: grid;
-    gap: var(--ma-news-teaser-spacing);
+    gap: var(--news-teaser-news-container-gap);
     grid-template-columns: 1fr;
-    margin-bottom: var(--ma-news-teaser-spacing);
+    margin-bottom: var(--news-teaser-news-container-margin-bottom);
 
     @include media-min('sm') {
       grid-template-columns: repeat(2, 1fr);
