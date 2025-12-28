@@ -1,33 +1,42 @@
 @import 'abstracts/index';
 
 .ma-card-teaser-sticky {
-  --ma-card-teaser-sticky-spacing-md: var(--spacing-md);
+  /* Content */
+  --card-teaser-sticky-content-margin-bottom: var(--spacing-md);
+  --card-teaser-sticky-content-desktop-margin-bottom: 0;
+  // Navbar height 90px + 20px offset = 110px
+  --card-teaser-sticky-content-desktop-top: px-to-rem(110px, 16px);
+  /* Heading */
+  --card-teaser-sticky-heading-margin-bottom: var(--spacing-md);
+  /* Cards Container */
+  --card-teaser-sticky-cards-container-gap: var(--spacing-md);
+
   position: relative;
 
   &__content {
-    height: max-content;
     grid-column: 1/-1;
-    margin-bottom: var(--ma-card-teaser-sticky-spacing-md);
+    height: max-content;
+    margin-bottom: var(--card-teaser-sticky-content-margin-bottom);
 
     @include media-min('md') {
-      /* Navbar height 90px + 20px offset = 110px*/
-      top: px-to-rem(110px, 16px);
-      left: 0;
       position: sticky;
+      top: var(--card-teaser-sticky-content-desktop-top);
+      left: 0;
       grid-column: 1 / 7;
-      margin-bottom: 0;
+      margin-bottom: var(--card-teaser-sticky-content-desktop-margin-bottom);
     }
   }
 
   &__heading {
-    margin-bottom: var(--ma-card-teaser-sticky-spacing-md);
+    margin-bottom: var(--card-teaser-sticky-heading-margin-bottom);
   }
 
   &__cards-container {
-    grid-column: 1/-1;
     display: grid;
+    gap: var(--card-teaser-sticky-cards-container-gap);
+    grid-column: 1/-1;
     grid-template-columns: 1fr;
-    gap: var(--ma-card-teaser-sticky-spacing-md);
+
     @include media-min('md') {
       grid-column: 7 / -1;
     }
