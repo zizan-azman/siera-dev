@@ -1,15 +1,6 @@
 @import 'abstracts/index';
 
 .ma-card {
-  --ma-card-bg-color: var(--background-color);
-  --ma-card-border: 1px solid var(--stroke-color-subtle);
-  --ma-card-border-radius-md: var(--border-radius-md);
-  --ma-card-spacing-2xs: var(--spacing-2xs);
-  --ma-card-spacing-xs: var(--spacing-xs);
-  --ma-card-spacing-sm: var(--spacing-sm);
-  --ma-card-shadow: var(--shadow-sm);
-  --ma-card-shadow-transparent: var(--shadow-sm-transparent);
-  --ma-card-transition: var(--transition);
   /* Modifier - Default */
   --card-default-border: 1px solid var(--stroke-color-subtle);
   --card-default-border-radius: var(--border-radius-md);
