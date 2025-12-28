@@ -1,14 +1,22 @@
 @import 'abstracts/index';
 :host {
-  --host-card-teaser-spacing: var(--spacing-md);
+  --host-card-teaser-margin-bottom: var(--spacing-md);
+
   display: block;
+
   &:not(:last-of-type) {
-    margin-bottom: var(--host-card-teaser-spacing);
+    margin-bottom: var(--host-card-teaser-margin-bottom);
   }
 }
 
 .ma-card-teaser {
   --ma-card-teaser-spacing: var(--spacing-md);
+  /* Modifier - Narrow */
+  --card-teaser-narrow-cards-container-gap: var(--spacing-md);
+  /* Modifier - Wide */
+  --card-teaser-wide-cards-container-gap: var(--spacing-md);
+  /* Heading */
+  --card-teaser-heading-margin-bottom: var(--spacing-md);
 
   &--narrow {
     .ma-card-teaser__container {
@@ -21,7 +29,7 @@
     .ma-card-teaser__cards-container {
       display: flex;
       flex-direction: column;
-      gap: var(--ma-card-teaser-spacing);
+      gap: var(--card-teaser-narrow-cards-container-gap);
       @include media-min('md') {
         flex-direction: row;
         align-items: stretch;
@@ -32,13 +40,14 @@
       }
     }
   }
+
   &--wide {
     .ma-card-teaser__container {
       grid-column: 1/-1;
     }
     .ma-card-teaser__cards-container {
       display: grid;
-      gap: var(--ma-card-teaser-spacing);
+      gap: var(--card-teaser-wide-cards-container-gap);
       grid-template-columns: 1fr;
 
       @include media-min('sm') {
@@ -51,6 +60,6 @@
   }
 
   &__heading {
-    margin-bottom: var(--ma-card-teaser-spacing);
+    margin-bottom: var(--card-teaser-heading-margin-bottom);
   }
 }
