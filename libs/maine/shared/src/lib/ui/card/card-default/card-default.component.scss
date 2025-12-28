@@ -63,7 +63,12 @@
 
   &__info {
     display: flex;
+    flex-direction: column;
     gap: var(--card-info-gap);
+
+    @include media-min('md') {
+      flex-direction: row;
+    }
   }
 
   &__content-title {
