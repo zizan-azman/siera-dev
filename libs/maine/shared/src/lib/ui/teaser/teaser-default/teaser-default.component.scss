@@ -1,7 +1,8 @@
 @import 'abstracts/index';
 
 .ma-teaser-default {
-  --ma-teaser-default-spacing-md: var(--spacing-md);
+  /* Heading */
+  --teaser-default-heading-margin-bottom: var(--spacing-md);
 
   &__content {
     grid-column: 1/-1;
@@ -11,6 +12,6 @@
   }
 
   &__heading {
-    margin-bottom: var(--ma-teaser-default-spacing-md);
+    margin-bottom: var(--teaser-default-heading-margin-bottom);
   }
 }
