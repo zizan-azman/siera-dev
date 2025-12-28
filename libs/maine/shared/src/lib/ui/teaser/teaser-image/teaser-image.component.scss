@@ -1,12 +1,14 @@
 @import 'abstracts/index';
 
 .ma-teaser-image {
-  --ma-teaser-image-heading-margin-bottom: var(--spacing-md);
-  --ma-teaser-image-img-container-border-radius: var(--border-radius-md);
+  /* Heading */
+  --teaser-image-heading-margin-bottom: var(--spacing-md);
+  /* IMG Container */
+  --teaser-image-img-container-border-radius: var(--border-radius-md);
 
   &__img-container {
     grid-column: 1/-1;
-    border-radius: var(--ma-teaser-image-img-container-border-radius);
+    border-radius: var(--teaser-image-img-container-border-radius);
     height: 300px;
     overflow: hidden;
     @include media-min('md') {
@@ -29,6 +31,6 @@
   }
 
   &__heading {
-    margin-bottom: var(--ma-teaser-image-heading-margin-bottom);
+    margin-bottom: var(--teaser-image-heading-margin-bottom);
   }
 }
