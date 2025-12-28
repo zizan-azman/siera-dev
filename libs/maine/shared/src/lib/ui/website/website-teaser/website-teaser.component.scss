@@ -1,7 +1,9 @@
 @import 'abstracts/index';
 
 .ma-website-teaser {
+  /* Headline */
   --website-teaser-headline-margin-bottom: var(--spacing-sm);
+  /* Websites Container */
   --website-teaser-websites-container-gap: var(--spacing-md);
 
   &__container {
