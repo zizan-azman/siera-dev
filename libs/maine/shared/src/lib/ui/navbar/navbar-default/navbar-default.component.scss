@@ -70,10 +70,11 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  display: grid;
+  align-items: center;
   height: var(--navbarDefault-height);
   border-bottom: var(--navbarDefault-border-bottom);
   background-color: var(--navbarDefault-bg-color);
-  align-content: center;
 
   &__logo-icon,
   &__logo {

@@ -5,7 +5,7 @@
   --card-teaser-sticky-content-margin-bottom: var(--spacing-md);
   --card-teaser-sticky-content-desktop-margin-bottom: 0;
   // Navbar height 90px + 20px offset = 110px
-  --card-teaser-sticky-content-desktop-top: px-to-rem(110px, 16px);
+  --card-teaser-sticky-content-desktop-top: #{px-to-rem(110px, 16px)};
   /* Heading */
   --card-teaser-sticky-heading-margin-bottom: var(--spacing-md);
   /* Cards Container */
