@@ -1,58 +1,67 @@
 @import 'abstracts/index';
 
 .ma-link {
-  --ma-link-padding: var(--spacing-xs) var(--spacing-md);
-  --ma-link-border-radius: var(--border-radius-sm);
-  --ma-link-gap: var(--spacing-2xs);
-  --ma-link-transition: var(--transition);
-  --ma-link-fill-bg-color: var(--primary-color);
-  --ma-link-fill-hover-bg-color: var(--primary-color-minimal);
-  --ma-link-outline-border: 2px solid var(--stroke-color);
-  --ma-link-outline-bg-color: transparent;
-  --ma-link-outline-hover-bg-color: var(--background-color-subtle);
-  --ma-link-ghost-text-color: var(--text-color);
-  --ma-link-ghost-hover-text-color: var(--primary-color);
-  --ma-link-default-text-color: var(--text-color);
-  --ma-link-primary-text-color: var(--primary-color);
+  /* Self */
+  --link-padding: var(--spacing-xs) var(--spacing-md);
+  --link-border-radius: var(--border-radius-sm);
+  --link-gap: var(--spacing-2xs);
+  /* Modifier - Fill */
+  --link-fill-transition: background-color var(--transition);
+  --link-fill-bg-color: var(--primary-color);
+  --link-fill-hover-bg-color: var(--primary-color-minimal);
+  /* Modifier - Outline */
+  --link-outline-border: 2px solid var(--stroke-color);
+  --link-outline-bg-color: transparent;
+  --link-outline-hover-bg-color: var(--background-color-subtle);
+  --link-outline-transition: background-color var(--transition);
+  /* Modifier - Ghost */
+  --link-ghost-padding: 0;
+  --link-ghost-text-color: var(--text-color);
+  --link-ghost-hover-text-color: var(--primary-color);
+  --link-ghost-transition: color var(--transition);
+  /* Modifier - Color Default */
+  --link-color-default-text-color: var(--text-color);
+  /* Modifier - Color Primary*/
+  --link-color-primary-text-color: var(--primary-color);
 
   display: flex;
   align-items: center;
-  gap: var(--ma-link-gap);
+  gap: var(--link-gap);
   width: max-content;
-  padding: var(--ma-link-padding);
-  border-radius: var(--ma-link-border-radius);
+  padding: var(--link-padding);
+  border-radius: var(--link-border-radius);
 
   &--fill {
-    background-color: var(--ma-link-fill-bg-color);
-    transition: background-color var(--ma-link-transition);
+    background-color: var(--link-fill-bg-color);
+    transition: var(--link-fill-transition);
     &:hover {
-      background-color: var(--ma-link-fill-hover-bg-color);
+      background-color: var(--link-fill-hover-bg-color);
     }
   }
 
   &--outline {
-    border: var(--ma-link-outline-border);
-    background-color: var(--ma-link-outline-bg-color);
-    transition: background-color var(--ma-link-transition);
+    border: var(--link-outline-border);
+    background-color: var(--link-outline-bg-color);
+    transition: var(--link-outline-transition);
     &:hover {
-      background-color: var(--ma-link-outline-hover-bg-color);
+      background-color: var(--link-outline-hover-bg-color);
     }
   }
 
   &--ghost {
-    padding: 0;
-    color: var(--ma-link-ghost-text-color);
-    transition: color var(--ma-link-transition);
+    padding: var(--link-ghost-padding);
+    color: var(--link-ghost-text-color);
+    transition: var(--link-ghost-transition);
     &:hover {
-      color: var(--ma-link-ghost-hover-text-color);
+      color: var(--link-ghost-hover-text-color);
     }
   }
 
   &--color-default {
-    color: var(--ma-link-default-text-color);
+    color: var(--link-color-default-text-color);
   }
 
   &--color-primary {
-    color: var(--ma-link-primary-text-color);
+    color: var(--link-color-primary-text-color);
   }
 }

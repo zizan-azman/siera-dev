@@ -1,77 +1,78 @@
 @import 'abstracts/index';
 
 .ma-link-arrow {
-  // Link Arrow
-  --ma-link-arrow-padding: var(--spacing-xs) var(--spacing-md);
-  --ma-link-arrow-border-radius: var(--border-radius-sm);
-  --ma-link-arrow-gap: var(--spacing-2xs);
-  // Link Arrow Fill
-  --ma-link-arrow-fill-bg-color: var(--primary-color);
-  --ma-link-arrow-fill-hover-bg-color: var(--primary-color-minimal);
-  --ma-link-arrow-fill-transition: background-color var(--transition);
-  // Link Arrow Outline
-  --ma-link-arrow-outline-border: 2px solid var(--stroke-color);
-  --ma-link-arrow-outline-bg-color: transparent;
-  --ma-link-arrow-outline-hover-bg-color: var(--background-color-subtle);
-  --ma-link-arrow-outline-transition: background-color var(--transition);
-  // Link Arrow Ghost
-  --ma-link-arrow-ghost-padding: 0;
-  --ma-link-arrow-ghost-icon-transition: transform var(--transition);
-  --ma-link-arrow-ghost-icon-hover-transform: translate(8px, 0);
-  // Link Arrow Color Variation
-  --ma-link-arrow-default-text-color: var(--text-color);
-  --ma-link-arrow-primary-text-color: var(--primary-color);
-  // Link Arrow icon
-  --ma-link-arrow-icon-width: 24px;
-  --ma-link-arrow-icon-height: 24px;
+  /* Self */
+  --link-arrow-padding: var(--spacing-xs) var(--spacing-md);
+  --link-arrow-border-radius: var(--border-radius-sm);
+  --link-arrow-gap: var(--spacing-2xs);
+  /* Modifier - Fill */
+  --link-arrow-fill-bg-color: var(--primary-color);
+  --link-arrow-fill-hover-bg-color: var(--primary-color-minimal);
+  --link-arrow-fill-transition: background-color var(--transition);
+  /* Modifier - Outline */
+  --link-arrow-outline-border: 2px solid var(--stroke-color);
+  --link-arrow-outline-bg-color: transparent;
+  --link-arrow-outline-hover-bg-color: var(--background-color-subtle);
+  --link-arrow-outline-transition: background-color var(--transition);
+  /* Modifier - Ghost */
+  --link-arrow-ghost-padding: 0;
+  --link-arrow-ghost-icon-transition: transform var(--transition);
+  --link-arrow-ghost-icon-hover-transform: translate(8px, 0);
+  /* Modifier - Color Default */
+  --link-arrow-default-text-color: var(--text-color);
+  /* Modifier - Color Primary */
+  --link-arrow-primary-text-color: var(--primary-color);
+  /* Icon */
+  --link-arrow-icon-width: 24px;
+  --link-arrow-icon-height: 24px;
 
   width: max-content;
   display: flex;
   align-items: center;
-  gap: var(--ma-link-arrow-gap);
-  padding: var(--ma-link-arrow-padding);
-  border-radius: var(--ma-link-arrow-border-radius);
+  gap: var(--link-arrow-gap);
+  padding: var(--link-arrow-padding);
+  border-radius: var(--link-arrow-border-radius);
 
   &--fill {
-    background-color: var(--ma-link-arrow-fill-bg-color);
-    transition: var(--ma-link-arrow-fill-transition);
+    background-color: var(--link-arrow-fill-bg-color);
+    transition: var(--link-arrow-fill-transition);
     &:hover {
-      background-color: var(--ma-link-arrow-fill-hover-bg-color);
+      background-color: var(--link-arrow-fill-hover-bg-color);
     }
   }
 
   &--outline {
-    border: var(--ma-link-arrow-outline-border);
-    background-color: var(--ma-link-arrow-outline-bg-color);
-    transition: var(--ma-link-arrow-outline-transition);
+    border: var(--link-arrow-outline-border);
+    background-color: var(--link-arrow-outline-bg-color);
+    transition: var(--link-arrow-outline-transition);
     &:hover {
-      background-color: var(--ma-link-arrow-outline-hover-bg-color);
+      background-color: var(--link-arrow-outline-hover-bg-color);
     }
   }
 
   &--ghost {
-    padding: var(--ma-link-arrow-ghost-padding);
+    padding: var(--link-arrow-ghost-padding);
 
     .ma-link-arrow__icon {
-      transition: var(--ma-link-arrow-ghost-icon-transition);
+      transition: var(--link-arrow-ghost-icon-transition);
     }
 
     &:hover .ma-link-arrow__icon {
-      transform: var(--ma-link-arrow-ghost-icon-hover-transform);
+      transform: var(--link-arrow-ghost-icon-hover-transform);
     }
   }
 
   &--color-default {
-    color: var(--ma-link-arrow-default-text-color);
+    color: var(--link-arrow-default-text-color);
   }
 
   &--color-primary {
-    color: var(--ma-link-arrow-primary-text-color);
+    color: var(--link-arrow-primary-text-color);
   }
 
   &__icon {
     display: flex;
-    width: var(--ma-link-arrow-icon-width);
-    height: var(--ma-link-arrow-icon-height);
+    width: var(--link-arrow-icon-width);
+    height: var(--link-arrow-icon-height);
   }
 }
