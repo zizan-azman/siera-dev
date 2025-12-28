@@ -1,5 +1,7 @@
 .ma-color {
+  --ma-color-primary-text-color: var(--primary-color);
+
   &--primary {
-    color: var(--primary-color);
+    color: var(--ma-color-primary-text-color);
   }
 }
