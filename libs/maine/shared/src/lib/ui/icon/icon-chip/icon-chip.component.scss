@@ -1,27 +1,30 @@
 @import 'abstracts/index';
 
 .ma-icon-chip {
-  --ma-icon-chip-width: 60px;
-  --ma-icon-chip-height: 60px;
-  --ma-icon-chip-border-radius: var(--border-radius-md);
-  --ma-icon-chip-primary-text-color: var(--primary-color);
-  --ma-icon-chip-primary-bg-color: var(--primary-color-subtle);
-  --ma-icon-chip-secondary-text-color: var(--secondary-color);
-  --ma-icon-chip-secondary-bg-color: var(--secondary-color-subtle);
+  /* Self */
+  --icon-chip-width: 60px;
+  --icon-chip-height: 60px;
+  --icon-chip-border-radius: var(--border-radius-md);
+  /* Modifier - Primary */
+  --icon-chip-primary-text-color: var(--primary-color);
+  --icon-chip-primary-bg-color: var(--primary-color-subtle);
+  /* Modifier - Secondary */
+  --icon-chip-secondary-text-color: var(--secondary-color);
+  --icon-chip-secondary-bg-color: var(--secondary-color-subtle);
 
   display: flex;
   justify-content: center;
   align-items: center;
-  width: var(--ma-icon-chip-width);
-  height: var(--ma-icon-chip-height);
-  border-radius: var(--ma-icon-chip-border-radius);
+  width: var(--icon-chip-width);
+  height: var(--icon-chip-height);
+  border-radius: var(--icon-chip-border-radius);
 
   &--primary {
-    background-color: var(--ma-icon-chip-primary-bg-color);
-    color: var(--ma-icon-chip-primary-text-color);
+    background-color: var(--icon-chip-primary-bg-color);
+    color: var(--icon-chip-primary-text-color);
   }
   &--secondary {
-    background-color: var(--ma-icon-chip-secondary-bg-color);
-    color: var(--ma-icon-chip-secondary-text-color);
+    background-color: var(--icon-chip-secondary-bg-color);
+    color: var(--icon-chip-secondary-text-color);
   }
 }
